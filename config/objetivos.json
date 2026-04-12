@@ -1,0 +1,53 @@
+{
+  "sectores_prioritarios": [
+    {
+      "id": "hosteleria_cadenas",
+      "descripcion": "Cadenas de restauración con ≥3 establecimientos",
+      "keywords": ["cadena restaurantes", "grupo restauración", "franquicia hostelería"],
+      "min_establecimientos": 3,
+      "caso_exito_preferente": "CASO_3"
+    },
+    {
+      "id": "clinicas_dentales_esteticas",
+      "descripcion": "Cadenas de clínicas dentales y estéticas",
+      "keywords": ["cadena clínica dental", "grupo clínicas estéticas", "centros odontológicos"],
+      "min_establecimientos": 3,
+      "caso_exito_preferente": "CASO_1"
+    },
+    {
+      "id": "fitness_cadenas",
+      "descripcion": "Cadenas de gimnasios y centros de fitness",
+      "keywords": ["cadena gimnasios", "grupo fitness", "centros deportivos"],
+      "min_establecimientos": 3,
+      "caso_exito_preferente": "CASO_1"
+    },
+    {
+      "id": "consultoras_rrhh",
+      "descripcion": "Consultoras de recursos humanos y selección",
+      "keywords": ["consultora RRHH", "empresa selección personal", "headhunting"],
+      "min_establecimientos": 1,
+      "caso_exito_preferente": "CASO_4"
+    },
+    {
+      "id": "gestorias_asesorias",
+      "descripcion": "Gestorías y asesorías medianas",
+      "keywords": ["gestoría", "asesoría fiscal", "asesoría laboral"],
+      "min_establecimientos": 1,
+      "caso_exito_preferente": "CASO_1"
+    }
+  ],
+  "zonas_prioritarias": [
+    "Madrid",
+    "Barcelona",
+    "Valencia",
+    "Bilbao",
+    "Sevilla",
+    "Málaga",
+    "Zaragoza"
+  ],
+  "filtros": {
+    "excluir_sectores": ["gobierno", "ONG", "religioso"],
+    "excluir_si_menor_de_empleados": 5,
+    "minimo_score_para_dossier": 60
+  }
+}

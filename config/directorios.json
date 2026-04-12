@@ -1,0 +1,20 @@
+{
+  "directorios": [
+    {
+      "id": "hosteleria_digital",
+      "url": "https://www.hosteleriadigital.es/",
+      "sector": "hosteleria_cadenas",
+      "activo": true,
+      "selector_noticias": "article.post",
+      "nota": "Verificar selector antes de activar"
+    },
+    {
+      "id": "restauracion_news",
+      "url": "https://www.restauracionnews.com/",
+      "sector": "hosteleria_cadenas",
+      "activo": false,
+      "nota": "Pendiente de explorar estructura"
+    }
+  ],
+  "nota_general": "Este archivo arranca con pocas entradas. Aritz lo expande cuando identifique directorios relevantes de sus sectores. El scraping solo activa los 'activo: true'."
+}

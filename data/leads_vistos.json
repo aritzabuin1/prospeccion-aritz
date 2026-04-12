@@ -1,0 +1,4 @@
+{
+  "_descripcion": "Cache de dominios ya procesados para dedupe rápido. Formato: {dominio: {primera_vez: ISO_date, ultimo_score: int}}",
+  "dominios": {}
+}

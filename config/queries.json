@@ -1,0 +1,28 @@
+{
+  "google_custom_search": {
+    "senales_apertura": [
+      "abre nuevo local {ciudad} {sector}",
+      "inaugura restaurante {ciudad}",
+      "expansión cadena {sector} España 2026"
+    ],
+    "senales_financiacion": [
+      "ronda financiación {sector} España",
+      "inversión cadena {sector} 2026",
+      "{sector} cierra ronda millones"
+    ],
+    "senales_crecimiento": [
+      "{sector} contrata responsable operaciones",
+      "{sector} director transformación digital",
+      "{sector} office manager ofertas empleo"
+    ],
+    "linkedin_site": [
+      "site:linkedin.com/jobs \"director operaciones\" {sector} España",
+      "site:linkedin.com/jobs \"responsable digitalización\" {sector}",
+      "site:linkedin.com/company {sector} España"
+    ]
+  },
+  "rotacion": {
+    "queries_por_ejecucion": 6,
+    "dias_antes_de_repetir": 14
+  }
+}

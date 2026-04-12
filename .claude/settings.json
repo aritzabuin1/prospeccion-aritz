@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/*)",
+      "Bash(python scripts\\\\*)",
+      "Bash(.venv\\\\Scripts\\\\Activate.ps1)",
+      "Bash(mkdir -p *)",
+      "Bash(ls *)",
+      "Bash(dir *)",
+      "Bash(cat *)",
+      "Bash(type *)",
+      "Bash(git *)",
+      "Read(*)",
+      "Write(data/*)",
+      "Write(dossiers/*)",
+      "Write(outbox/*)",
+      "Write(respuestas/*)",
+      "Write(reports/*)",
+      "Write(logs/*)"
+    ]
+  }
+}

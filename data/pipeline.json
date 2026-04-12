@@ -1,0 +1,36 @@
+{
+  "_schema_version": "1.0",
+  "_schema_doc": "Cada clave del nivel superior es un slug-empresa único. Ver README para schema detallado.",
+  "_ejemplo_descomentar_para_guiar": {
+    "empresa-slug-ejemplo": {
+      "empresa": "Nombre SL",
+      "web": "nombresl.com",
+      "sector": "hosteleria_cadenas",
+      "zona": "Madrid",
+      "num_establecimientos": 12,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "apertura nuevo local marzo 2026",
+      "score": 87,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-08",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [],
+      "proxima_accion": {
+        "fecha": null,
+        "tipo": null,
+        "generada": false
+      },
+      "dossier_path": null,
+      "notas": ""
+    }
+  },
+  "leads": {}
+}
