@@ -1,11 +1,12 @@
 """
 Descubrimiento de leads vía Google Places API (New).
-Busca negocios por sector y ciudad, filtra cadenas.
+Busca empresas por sector en toda España. Fuente principal del sistema.
 """
 
 import json
 import os
 import sys
+import time
 from datetime import datetime
 
 import requests
@@ -21,14 +22,93 @@ API_KEY = os.getenv("GOOGLE_PLACES_API_KEY")
 PLACES_ENDPOINT = "https://places.googleapis.com/v1/places:searchText"
 
 
-# Mapeo de sectores a queries de Places
+# Queries específicas para Places por sector — buscan empresas reales
 SECTOR_QUERIES = {
-    "hosteleria_cadenas": ["cadena restaurantes", "grupo restauración"],
-    "clinicas_dentales_esteticas": ["cadena clínicas dentales", "clínicas estéticas"],
-    "fitness_cadenas": ["cadena gimnasios", "centros deportivos"],
-    "consultoras_rrhh": ["consultora recursos humanos", "empresa selección personal"],
-    "gestorias_asesorias": ["gestoría", "asesoría fiscal laboral"],
+    "industria_fabricacion": [
+        "empresa industrial fabricación",
+        "planta producción industrial",
+        "grupo industrial manufacturero",
+    ],
+    "logistica_transporte": [
+        "empresa logística transporte mercancías",
+        "operador logístico almacén",
+        "empresa distribución mayorista",
+    ],
+    "construccion_ingenieria": [
+        "constructora obras empresa",
+        "ingeniería industrial empresa",
+        "empresa instalaciones industriales",
+    ],
+    "servicios_profesionales": [
+        "despacho abogados bufete",
+        "empresa auditoría consultoría",
+        "asesoría empresarial fiscal",
+    ],
+    "salud_cadenas": [
+        "grupo clínicas médicas",
+        "clínica dental cadena",
+        "laboratorio análisis clínicos",
+    ],
+    "inmobiliaria_gestion": [
+        "inmobiliaria gestión patrimonial",
+        "promotora inmobiliaria",
+        "administración fincas empresa",
+    ],
+    "hosteleria_grupos": [
+        "grupo restauración hostelería",
+        "cadena hoteles grupo hotelero",
+        "catering industrial empresa",
+    ],
+    "retail_cadenas": [
+        "cadena tiendas retail",
+        "franquicia central comercial",
+        "distribución comercial empresa",
+    ],
+    "energia_utilities": [
+        "empresa energía renovable instaladora",
+        "empresa eficiencia energética",
+        "instaladora fotovoltaica empresa",
+    ],
+    "automocion_concesionarios": [
+        "grupo concesionarios automóviles",
+        "empresa gestión flotas vehículos",
+        "taller industrial automoción",
+    ],
+    "agroalimentario": [
+        "empresa agroalimentaria industria",
+        "bodega vinos empresa",
+        "cooperativa agraria grande",
+    ],
+    "consultoras_rrhh": [
+        "consultora recursos humanos selección",
+        "empresa trabajo temporal ETT",
+        "headhunting selección directivos",
+    ],
 }
+
+# Ciudades grandes para rotación — cubren toda España
+CIUDADES = [
+    "Madrid", "Barcelona", "Valencia", "Sevilla", "Bilbao",
+    "Málaga", "Zaragoza", "Murcia", "Palma de Mallorca", "Las Palmas",
+    "Alicante", "Córdoba", "Valladolid", "Vigo", "Gijón",
+    "A Coruña", "Vitoria", "Granada", "Pamplona", "San Sebastián",
+    "Santander", "Burgos", "Salamanca", "Logroño", "Cáceres",
+]
+
+# Fichero para rotar ciudades entre ejecuciones
+ROTACION_PATH = os.path.join(DATA_DIR, "places_rotacion.json")
+
+
+def load_rotacion():
+    if os.path.exists(ROTACION_PATH):
+        with open(ROTACION_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"ultimo_indice_ciudad": 0}
+
+
+def save_rotacion(data):
+    with open(ROTACION_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def search_places(query, ciudad):
@@ -40,7 +120,7 @@ def search_places(query, ciudad):
     headers = {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": API_KEY,
-        "X-Goog-FieldMask": "places.displayName,places.formattedAddress,places.websiteUri,places.id",
+        "X-Goog-FieldMask": "places.displayName,places.formattedAddress,places.websiteUri,places.id,places.types",
     }
 
     body = {
@@ -55,7 +135,7 @@ def search_places(query, ciudad):
         data = resp.json()
         return data.get("places", [])
     except requests.RequestException as e:
-        print(f"  ERROR en Places '{query} en {ciudad}': {e}")
+        print(f"  ERROR Places '{query} en {ciudad}': {e}")
         return []
 
 
@@ -73,25 +153,27 @@ def normalize_place(place, sector_id, ciudad):
     elif isinstance(display_name, str):
         nombre = display_name
 
+    direccion = place.get("formattedAddress", "")
+
     return {
         "empresa_nombre_guess": nombre,
         "web": web,
         "sector": sector_id,
         "zona": ciudad,
         "fuente": "google_places",
-        "senal": f"Encontrado en Google Places: {place.get('formattedAddress', '')}",
+        "senal": f"{direccion}",
         "url_origen": f"https://www.google.com/maps/place/?q=place_id:{place.get('id', '')}",
         "fecha_deteccion": datetime.now().isoformat(),
     }
 
 
 def run():
-    """Ejecuta descubrimiento Places para todos los sectores/ciudades."""
+    """Ejecuta descubrimiento Places rotando sectores y ciudades."""
     with open(os.path.join(CONFIG_DIR, "objetivos.json"), "r", encoding="utf-8") as f:
         objetivos = json.load(f)
 
-    ciudades = objetivos["zonas_prioritarias"]
     sectores = objetivos["sectores_prioritarios"]
+    rotacion = load_rotacion()
 
     fecha_hoy = datetime.now().strftime("%Y-%m-%d")
     candidatos_path = os.path.join(DATA_DIR, f"candidatos-{fecha_hoy}.json")
@@ -101,35 +183,63 @@ def run():
         with open(candidatos_path, "r", encoding="utf-8") as f:
             candidatos = json.load(f)
 
+    # Seleccionar 2 ciudades por ejecución (rotación)
+    # Con 12 sectores × 2 ciudades = 24 queries por tanda
+    # Cubre TODOS los sectores cada vez, rota ciudades
+    idx = rotacion.get("ultimo_indice_ciudad", 0)
+    ciudades_hoy = []
+    for i in range(2):
+        ciudades_hoy.append(CIUDADES[(idx + i) % len(CIUDADES)])
+    nuevo_idx = (idx + 2) % len(CIUDADES)
+
     nuevos = 0
+    queries_hechas = 0
+
     for sector in sectores:
         sector_id = sector["id"]
         queries = SECTOR_QUERIES.get(sector_id, [])
-        for query in queries[:1]:  # Solo primera query por sector para no quemar cuota
-            for ciudad in ciudades[:3]:  # Top 3 ciudades por ejecución
-                print(f"  Places: {query} en {ciudad}...")
-                places = search_places(query, ciudad)
-                for place in places:
-                    candidato = normalize_place(place, sector_id, ciudad)
-                    if candidato["web"]:
-                        candidatos.append(candidato)
-                        nuevos += 1
+        if not queries:
+            continue
+
+        # Una query por sector, rotando entre las disponibles
+        query = queries[idx % len(queries)]
+
+        for ciudad in ciudades_hoy:
+            print(f"  Places: {query} en {ciudad}...")
+            places = search_places(query, ciudad)
+            for place in places:
+                candidato = normalize_place(place, sector_id, ciudad)
+                if candidato["web"]:
+                    candidatos.append(candidato)
+                    nuevos += 1
+            queries_hechas += 1
+            time.sleep(0.5)  # Rate limiting suave
 
     with open(candidatos_path, "w", encoding="utf-8") as f:
         json.dump(candidatos, f, ensure_ascii=False, indent=2)
 
-    print(f"Places: {nuevos} resultados nuevos")
+    save_rotacion({"ultimo_indice_ciudad": nuevo_idx})
+
+    print(f"Places: {nuevos} resultados de {queries_hechas} búsquedas ({len(ciudades_hoy)} ciudades)")
     return nuevos
 
 
 def _self_test():
-    """Test básico sin llamar a la API."""
+    """Test básico: verifica config y hace 1 búsqueda real."""
     with open(os.path.join(CONFIG_DIR, "objetivos.json"), "r", encoding="utf-8") as f:
         objetivos = json.load(f)
-    assert len(objetivos["zonas_prioritarias"]) > 0
     assert len(objetivos["sectores_prioritarios"]) > 0
-    print("descubrir_places: config cargada OK")
-    print("descubrir_places: todos los tests OK")
+    print(f"Sectores con queries: {len(SECTOR_QUERIES)}")
+
+    # Test real con 1 query
+    places = search_places("empresa logística transporte", "Madrid")
+    print(f"Test query 'logística Madrid': {len(places)} resultados")
+    for p in places[:3]:
+        dn = p.get("displayName", {})
+        nombre = dn.get("text", "") if isinstance(dn, dict) else dn
+        print(f"  {nombre} — {p.get('websiteUri', 'sin web')}")
+
+    print("descubrir_places: test OK")
 
 
 if __name__ == "__main__":

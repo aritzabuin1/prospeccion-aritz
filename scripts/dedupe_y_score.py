@@ -49,7 +49,7 @@ def load_candidatos_hoy():
 
 
 def es_duplicado(candidato, vistos, pipeline_leads):
-    """Verifica si un candidato ya está en vistos o pipeline."""
+    """Verifica si un candidato ya está en vistos, pipeline, o rechazados."""
     web = candidato.get("web", "").lower().strip()
     nombre = candidato.get("empresa_nombre_guess", "").lower().strip()
 
@@ -61,6 +61,15 @@ def es_duplicado(candidato, vistos, pipeline_leads):
     for slug, lead in pipeline_leads.items():
         if web and lead.get("web", "").lower() == web:
             return True
+
+    # Dedupe contra dominios rechazados por el usuario (feedback loop)
+    try:
+        from scripts.feedback_leads import obtener_dominios_rechazados
+        rechazados = obtener_dominios_rechazados()
+        if web and web in rechazados:
+            return True
+    except (ImportError, FileNotFoundError):
+        pass
 
     # Dedupe fuzzy por nombre (>85% similitud)
     for dominio_data in vistos.get("dominios", {}).values():
@@ -120,14 +129,18 @@ def calcular_score(candidato, objetivos):
     elif empleados >= 30:
         score += 15  # Pequeña pero viable
     else:
-        # Si no sabemos empleados, buscar indicadores de tamaño en la señal
+        # Si no sabemos empleados, dar puntos base (Places no da empleados
+        # pero devuelve empresas reales — se verificará en dossier)
+        score += 10
+        # Bonus si indicadores de tamaño en la señal o nombre
         indicadores_grande = [
             "grupo", "holding", "millones", "facturación", "plantilla",
             "sedes", "delegaciones", "filial", "matriz", "corporación",
-            "internacional", "nacional", "lider", "referente",
+            "internacional", "nacional", "lider", "referente", "s.a.",
         ]
-        if any(ind in senal.lower() for ind in indicadores_grande):
-            score += 15
+        texto = f"{senal} {candidato.get('empresa_nombre_guess', '')}".lower()
+        if any(ind in texto for ind in indicadores_grande):
+            score += 5
 
     # +10 si hay señal de transformación digital o dolor operativo
     senales_transformacion = [

@@ -1,45 +1,22 @@
 {
   "google_custom_search": {
-    "senales_crecimiento_empresarial": [
-      "empresa {sector} España ampliación plantilla 2026",
-      "{sector} España expansión nuevas oficinas",
-      "{sector} España contrata director operaciones",
-      "{sector} {ciudad} crecimiento facturación",
-      "grupo {sector} España adquisición compra empresa"
+    "empresas_directas": [
+      "{sector} España empresa web contacto",
+      "empresa {sector} España servicios",
+      "{sector} España líder sector",
+      "empresas {sector} España directorio"
     ],
-    "senales_financiacion": [
-      "ronda financiación {sector} España 2026",
-      "{sector} España inversión millones",
-      "{sector} España levanta capital",
-      "private equity {sector} España"
+    "noticias_crecimiento": [
+      "{sector} España crecimiento expansión 2026",
+      "{sector} España nueva sede oficinas contratación"
     ],
-    "senales_transformacion_digital": [
-      "{sector} España digitalización transformación",
-      "{sector} España director transformación digital",
-      "{sector} España innovación procesos",
-      "{sector} responsable IT CTO España"
-    ],
-    "senales_dolor_operativo": [
-      "{sector} España problemas operativos gestión",
-      "{sector} España automatizar procesos internos",
-      "{sector} España eficiencia operativa",
-      "{sector} España reducir costes operativos"
-    ],
-    "linkedin_site": [
-      "site:linkedin.com/company {sector} España empleados",
-      "site:linkedin.com/jobs \"director operaciones\" {sector} España",
-      "site:linkedin.com/jobs \"responsable digitalización\" {sector} España",
-      "site:linkedin.com/jobs \"CTO\" OR \"CIO\" OR \"CDO\" {sector} España"
-    ],
-    "busqueda_directa_empresas": [
-      "principales empresas {sector} España ranking",
-      "top empresas {sector} {ciudad} facturación",
-      "mejores empresas {sector} España empleados",
-      "directorio empresas {sector} España más de 50 empleados"
+    "transformacion": [
+      "{sector} España digitalización procesos automatización",
+      "{sector} España innovación tecnología empresa"
     ]
   },
   "rotacion": {
-    "queries_por_ejecucion": 8,
-    "dias_antes_de_repetir": 14
+    "queries_por_ejecucion": 12,
+    "dias_antes_de_repetir": 7
   }
 }

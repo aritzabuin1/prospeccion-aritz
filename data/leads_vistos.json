@@ -1,4 +1,780 @@
 {
-  "_descripcion": "Cache de dominios ya procesados para dedupe rápido. Formato: {dominio: {primera_vez: ISO_date, ultimo_score: int}}",
-  "dominios": {}
+  "_descripcion": "Cache de dominios ya procesados para dedupe rápido. Reseteado 2026-04-13 tras cambio de target a empresas medianas-grandes.",
+  "dominios": {
+    "candea-plastics.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "CANDEA Plastics - Oficinas Centrales"
+    },
+    "scholpp.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "SCHOLPP Madrid - Desmontaje, Montaje, Movimiento de Maquinaria, Desmantelamiento y Transporte Industrial Internacional."
+    },
+    "iscsl.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "ISC Plastic Parts, S.L."
+    },
+    "cir62.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "CIR62 Oficinas Centrales (Madrid)"
+    },
+    "industriaslbm.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "INDUSTRIAS L.B.M., S.L.U"
+    },
+    "industriasduero.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Industrias Duero"
+    },
+    "cid.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Comercio Industria y Distribución S.L. - CID, SL"
+    },
+    "trem-din.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Trem Diseño Industrial"
+    },
+    "ferlasa.net": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Ferlasa Madrid, S.L.U."
+    },
+    "gonvarri.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 0,
+      "nombre": "Gonvarri Industries"
+    },
+    "lorkindustrias.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Lork Industrias SL"
+    },
+    "produck.eu": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Produck Development SL"
+    },
+    "induplast.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Induplast Plasticos de Ingenieria"
+    },
+    "servinatur.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "fabricación de complementos alimenticios y dietética | fabricación de plástico termoformado"
+    },
+    "laguilar.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Luciano Aguilar S.A. - Maquinaria Industrial"
+    },
+    "farguell.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Farguell Barcelona"
+    },
+    "iegalan.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "INDUSTRIAS ENRIQUE GALAN S.A."
+    },
+    "canellas.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Industrial Texcans"
+    },
+    "urban-gravity.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Urban Gravity, S.L."
+    },
+    "rafiaindustrial.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Rafia Industrial"
+    },
+    "mapsavalencia.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "MapsaValencia S L"
+    },
+    "tayg.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "INDUSTRIAS TAYG"
+    },
+    "imvsa.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Industria Metalgráfica Valenciana S.A."
+    },
+    "ialegre.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Industrias Alegre S.A."
+    },
+    "fabrilec.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Maquinaria para la industria del plástico - Fabrilec ️"
+    },
+    "tomasmorcillo.net": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "ITM - Industrias Tomás Morcillo, S.L."
+    },
+    "masanes.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Masanés Servindustria | Valencia"
+    },
+    "moldblade.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "MOLDBLADE España"
+    },
+    "industriaslekue.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Industrias Lekue"
+    },
+    "reyenvas.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Reyenvas"
+    },
+    "irpen.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Irpen"
+    },
+    "condaplast.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "CONDAPLAST, S.A."
+    },
+    "jugar.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Suministros Jugar SL"
+    },
+    "coverpan.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Coverpan S.L."
+    },
+    "gecol.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "GECOL Sevilla"
+    },
+    "isotermica.net": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 0,
+      "nombre": "ISOTERMICA, S.L."
+    },
+    "polifluor.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "POLIFLUOR, S.L."
+    },
+    "bjindustrial.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "BJ Industrial"
+    },
+    "sacine.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "SACINE Oficinas Centrales"
+    },
+    "ecomatsl.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "ECOMAT Equipos de limpieza industrial"
+    },
+    "mim-sa.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "MIMSA - Fabricación de troqueles, utillajes especiales y mecanizado de piezas"
+    },
+    "bezabala.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Bezabala - Suministros de equipos industriales de elevación"
+    },
+    "juntasmikeldi.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "JUNTAS MIKELDI, S.L."
+    },
+    "cargonam.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Cargonam Madrid | Logística y Transporte internacional"
+    },
+    "transvolando.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Empresa de transportes Transvolando"
+    },
+    "transemer.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Transemer"
+    },
+    "dts.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "LOGISTICA DTS, S.L"
+    },
+    "narval.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Narval Logística Frigorífica"
+    },
+    "gsblogistica.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "GSB Logistica. Empresa transporte URGENTE"
+    },
+    "arglog.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "ARG•LOG Transport Solutions"
+    },
+    "grupo-nogueras.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Logística Nogueras, S.L."
+    },
+    "transportessp.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "TRANSPORTES S.P."
+    },
+    "salvelogistica.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Salve Logística, S.L."
+    },
+    "logistica-bellido.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Logística Bellido"
+    },
+    "barcelona-logistica.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "DRG SOLUTIONS, SL - Logística Internacional y Mensajería Barcelona"
+    },
+    "combiberia.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Combiberia Barcelona | Empresa de Logística y Transporte Intermodal"
+    },
+    "rodriguez-sagrera.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Rodríguez Sagrera Transportes"
+    },
+    "transportesgarvi.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Empresa de transporte Garvi"
+    },
+    "maresalogistica.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Maresa Logística"
+    },
+    "dirmensajeria.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "DIR Mensajería - Logística - Transporte Urgente"
+    },
+    "almansalogistic.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Almansa Logistic"
+    },
+    "valenciapt.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "VALENCIA P.T. Transporte Express"
+    },
+    "grupamar.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "GrupaMar Valencia"
+    },
+    "martrans.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Mar.trans Logística y Transporte SL"
+    },
+    "amcargo.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "AM CARGO VALENCIA"
+    },
+    "reginatrans.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Reginatrans, S.L."
+    },
+    "transportesvalencia.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Transportes Valencia"
+    },
+    "transporteshermescugat.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Transportes Hermes Cugat, S.L."
+    },
+    "transimbioze.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Transimbioze Logistic S.L"
+    },
+    "grupomonllor.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Grupo Monllor | Transporte camión y almacén de mercancías Valencia"
+    },
+    "moldtrans.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Moldtrans Sevilla - Empresa de Transporte y logística"
+    },
+    "grupotransiv.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Transiv Grupo Logístico"
+    },
+    "envos.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "ENVOS - Almacén Logístico"
+    },
+    "grupotrimodos.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Grupo Trimodos · Stinsa (Centro logístico Sevilla)"
+    },
+    "transportesmoyasevilla.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Transportes Moya Sevilla"
+    },
+    "redur.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Redur"
+    },
+    "gestservi.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Zv Logística Gestservi S.L."
+    },
+    "transportesdianez.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Logística Diánez"
+    },
+    "gboreal.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Boreal Logística y Transportes.L."
+    },
+    "logna.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "LOGNA LOGISTICA S.L."
+    },
+    "acpsi.net": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Acpsi. Empresa de transporte y mensajería urgente nacional e internacional"
+    },
+    "suardiaz.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Trans European Transport Suardíaz SL - Oficina Bilbao"
+    },
+    "sealls.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Sea Air and Land Logistics Solutions Bilbao"
+    },
+    "sparbergroup.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Sparber Group"
+    },
+    "alconor.net": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "ALCONOR | Logística integral para tu empresa"
+    },
+    "lizutrans.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Lizutrans, S.Coop."
+    },
+    "transportesbilboko.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "TRANSPORTES LIGEROS BILBOKO S.L"
+    },
+    "desarrolla.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Desarrolla Madrid"
+    },
+    "geneop.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Empresa constructora obra nueva en Madrid -Geneo Poland S.L"
+    },
+    "oypa.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Empresa constructora en Madrid ▪️ OYPA▪️ Obras integrales para clientes profesionales."
+    },
+    "maraobras.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Mara Obras y construcciones"
+    },
+    "oyrsa.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Oyrsa Constructora, Promotora e Innovación"
+    },
+    "ankarsa.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Construcciones Y Obras Ankarsa S A"
+    },
+    "luxorespacios.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Luxor Espacios - Rehabilitación de Fachadas y Edificios Madrid"
+    },
+    "allreforms.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Allreforms Construcciones Y Obras Sl."
+    },
+    "riggersa.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "EMPRESA PRINCIPAL - RIGGERSA CONSTRUCCIONES S.L."
+    },
+    "almaconstrucciones.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Alma Construcciones"
+    },
+    "riacconstrucciones.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "RIAC CONSTRUCCIONES"
+    },
+    "contratasyobras.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Contratas y Obras Empresa Constructora S.L."
+    },
+    "rubau.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "CONSTRUCCIONES RUBAU"
+    },
+    "umatrabal.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Trabal Construccions"
+    },
+    "infrisa.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Infrisa Construcciones y Obras"
+    },
+    "buildbcn.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Build BCN Constructora / Renovation Company"
+    },
+    "grupo2sa.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Grupo 2 SA"
+    },
+    "bilobaprojectum.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Biloba Projectum Construcción"
+    },
+    "reformasbarcelonadeka.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Reformas y Construcciones DEKA"
+    },
+    "eloconstrucciones.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "ELO Construcciones | Reformas Integrales"
+    },
+    "marinadorconstrucciones.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Marina d'Or Construcciones Valencia"
+    },
+    "grupovedri.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "grupo VEDRÍ SL"
+    },
+    "origenconstrucciones.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Origen Construcciones"
+    },
+    "grupotesela.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Grupo Tesela"
+    },
+    "rubival.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Rubival Construcciones S.L."
+    },
+    "torrescamara.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "Torrescamara y Cía. de Obras, S.A."
+    },
+    "pavasal.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Pavasal Empresa Constructora"
+    },
+    "construccionesyreformas-valencia.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Construcciones y Reformas Valencia"
+    },
+    "metrolineal.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Metro Lineal"
+    },
+    "estebanportillo.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Esteban Portillo Construcciones SL"
+    },
+    "grupoceres.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 70,
+      "nombre": "OBRAS Y REFORMAS SEVILLA - GRUPO CERES"
+    },
+    "qualesconstrucciones.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Quales"
+    },
+    "technofaro.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Techno Faro"
+    },
+    "lozanoconstrucciones.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Lozano Construcciones S.L"
+    },
+    "constructorasanjose.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 75,
+      "nombre": "Obra Sevilla"
+    },
+    "reformasensevilla.net": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Reformas en Sevilla"
+    },
+    "proube.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Proube Constructora"
+    },
+    "arraconstruccion.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Arra Construcción y Proyectos S.L"
+    },
+    "obriasl.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Obria obras y servicios"
+    },
+    "fhimasa.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "FHIMASA"
+    },
+    "construccionesbilbao-norte.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Construcciones Bilbao"
+    },
+    "construccionescastellano.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Construcciones Castellano Sociedad Anonima"
+    },
+    "viconsa.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Viconsa"
+    },
+    "gtreformas.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "GT Reformas Integrales"
+    },
+    "obras-reformas-construccion-bilbao.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "CONSTRUCCIONES EGINETXE SL"
+    },
+    "atptour.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Novak Djokovic VS Alexander Zverev"
+    },
+    "sofascore.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Alexander Zverev Novak Djokovic live score and H2H results"
+    },
+    "tennisstats.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Novak Djokovic vs Alexander Zverev H2H & Live Scores"
+    },
+    "tennistonic.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "H2H Novak Djokovic Vs Alexander Zverev stats, prediction, head to head ..."
+    },
+    "khelnow.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Novak Djokovic vs Alexander Zverev head-to-head record, last 5 …"
+    },
+    "espn.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Novak Djokovic outlasts Alexander Zverev to reach French Open semis"
+    },
+    "france24.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Djokovic defeats Zverev at French open, inches closer to 25th Grand ..."
+    },
+    "aiscore.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Alexander Zverev vs Novak Djokovic Tennis H2H Record"
+    },
+    "dhl.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "¿Qué es la logística? Significado, Procesos y Ejemplos"
+    },
+    "aragon.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Informe CESA 2023. Logística y transporte"
+    },
+    "logistiko.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Gestión logística. ¿Qué es y para qué sirve?"
+    },
+    "aprendeindustrial.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Logística: Guía definitiva (Qué es, tipos y más)"
+    },
+    "logicinca.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Inicio"
+    },
+    "alzaobrasyservicios.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "ALZA obras y servicios – Construir es nuestra pasión"
+    },
+    "construccionesnatybab.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Construcciones Natybab"
+    },
+    "alcala-de-henares.infoisinfo.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Las 10 mejores Empresas de Construcción en Alcalá de Henares"
+    },
+    "itcsa.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Ingenierías, 24 tipos y ramas de Ingeniería que puedes estudiar"
+    },
+    "mejoresdeoviedo.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Las 6 mejores empresas de ingeniería en Oviedo"
+    },
+    "auditoresinternos.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Instituto de Auditores Internos de España."
+    },
+    "remax.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Contacto"
+    },
+    "agenciasinmobiliarias.com.es": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "El mayor directorio de inmobiliarias de España"
+    },
+    "grupotorres.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "Inmobiliaria: comprar, vender y alquilar"
+    },
+    "inmobiliarianerja.com": {
+      "primera_vez": "2026-04-13",
+      "ultimo_score": 65,
+      "nombre": "InmobiliariaNerja"
+    }
+  }
 }

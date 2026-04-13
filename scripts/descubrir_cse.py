@@ -51,20 +51,27 @@ def save_rotacion(data):
 def build_queries(queries_config, objetivos):
     """Construye lista de queries expandiendo {ciudad} y {sector}."""
     all_queries = []
-    ciudades = objetivos["zonas_prioritarias"]
+    zonas = objetivos["zonas_prioritarias"]
     sectores = objetivos["sectores_prioritarios"]
 
-    for categoria in ["senales_apertura", "senales_financiacion", "senales_crecimiento"]:
-        templates = queries_config["google_custom_search"].get(categoria, [])
+    cse_config = queries_config["google_custom_search"]
+    # Iterar todas las categorías disponibles (excepto linkedin_site, que va aparte)
+    categorias = [k for k in cse_config if k != "linkedin_site"]
+
+    for categoria in categorias:
+        templates = cse_config.get(categoria, [])
         for template in templates:
-            for ciudad in ciudades:
+            for zona in zonas:
                 for sector_obj in sectores:
-                    for keyword in sector_obj["keywords"][:1]:
-                        q = template.replace("{ciudad}", ciudad).replace("{sector}", keyword)
+                    # Usar hasta 2 keywords por sector para más variedad
+                    for keyword in sector_obj["keywords"][:2]:
+                        q = (template
+                             .replace("{ciudad}", zona)
+                             .replace("{sector}", keyword))
                         all_queries.append({
                             "query": q,
                             "categoria": categoria,
-                            "ciudad": ciudad,
+                            "zona": zona,
                             "sector": sector_obj["id"],
                         })
     return all_queries
@@ -130,11 +137,85 @@ def do_search(query_text):
     return search_ddg(query_text), "duckduckgo"
 
 
+# Dominios que nunca son empresas prospectables
+DOMINIOS_BLACKLIST = {
+    # Google
+    "support.google.com", "google.com", "google.es", "groups.google.com",
+    "play.google.com", "maps.google.com", "news.google.com",
+    "blog.google", "cloud.google.com",
+    # Redes sociales
+    "wikipedia.org", "es.wikipedia.org", "en.wikipedia.org",
+    "facebook.com", "instagram.com", "twitter.com", "x.com",
+    "tiktok.com", "youtube.com", "reddit.com", "pinterest.com",
+    "linkedin.com",
+    # Ecommerce
+    "amazon.com", "amazon.es", "ebay.es", "aliexpress.com",
+    # Prensa y medios
+    "eleconomista.es", "expansion.com", "cincodias.elpais.com",
+    "elpais.com", "elmundo.es", "abc.es", "lavanguardia.com",
+    "europapress.es", "efe.com", "elconfidencial.com",
+    "eldiario.es", "20minutos.es", "larazon.es", "lainformacion.com",
+    "vozpopuli.com", "elespanol.com", "elperiodico.com",
+    "miciudadreal.es",
+    # Empleo
+    "infojobs.net", "indeed.com", "indeed.es", "glassdoor.es",
+    "glassdoor.com", "computrabajo.es", "monster.es",
+    # Directorios genéricos
+    "paginasamarillas.es", "yelp.com", "tripadvisor.es",
+    "trustpilot.com",
+    # Gobierno / institucional
+    "boe.es", "seg-social.es", "icex.es", "ine.es",
+    "bancomundial.org", "worldbank.org",
+    # Educación / enciclopedias
+    "economipedia.com", "economiasimple.net",
+    # Extranjeros irrelevantes
+    "nhs.uk", "gov.br", "gov.uk", "gov.us",
+}
+# Extensiones de dominio que nunca son empresas target
+EXTENSIONES_BLACKLIST = {".gov", ".edu", ".mil", ".org"}
+
+
 def normalize_result(item, query_info, fuente):
-    """Normaliza un resultado al schema común de candidatos."""
+    """Normaliza un resultado al schema común de candidatos. Devuelve None si no es válido."""
     url = item["url"]
     parsed = urlparse(url)
     dominio = parsed.netloc.replace("www.", "")
+
+    # Filtrar dominios basura
+    if dominio in DOMINIOS_BLACKLIST:
+        return None
+    # Filtrar subdominios de dominios blacklisted
+    for bl in DOMINIOS_BLACKLIST:
+        if dominio.endswith("." + bl):
+            return None
+    # Filtrar extensiones gubernamentales/educativas
+    for ext in EXTENSIONES_BLACKLIST:
+        if dominio.endswith(ext) or f"{ext}." in dominio:
+            return None
+    # Filtrar subdominios gubernamentales y educativos españoles
+    if ".gob.es" in dominio or dominio.endswith(".gob.es"):
+        return None
+    # Filtrar universidades
+    uni_patterns = ["uniovi", "upm.es", "ub.edu", "ucm.es", "uv.es", "us.es",
+                    "unizar", "upv.es", "upc.edu", "ehu.eus", "deusto.es",
+                    "cervantes.es", "rae.es"]
+    if any(p in dominio for p in uni_patterns):
+        return None
+    # Filtrar dominios no españoles (solo .es, .com, .net, .eu)
+    valid_tlds = {".es", ".com", ".net", ".eu", ".io"}
+    if not any(dominio.endswith(tld) for tld in valid_tlds):
+        return None
+    # Filtrar portales/plataformas que no son empresas target
+    portales_blacklist = {
+        "scribd.com", "es.scribd.com", "slideshare.net",
+        "forum.wordreference.com", "wordreference.com",
+        "physicsandmathstutor.com", "yamahamusicians.com",
+        "gear4music.com", "community.acer.com",
+        "infoautonomos.com", "enae.es", "dle.rae.es",
+        "presupuestos.com", "blog.toyota-forklifts.es",
+    }
+    if dominio in portales_blacklist:
+        return None
 
     nombre_guess = item["title"].split(" - ")[0].split(" | ")[0].strip()[:80]
     if not nombre_guess:
@@ -144,7 +225,7 @@ def normalize_result(item, query_info, fuente):
         "empresa_nombre_guess": nombre_guess,
         "web": dominio,
         "sector": query_info["sector"],
-        "zona": query_info["ciudad"],
+        "zona": query_info.get("zona", "España"),
         "fuente": fuente,
         "senal": item.get("snippet", f"Buscando: {query_info['query'][:100]}")[:250],
         "url_origen": url,
@@ -178,7 +259,7 @@ def run():
         motor_usado = motor
         for item in results:
             candidato = normalize_result(item, q_info, motor)
-            if candidato["web"]:
+            if candidato and candidato["web"]:
                 candidatos.append(candidato)
                 nuevos += 1
         if i < len(seleccion) - 1:

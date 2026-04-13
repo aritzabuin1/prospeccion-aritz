@@ -3,7 +3,7 @@
     {
       "id": "industria_fabricacion",
       "descripcion": "Fabricantes, plantas industriales, manufactura",
-      "keywords": ["fábrica", "fabricante", "planta industrial", "manufactura", "producción industrial"],
+      "keywords": ["empresa industrial", "fabricante industrial", "planta producción", "manufactura", "grupo industrial"],
       "min_empleados": 30,
       "caso_exito_preferente": "CASO_1"
     },
