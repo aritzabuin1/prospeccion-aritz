@@ -72,41 +72,69 @@ def es_duplicado(candidato, vistos, pipeline_leads):
 
 
 def calcular_score(candidato, objetivos):
-    """Scoring 0-100 basado en criterios del spec."""
+    """Scoring 0-100. Prioriza tamaño de empresa y capacidad de pago."""
     score = 0
     sectores_ids = [s["id"] for s in objetivos["sectores_prioritarios"]]
     zonas = [z.lower() for z in objetivos["zonas_prioritarias"]]
     excluir = [e.lower() for e in objetivos["filtros"]["excluir_sectores"]]
+    min_empleados = objetivos["filtros"].get("excluir_si_menor_de_empleados", 20)
 
     web = candidato.get("web", "")
     sector = candidato.get("sector", "")
     zona = candidato.get("zona", "").lower()
     senal = candidato.get("senal", "")
+    empleados = candidato.get("num_empleados", 0) or 0
 
     # Excluir sectores prohibidos
     for exc in excluir:
         if exc in sector.lower() or exc in senal.lower():
             return 0
 
-    # +30 si dominio propio (no redes sociales)
+    # Excluir si sabemos que tiene menos de 20 empleados
+    if empleados > 0 and empleados < min_empleados:
+        return 0
+
+    # +20 si dominio propio (no redes sociales)
     redes = ["instagram.com", "facebook.com", "twitter.com", "tiktok.com", "youtube.com"]
     if web and not any(red in web.lower() for red in redes):
-        score += 30
-
-    # +20 si sector en lista prioritaria
-    if sector in sectores_ids:
         score += 20
 
-    # +15 si zona en lista prioritaria
-    if zona and any(z in zona for z in zonas):
+    # +15 si sector en lista prioritaria
+    if sector in sectores_ids:
         score += 15
 
-    # +15 si señal es reciente (asumimos que todas las señales del día son recientes)
-    score += 15
+    # +10 si empresa española (zona no vacía)
+    if zona:
+        score += 10
 
-    # +10 si hay indicador de cadena
-    indicadores_cadena = ["cadena", "grupo", "franquicia", "establecimientos", "sedes", "sucursales"]
-    if any(ind in senal.lower() for ind in indicadores_cadena):
+    # +10 si señal es reciente
+    score += 10
+
+    # TAMAÑO DE EMPRESA — el factor más importante para ticket alto
+    if empleados >= 200:
+        score += 30  # Enterprise
+    elif empleados >= 100:
+        score += 25  # Mediana-grande
+    elif empleados >= 50:
+        score += 20  # Mediana
+    elif empleados >= 30:
+        score += 15  # Pequeña pero viable
+    else:
+        # Si no sabemos empleados, buscar indicadores de tamaño en la señal
+        indicadores_grande = [
+            "grupo", "holding", "millones", "facturación", "plantilla",
+            "sedes", "delegaciones", "filial", "matriz", "corporación",
+            "internacional", "nacional", "lider", "referente",
+        ]
+        if any(ind in senal.lower() for ind in indicadores_grande):
+            score += 15
+
+    # +10 si hay señal de transformación digital o dolor operativo
+    senales_transformacion = [
+        "digitalización", "transformación", "automatizar", "eficiencia",
+        "innovación", "CTO", "CIO", "CDO", "tecnología",
+    ]
+    if any(s in senal.lower() for s in senales_transformacion):
         score += 10
 
     # +10 si aparece en más de una fuente (se calcula después en dedup grupal)
@@ -186,27 +214,54 @@ def _self_test():
     """Test básico de scoring."""
     objetivos = load_objetivos()
 
-    candidato_bueno = {
-        "web": "gruporestauracion.es",
-        "sector": "hosteleria_cadenas",
+    # Empresa grande industrial — debe puntuar alto
+    candidato_enterprise = {
+        "web": "metalurgicasnorte.es",
+        "sector": "industria_fabricacion",
+        "zona": "Bilbao",
+        "senal": "Grupo industrial ampliación plantilla 200 empleados",
+        "num_empleados": 200,
+        "fuente": "google_cse",
+    }
+    score_ent = calcular_score(candidato_enterprise, objetivos)
+    assert score_ent >= 75, f"Enterprise esperado >= 75, got {score_ent}"
+
+    # Empresa mediana con señal de transformación — debe ser viable
+    candidato_mediano = {
+        "web": "logisticasur.com",
+        "sector": "logistica_transporte",
         "zona": "Madrid",
-        "senal": "Nueva cadena abre 5 establecimientos",
+        "senal": "Busca CTO para digitalización de procesos",
+        "num_empleados": 80,
         "fuente": "google_cse",
     }
-    score = calcular_score(candidato_bueno, objetivos)
-    assert score >= 60, f"Score esperado >= 60, got {score}"
+    score_med = calcular_score(candidato_mediano, objetivos)
+    assert score_med >= 60, f"Mediano esperado >= 60, got {score_med}"
 
-    candidato_malo = {
-        "web": "instagram.com",
+    # Microempresa — debe ser descartada
+    candidato_micro = {
+        "web": "tallercito.com",
+        "sector": "automocion_concesionarios",
+        "zona": "Valencia",
+        "senal": "Taller de barrio con 3 empleados",
+        "num_empleados": 3,
+        "fuente": "google_cse",
+    }
+    score_micro = calcular_score(candidato_micro, objetivos)
+    assert score_micro == 0, f"Micro esperado 0, got {score_micro}"
+
+    # Gobierno — excluido
+    candidato_gob = {
+        "web": "ayuntamiento.es",
         "sector": "gobierno",
-        "zona": "Lugo",
-        "senal": "Reunión del ayuntamiento",
+        "zona": "Madrid",
+        "senal": "Concurso público",
         "fuente": "google_cse",
     }
-    score_malo = calcular_score(candidato_malo, objetivos)
-    assert score_malo < 60, f"Score esperado < 60, got {score_malo}"
+    score_gob = calcular_score(candidato_gob, objetivos)
+    assert score_gob == 0, f"Gobierno esperado 0, got {score_gob}"
 
-    print(f"dedupe_y_score: score bueno={calcular_score(candidato_bueno, objetivos)}, malo={score_malo}")
+    print(f"dedupe_y_score: enterprise={score_ent}, mediano={score_med}, micro={score_micro}, gobierno={score_gob}")
     print("dedupe_y_score: todos los tests OK")
 
 
