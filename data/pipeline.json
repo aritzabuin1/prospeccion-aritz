@@ -32,5 +32,38 @@
       "notas": ""
     }
   },
-  "leads": {}
+  "leads": {
+    "panaderia-mock-sl": {
+      "empresa": "Panadería Mock SL",
+      "web": "panадериаmock.com",
+      "sector": "hosteleria_cadenas",
+      "zona": "Bilbao",
+      "num_establecimientos": 8,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Expansión con 2 locales nuevos en marzo 2026",
+      "score": 82,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": "Elena García",
+        "rol": "Directora de Operaciones",
+        "email": "elena@panmock.com",
+        "linkedin": "https://linkedin.com/in/elena-garcia-mock"
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {"tipo": "mensaje_generado", "canal": "email", "toque": "t1", "fecha": "2026-04-13"},
+        {"tipo": "mensaje_generado", "canal": "linkedin", "toque": "paso1", "fecha": "2026-04-13"}
+      ],
+      "proxima_accion": {
+        "fecha": null,
+        "tipo": null,
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-13/panaderia-mock-sl.md",
+      "notas": "Lead mock para validación Fase 3"
+    }
+  }
 }
