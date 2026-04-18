@@ -21,11 +21,18 @@ Argumento: slug de empresa (ej: `grupo-ejemplo-sl`)
    secuencia de emails y casos de éxito permitidos.
 
 4. Determina qué mensaje toca según `estado_email` y `estado_linkedin`:
-   - Si `estado_email == "nuevo"` → generar Email T1 + LinkedIn connection (Paso 1)
-   - Si `estado_email == "enviado_t1"` y han pasado ≥7 días sin respuesta → Email T2
-   - Si `estado_email == "enviado_t2"` y han pasado ≥14 días sin respuesta → Email T3
-   - Si `estado_linkedin == "connection_aceptada"` → LinkedIn Paso 2
-   - Si `estado_linkedin == "respondio_paso2"` → LinkedIn Paso 3 (puede incluir caso de éxito)
+   - Si `estado_email == "nuevo"` → generar Email T1 + LinkedIn Paso 1 (connection SIN NOTA)
+   - Si `estado_email == "enviado_t1"` y han pasado ≥7 días sin respuesta → Email T2 (reciprocidad, 40-60 palabras)
+   - Si `estado_email == "enviado_t2"` y han pasado ≥14 días sin respuesta → Email T3 (break-up, 30-40 palabras)
+   - Si `estado_linkedin == "connection_aceptada"` → LinkedIn Paso 2 (primer mensaje real de valor, 80-120 palabras)
+   - Si `estado_linkedin == "respondio_paso2"` → LinkedIn Paso 3 (puede incluir caso de éxito anonimizado 1:1)
+
+   **LinkedIn Paso 1 (IMPORTANTE):** por defecto el Paso 1 es una connection
+   SIN NOTA. No se genera texto de nota. El `linkedin-paso1.md` debe contener
+   solo la instrucción: "Enviar connection SIN nota (plan básico limita notas).
+   Perfil del decisor: {URL si existe}". Excepción: si el lead tiene
+   `score >= 85` Y el decisor está identificado con nombre, sí generar nota
+   ≤200 caracteres aplicando P1+P2+P5 del playbook.
 
 5. Para LinkedIn: invoca la skill `prospeccion` con el contexto del dossier
    pidiendo el paso correspondiente. La skill ya tiene la metodología de
@@ -55,6 +62,36 @@ Argumento: slug de empresa (ej: `grupo-ejemplo-sl`)
    - `email-t{N}.md` — asunto + cuerpo en texto plano + nota "Generado el {fecha}"
    - `email-t{N}.html` — cuerpo completo + firma HTML lista para pegar en Gmail
    - `linkedin-paso{N}.md` — texto plano del mensaje LinkedIn
+   - `contacto.md` — tarjeta de envío (ver formato abajo). Extrae del dossier:
+     nombre del decisor (si existe), canal recomendado (1º y 2º), dirección
+     exacta (email / URL LinkedIn / teléfono), y si hay búsqueda pendiente
+     que el usuario deba hacer en LinkedIn antes de enviar. Si el dossier
+     no identifica decisor con nombre, marcarlo claramente como
+     "**⚠ Identificar antes de enviar**" con las instrucciones de búsqueda
+     que vengan del dossier (sección "Contacto decisor").
+
+   Formato de `contacto.md`:
+   ```
+   # Contacto — {empresa}
+
+   **Fecha de generación:** {fecha_hoy}
+
+   ## Destinatario
+   - **Nombre:** {nombre o "⚠ Identificar antes de enviar"}
+   - **Cargo:** {cargo}
+   - **Notas:** {contexto breve del decisor, 1 línea}
+
+   ## Canal recomendado
+   1. **{canal_primario}** → {dirección exacta, URL o "pendiente — buscar así: ..."}
+   2. **{canal_secundario}** → {dirección o "pendiente"}
+
+   ## Qué enviar
+   - {canal_primario}: `{archivo generado}`
+   - {canal_secundario}: `{archivo generado}` (como segundo toque si no hay respuesta en {N} días)
+
+   ## Acciones pendientes del usuario antes de enviar
+   - {lista concreta: confirmar nombre, sustituir "Hola," por "Hola {nombre},", etc.}
+   ```
 
 10. Actualiza `data/pipeline.json`:
     - Añade evento al historial del lead:

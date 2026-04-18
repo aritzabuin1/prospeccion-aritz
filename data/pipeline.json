@@ -54,8 +54,18 @@
       "estado_linkedin": "nuevo",
       "temperatura": null,
       "historial": [
-        {"tipo": "mensaje_generado", "canal": "email", "toque": "t1", "fecha": "2026-04-13"},
-        {"tipo": "mensaje_generado", "canal": "linkedin", "toque": "paso1", "fecha": "2026-04-13"}
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13"
+        }
       ],
       "proxima_accion": {
         "fecha": null,
@@ -64,6 +74,2054 @@
       },
       "dossier_path": "dossiers/2026-04-13/panaderia-mock-sl.md",
       "notas": "Lead mock para validación Fase 3"
+    },
+    "grupo-industrial-ferruz": {
+      "empresa": "Grupo Industrial Ferruz",
+      "web": "ferruz.com",
+      "sector": "industria_fabricacion",
+      "zona": "Zaragoza",
+      "num_empleados": 150,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Grupo industrial familiar, 60M EUR facturacion, 150 empleados, exporta a +40 paises",
+      "score": 80,
+      "capacidad_economica": "EMPRESA_GRANDE",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": "Luis Millan Tabuenca",
+        "rol": "Director General",
+        "email": "ferruz@ferruz.com",
+        "linkedin": "https://linkedin.com/in/luis-millan-tabuenca-967a766"
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "connection_enviada",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13",
+          "hora": "22:19"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13",
+          "hora": "22:19"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-16",
+        "tipo": "verificar_conexion_linkedin",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "taymin-sa": {
+      "empresa": "TAYMIN S.A.",
+      "web": "taymin.com",
+      "sector": "construccion_ingenieria",
+      "zona": "Zaragoza",
+      "num_empleados": 100,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Mantenimiento industrial, montajes, caldereria. 50-200 empleados, fundada 1982",
+      "score": 70,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": "info@taymin.com",
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13",
+          "hora": "22:35"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-20",
+        "tipo": "email_t2",
+        "generada": false
+      },
+      "notas": "Decisor no identificado en LinkedIn. Buscar en web o llamar."
+    },
+    "grupo-innotec": {
+      "empresa": "Grupo Innotec",
+      "web": "innotecgrupo.com",
+      "sector": "energia_utilities",
+      "zona": "Zaragoza",
+      "num_empleados": 45,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Climatizacion y eficiencia energetica, referente en Aragon, 45+ empleados",
+      "score": 75,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": "Silvia L.",
+        "rol": "CEO / Directora Financiera",
+        "email": null,
+        "linkedin": "https://linkedin.com/in/silvialealasin"
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "connection_enviada",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13",
+          "hora": "22:35"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-16",
+        "tipo": "verificar_conexion_linkedin",
+        "generada": false
+      },
+      "notas": "CEO con perfil financiero. Sin email directo, priorizar LinkedIn."
+    },
+    "grupo-aserpaz": {
+      "empresa": "Grupo Aserpaz",
+      "web": "grupoaserpaz.com",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Zaragoza",
+      "num_empleados": 15,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "200+ comunidades gestionadas con 15 personas. ROI de automatizacion inmediato.",
+      "score": 70,
+      "capacidad_economica": "PYME_PEQUENA",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": "info@aserpaz.com",
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13",
+          "hora": "22:35"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-20",
+        "tipo": "email_t2",
+        "generada": false
+      },
+      "notas": "15 empleados pero 200+ comunidades. El dolor es real. Contactar por telefono."
+    },
+    "grupo-usieto": {
+      "empresa": "Grupo Usieto",
+      "web": "grupousieto.com",
+      "sector": "logistica_transporte",
+      "zona": "Zaragoza",
+      "num_empleados": 115,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Logistica de frio, 115 empleados, 40 vehiculos, corresponsal STEF, crecimiento +10%",
+      "score": 75,
+      "capacidad_economica": "PYME_GRANDE",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": "David Usieto Pallas",
+        "rol": "Direccion (familia fundadora)",
+        "email": null,
+        "linkedin": "https://linkedin.com/in/davidusietopallas"
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "connection_enviada",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13",
+          "hora": "22:35"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-16",
+        "tipo": "verificar_conexion_linkedin",
+        "generada": false
+      },
+      "notas": "Familia fundadora en LinkedIn. Red STEF indica seriedad operativa."
+    },
+    "grupo-elsamex": {
+      "empresa": "Grupo Elsamex",
+      "web": "grupoelsamex.com",
+      "sector": "industria_fabricacion",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Infraestructuras / conservacion carreteras, delegacion Levante",
+      "score": 70,
+      "capacidad_economica": "MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "rechazado",
+      "estado_linkedin": "rechazado",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.656366"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "rechazado",
+          "motivo": "scope_geografico",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": null,
+      "notas": "Fuera de scope: decisor/operación identificada en LATAM o mercado no objetivo. Solo España y países avanzados. No volver a prospectar.",
+      "motivo_rechazo": "scope_geografico"
+    },
+    "grupo-auditae": {
+      "empresa": "Grupo Auditae",
+      "web": "grupoauditae.com",
+      "sector": "servicios_profesionales",
+      "zona": "Palma de Mallorca",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Consultora/auditoria mallorquina con equipo profesional amplio",
+      "score": 70,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.677340"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-17",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "notas": ""
+    },
+    "proyecto-grupo-inmobiliario": {
+      "empresa": "Proyecto Grupo Inmobiliario",
+      "web": "proyectogrupoinmobiliario.com",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Inmobiliaria en centro de Murcia, decisora Selenia Gomez identificada",
+      "score": 65,
+      "capacidad_economica": "PYME_PEQUENA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "rechazado",
+      "estado_linkedin": "rechazado",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.690134"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "rechazado",
+          "motivo": "scope_geografico",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": null,
+      "notas": "Fuera de scope: decisor/operación identificada en LATAM o mercado no objetivo. Solo España y países avanzados. No volver a prospectar.",
+      "motivo_rechazo": "scope_geografico"
+    },
+    "abad-grupo-inmobiliario": {
+      "empresa": "Abad Grupo Inmobiliario",
+      "web": "abadgrupoinmobiliario.es",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "40+ anios en el sector, CEO Mar Abad, premio OMEP reciente",
+      "score": 75,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "rechazado",
+      "estado_linkedin": "rechazado",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.717381"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "rechazado",
+          "motivo": "scope_geografico",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": null,
+      "notas": "Fuera de scope: decisor/operación identificada en LATAM o mercado no objetivo. Solo España y países avanzados. No volver a prospectar.",
+      "motivo_rechazo": "scope_geografico"
+    },
+    "grupo-foro": {
+      "empresa": "Grupo Foro",
+      "web": "grupoforo.com",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Promotora murciana integrada (construccion + venta/alquiler)",
+      "score": 60,
+      "capacidad_economica": "PYME_PEQUENA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.737756"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-25",
+        "tipo": "enviar_t2_si_no_responde",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "grupo-ccommo": {
+      "empresa": "Grupo CCOMMO",
+      "web": "grupoccommo.com",
+      "sector": "hosteleria_grupos",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Apartamentos turisticos lujo centro Murcia (marca Los 36), entrada Oficina Congresos en 2026",
+      "score": 78,
+      "capacidad_economica": "PYME_PEQUENA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": "administracion@grupoccommo.com",
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.757531"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-25",
+        "tipo": "enviar_t2_si_no_responde",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "grupotel": {
+      "empresa": "Grupotel",
+      "web": "grupotel.com",
+      "sector": "hosteleria_grupos",
+      "zona": "Palma de Mallorca",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Cadena hotelera grande en Baleares y Cataluna - encaje muy fuerte caso cadena >100 establecimientos",
+      "score": 86,
+      "capacidad_economica": "GRANDE",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.777254"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-25",
+        "tipo": "enviar_t2_si_no_responde",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "capel-vinos": {
+      "empresa": "Capel Vinos",
+      "web": "capel-vinos.es",
+      "sector": "agroalimentario",
+      "zona": "Murcia",
+      "num_empleados": 48,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Bodega exportadora 85% produccion a +48 paises; caida 18,8% facturacion ultimo anio",
+      "score": 79,
+      "capacidad_economica": "MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.799473"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-25",
+        "tipo": "enviar_t2_si_no_responde",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "ticotem-ett": {
+      "empresa": "Ticotem ETT",
+      "web": "ticotem.com",
+      "sector": "consultoras_rrhh",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "ETT regional - encaje 1:1 con caso de consultora RRHH (360h/anio liberadas)",
+      "score": 82,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.820636"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-17",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "notas": ""
+    },
+    "castillo-trans-s-a": {
+      "empresa": "Castillo Trans S.A.",
+      "web": "castillotrans.com",
+      "sector": "logistica_transporte",
+      "zona": "Alicante",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Carretera Orihuela - Almoradí, Km. 8.150, 03390 Benejúzar, Alicante, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/castillo-trans-s-a.md",
+      "notas": ""
+    },
+    "grupo-transaher-alicante": {
+      "empresa": "Grupo Transaher - Alicante",
+      "web": "transaher.es",
+      "sector": "logistica_transporte",
+      "zona": "Alicante",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Polígono el Espartal, Parcela B1, 03006 Alacant, Alicante, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-transaher-alicante.md",
+      "notas": ""
+    },
+    "grupo-medico-siete-palmas": {
+      "empresa": "GRUPO MEDICO SIETE PALMAS",
+      "web": "reconocimientomedicolaspalmas.com",
+      "sector": "salud_cadenas",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Av Pintor Felo Monzón, 7, Bajo, 35019 Las Palmas de Gran Canaria, Las Palmas, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-medico-siete-palmas.md",
+      "notas": ""
+    },
+    "grupo-clinica-maisonnave": {
+      "empresa": "Grupo Clínica Maisonnave",
+      "web": "clinicamaisonnave.com",
+      "sector": "salud_cadenas",
+      "zona": "Alicante",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Av. Maisonnave, 36, 2º, 03003 Alicante (Alacant), Alicante, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-clinica-maisonnave.md",
+      "notas": ""
+    },
+    "mr-grupo-clinico-alicante": {
+      "empresa": "MR Grupo Clínico Alicante",
+      "web": "mrgrupoclinico.com",
+      "sector": "salud_cadenas",
+      "zona": "Alicante",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Av. Pintor Baeza, 8, 03010 Alicante (Alacant), Alicante, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/mr-grupo-clinico-alicante.md",
+      "notas": ""
+    },
+    "grupo-oter": {
+      "empresa": "Grupo Oter",
+      "web": "grupo-oter.net",
+      "sector": "hosteleria_grupos",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Calle de Don Ramón de la Cruz, 100, Salamanca, 28006 Madrid, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-oter.md",
+      "notas": ""
+    },
+    "grupo-el-escondite": {
+      "empresa": "Grupo El Escondite",
+      "web": "grupoelescondite.com",
+      "sector": "hosteleria_grupos",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C. de Francisco de Rojas, 9, 1 izq, Chamberí, 28004 Madrid, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-el-escondite.md",
+      "notas": ""
+    },
+    "grupo-sorell": {
+      "empresa": "Grupo Sorell",
+      "web": "gruposorell.com",
+      "sector": "hosteleria_grupos",
+      "zona": "Alicante",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C/ de L'Esportista Alejandra Quereda, 16, 03016 Alacant, Alicante, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-sorell.md",
+      "notas": ""
+    },
+    "grupo-d-capricho": {
+      "empresa": "Grupo D'Capricho",
+      "web": "dcaprichocatering.com",
+      "sector": "hosteleria_grupos",
+      "zona": "Alicante",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C. Río Turia, 23, 03690 San Vicente del Raspeig, Alicante, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-d-capricho.md",
+      "notas": ""
+    },
+    "grupo-cymasol-renovables-s-l": {
+      "empresa": "Grupo Cymasol Renovables S.L.",
+      "web": "cymasol.com",
+      "sector": "energia_utilities",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C. Invierno, 51, 35018 Hoya Andrea, Las Palmas, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-21",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-cymasol-renovables-s-l.md",
+      "notas": ""
+    },
+    "grupo-rafael-afonso-las-palmas": {
+      "empresa": "Grupo Rafael Afonso - Las Palmas",
+      "web": "gruporafaelafonso.com",
+      "sector": "automocion_concesionarios",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C. Luis Correa Medina, 7, 35013 Las Palmas de Gran Canaria, Las Palmas, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-rafael-afonso-las-palmas.md",
+      "notas": ""
+    },
+    "grupo-fedeauto-ocasion-las-palmas-de-gran-canaria-concesiona": {
+      "empresa": "Grupo Fedeauto Ocasión | Las Palmas de Gran Canaria | Concesionario de coches y motos de segunda mano",
+      "web": "grupofedeauto.com",
+      "sector": "automocion_concesionarios",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Calle Dr. Juan Domínguez Pérez, 41, 35008 Las Palmas de Gran Canaria, Las Palmas, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-fedeauto-ocasion-las-palmas-de-gran-canaria-concesiona.md",
+      "notas": ""
+    },
+    "s-a-automocion": {
+      "empresa": "S.A. Automoción",
+      "web": "saautomocion.com",
+      "sector": "automocion_concesionarios",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Calle Alfred Nobel, 2, Nave 6, 35013 Las Palmas de Gran Canaria, Las Palmas, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/s-a-automocion.md",
+      "notas": ""
+    },
+    "emicela-s-a": {
+      "empresa": "Emicela S.A.",
+      "web": "emicela.com",
+      "sector": "agroalimentario",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C/ Canal Izquierdo (subida), 5 Zona Industrial, 35118 Arinaga, Las Palmas, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": "https://es.linkedin.com/company/emicela-sa"
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/emicela-s-a.md",
+      "notas": ""
+    },
+    "ica-s-a-canarias": {
+      "empresa": "ICA S.A. (Canarias)",
+      "web": "icasa.com",
+      "sector": "agroalimentario",
+      "zona": "Las Palmas",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C. Ramón Ortega Frías, 5, 35220 Valle de Jinamar, Las Palmas, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/ica-s-a-canarias.md",
+      "notas": ""
+    },
+    "grupo-concesur-concesionarios-oficiales": {
+      "empresa": "Grupo Concesur Concesionarios Oficiales",
+      "web": "grupoconcesur.es",
+      "sector": "automocion_concesionarios",
+      "zona": "España",
+      "num_empleados": null,
+      "fuente_descubrimiento": "duckduckgo",
+      "senal_inicial": "Descubre nuestras marcas oficiales. La confianza de nuestros clientes se gana día a día. Grupo Concesur. Más de 47 años dedicados a …",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-concesur-concesionarios-oficiales.md",
+      "notas": ""
+    },
+    "grupo-sci": {
+      "empresa": "Grupo SCI",
+      "web": "gruposci.com",
+      "sector": "construccion_ingenieria",
+      "zona": "Córdoba",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Av. de los Aguijones, 8, Noroeste, 14011 Córdoba, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-sci.md",
+      "notas": ""
+    },
+    "grupo-an-delegacion-valladolid": {
+      "empresa": "Grupo AN - Delegación Valladolid",
+      "web": "grupoan.com",
+      "sector": "agroalimentario",
+      "zona": "Valladolid",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Av. del Euro, 7, Edificio II-local B-002, 47009 Valladolid, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-an-delegacion-valladolid.md",
+      "notas": ""
+    },
+    "grupo-constant-consultoria-de-recursos-humanos": {
+      "empresa": "Grupo Constant: Consultoría de Recursos Humanos",
+      "web": "grupoconstant.com",
+      "sector": "consultoras_rrhh",
+      "zona": "España",
+      "num_empleados": null,
+      "fuente_descubrimiento": "duckduckgo",
+      "senal_inicial": "Nuestros servicios y soluciones de recursos humanos Empresa de trabajo temporal (ETT) Uno de nuestros servicios como consultora RRHH se especializa en conectar talento con empresas con soluciones flexibles de contratación, ayudando a las empresas a c",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-constant-consultoria-de-recursos-humanos.md",
+      "notas": ""
+    },
+    "grupo-marsan-marsan-transformaciones-superficiales": {
+      "empresa": "GRUPO MARSAN - Marsan Transformaciones Superficiales",
+      "web": "grupomarsan.com",
+      "sector": "industria_fabricacion",
+      "zona": "Vigo",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Parque Tecnológico y Logístico de Vigo Calle B, Parcela 10.09, 36314 Vigo, Pontevedra, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-22",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-marsan-marsan-transformaciones-superficiales.md",
+      "notas": ""
+    },
+    "electroniquel-s-a": {
+      "empresa": "Electroníquel S.A.",
+      "web": "electroniquel.es",
+      "sector": "industria_fabricacion",
+      "zona": "Gijón",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Av. Siderurgia, 1, Gijon-Oeste, 33211 Gijón, Asturias, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/electroniquel-s-a.md",
+      "notas": ""
+    },
+    "idesa-ingenieria-y-diseno-europeo-s-a": {
+      "empresa": "IDESA · Ingeniería y Diseño Europeo, S.A.",
+      "web": "idesa.net",
+      "sector": "construccion_ingenieria",
+      "zona": "Gijón",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "PCTG. Edificio Félix Herreros, Calle del Prof. Potter, nº 105, Periurbano - Rural, 33203 Gijón, Asturias, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/idesa-ingenieria-y-diseno-europeo-s-a.md",
+      "notas": ""
+    },
+    "industrial-gijonesa-s-a-ingisa": {
+      "empresa": "Industrial Gijonesa S.A. | INGISA",
+      "web": "ingisa.net",
+      "sector": "construccion_ingenieria",
+      "zona": "Gijón",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C. de José Llama Fernández, nº 16, 18, Periurbano - Rural, 33393 Gijón, Asturias, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/industrial-gijonesa-s-a-ingisa.md",
+      "notas": ""
+    },
+    "grupo-visier-arquitectura-urbanismo-promocion-desarrollo-e-i": {
+      "empresa": "Grupo Visier. Arquitectura, Urbanismo, Promoción, Desarrollo e Inversión.",
+      "web": "grupovisier.es",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Vigo",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "R. de García Barbón, 22, 8º, Santiago de Vigo, 36201 Vigo, Pontevedra, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-visier-arquitectura-urbanismo-promocion-desarrollo-e-i.md",
+      "notas": ""
+    },
+    "el-sol-grupo-inmobiliario": {
+      "empresa": "El Sol Grupo Inmobiliario",
+      "web": "elsolgrupo.com",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Gijón",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Bajo, C. Jovellanos, 10, Centro, 33206 Gijón, Asturias, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/el-sol-grupo-inmobiliario.md",
+      "notas": ""
+    },
+    "grupo-ecosar-sl": {
+      "empresa": "Grupo Ecosar SL",
+      "web": "ecosar.com",
+      "sector": "energia_utilities",
+      "zona": "Gijón",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C. Juan de la Cierva, 2E, Nave 4, Gijon-Oeste, 33211 Gijón, Asturias, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-ecosar-sl.md",
+      "notas": ""
+    },
+    "eprogram-s-a": {
+      "empresa": "EProgram, S.A.",
+      "web": "eprogram.es",
+      "sector": "energia_utilities",
+      "zona": "Gijón",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "C. Saavedra, 7, entresuelo, Centro, 33208 Gijón, Asturias, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/eprogram-s-a.md",
+      "notas": ""
+    },
+    "grupo-morgadas": {
+      "empresa": "Grupo Morgadas",
+      "web": "grupomorgadas.com",
+      "sector": "automocion_concesionarios",
+      "zona": "Vigo",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Edificio Alpenor, 3º Alineación Muelle del Arenal s/n, Planta 2º, Santiago de Vigo, 36201 Vigo, Pontevedra, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-morgadas.md",
+      "notas": ""
+    },
+    "grupo-noa-s-gijon-noawork-ett": {
+      "empresa": "GRUPO NOA'S | GIJÓN Noawork ETT",
+      "web": "gruponoas.es",
+      "sector": "consultoras_rrhh",
+      "zona": "Gijón",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Calle Padilla, 2, 1ºB, Centro, 33205 Gijón, Asturias, España",
+      "score": 70,
+      "capacidad_economica": null,
+      "fecha_descubrimiento": "2026-04-18",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "aprobado_tanda",
+          "fecha": "2026-04-18",
+          "fuente": "aprobar_tanda.py"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-18"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-23",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-18/grupo-noa-s-gijon-noawork-ett.md",
+      "notas": ""
     }
   }
 }

@@ -2,6 +2,23 @@
 
 Ejecuta la tanda completa: descubrimiento, scoring, validacion y presentacion.
 
+## Distribución de la tanda (30 leads/semana objetivo)
+
+Cada tanda se reparte en tres tiers para asegurar mix de tickets:
+
+- **Tier A — Mid-market España (60%):** 20-200 empleados, dolor operativo
+  identificable. Base del pipeline, ciclos cortos.
+- **Tier B — Gran cuenta (25%):** 200-1000 empleados en sectores objetivo,
+  grupos con múltiples divisiones/sedes. Ciclos medios, tickets altos.
+- **Tier C — Multinacional (15%):** >1000 empleados o presencia en múltiples
+  países con decisor en España/UE/UK/EEUU/etc. Ciclos largos, tickets muy
+  altos, posibles pilotos de departamento. Reservar queries específicas:
+  "corporate AI adoption", "digital transformation director", anuncios de
+  inversión en IA/automatización en medios sectoriales.
+
+Regla: si una tanda sale sin Tier C, añadir una query extra enfocada a
+grandes cuentas antes de cerrar.
+
 ## Pasos
 
 1. Ejecuta los scripts de descubrimiento en secuencia desde la raiz del proyecto.

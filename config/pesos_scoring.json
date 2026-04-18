@@ -1,0 +1,13 @@
+{
+  "_generado": "2026-04-18",
+  "_nota": "Ajustes de scoring derivados de la retrospectiva. +N suma al score del lead que encaje con ese criterio.",
+  "sector_bonus": {},
+  "zona_bonus": {
+    "Zaragoza": -3,
+    "Murcia": -3
+  },
+  "tamano_bonus": {
+    "xs": -5
+  },
+  "cargo_bonus": {}
+}

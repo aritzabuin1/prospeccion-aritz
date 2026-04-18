@@ -88,11 +88,20 @@
   "zonas_prioritarias": [
     "España"
   ],
-  "_nota_zonas": "Sin restricción geográfica. Se usa 'España' como filtro general en queries. El trabajo es remoto, cualquier empresa española es target.",
+  "_nota_zonas": "Target: España y países avanzados (UE, UK, EEUU, Canadá, Suiza, Noruega, Australia, Nueva Zelanda, Japón, Corea del Sur, Singapur). NO Latinoamérica, NO África, NO Asia emergente. Cuidado con empresas que tienen sede en España pero el decisor identificable opera desde LATAM (filiales tipo 'esmgrupo...', perfiles LinkedIn con ubicación LATAM): son RECHAZO automático.",
+  "paises_excluidos": [
+    "Mexico", "Argentina", "Colombia", "Chile", "Peru", "Venezuela", "Ecuador", "Bolivia", "Uruguay", "Paraguay", "Guatemala", "Honduras", "El Salvador", "Nicaragua", "Panama", "Costa Rica", "Republica Dominicana", "Cuba",
+    "Marruecos", "Argelia", "Tunez", "Egipto", "Sudafrica", "Nigeria", "Kenia",
+    "India", "Pakistan", "Bangladesh", "Indonesia", "Filipinas", "Vietnam", "Tailandia"
+  ],
   "filtros": {
     "excluir_sectores": ["gobierno", "ONG", "religioso", "educacion_publica", "militar"],
     "excluir_si_menor_de_empleados": 20,
     "preferir_si_mayor_de_empleados": 50,
+    "sin_tope_superior": true,
+    "bonus_multinacional": 15,
+    "bonus_gran_cuenta_500plus": 10,
     "minimo_score_para_dossier": 60
-  }
+  },
+  "_nota_tamano": "Sin techo. Medianas, grandes cuentas y multinacionales entran. Tickets altos son objetivo explícito. Multinacional con decisor en país permitido = +15 al score; >500 empleados = +10. El filtro duro sigue siendo geográfico (país del decisor), no tamaño."
 }

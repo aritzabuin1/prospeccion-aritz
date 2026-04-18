@@ -1,0 +1,764 @@
+{
+  "_schema_version": "1.0",
+  "_schema_doc": "Cada clave del nivel superior es un slug-empresa único. Ver README para schema detallado.",
+  "_ejemplo_descomentar_para_guiar": {
+    "empresa-slug-ejemplo": {
+      "empresa": "Nombre SL",
+      "web": "nombresl.com",
+      "sector": "hosteleria_cadenas",
+      "zona": "Madrid",
+      "num_establecimientos": 12,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "apertura nuevo local marzo 2026",
+      "score": 87,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-08",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [],
+      "proxima_accion": {
+        "fecha": null,
+        "tipo": null,
+        "generada": false
+      },
+      "dossier_path": null,
+      "notas": ""
+    }
+  },
+  "leads": {
+    "panaderia-mock-sl": {
+      "empresa": "Panadería Mock SL",
+      "web": "panадериаmock.com",
+      "sector": "hosteleria_cadenas",
+      "zona": "Bilbao",
+      "num_establecimientos": 8,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Expansión con 2 locales nuevos en marzo 2026",
+      "score": 82,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": "Elena García",
+        "rol": "Directora de Operaciones",
+        "email": "elena@panmock.com",
+        "linkedin": "https://linkedin.com/in/elena-garcia-mock"
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": null,
+        "tipo": null,
+        "generada": true
+      },
+      "dossier_path": "dossiers/2026-04-13/panaderia-mock-sl.md",
+      "notas": "Lead mock para validación Fase 3"
+    },
+    "grupo-industrial-ferruz": {
+      "empresa": "Grupo Industrial Ferruz",
+      "web": "ferruz.com",
+      "sector": "industria_fabricacion",
+      "zona": "Zaragoza",
+      "num_empleados": 150,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Grupo industrial familiar, 60M EUR facturacion, 150 empleados, exporta a +40 paises",
+      "score": 80,
+      "capacidad_economica": "EMPRESA_GRANDE",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": "Luis Millan Tabuenca",
+        "rol": "Director General",
+        "email": "ferruz@ferruz.com",
+        "linkedin": "https://linkedin.com/in/luis-millan-tabuenca-967a766"
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "connection_enviada",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13",
+          "hora": "22:19"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13",
+          "hora": "22:19"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-16",
+        "tipo": "verificar_conexion_linkedin",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "taymin-sa": {
+      "empresa": "TAYMIN S.A.",
+      "web": "taymin.com",
+      "sector": "construccion_ingenieria",
+      "zona": "Zaragoza",
+      "num_empleados": 100,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Mantenimiento industrial, montajes, caldereria. 50-200 empleados, fundada 1982",
+      "score": 70,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": "info@taymin.com",
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13",
+          "hora": "22:35"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-20",
+        "tipo": "email_t2",
+        "generada": false
+      },
+      "notas": "Decisor no identificado en LinkedIn. Buscar en web o llamar."
+    },
+    "grupo-innotec": {
+      "empresa": "Grupo Innotec",
+      "web": "innotecgrupo.com",
+      "sector": "energia_utilities",
+      "zona": "Zaragoza",
+      "num_empleados": 45,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Climatizacion y eficiencia energetica, referente en Aragon, 45+ empleados",
+      "score": 75,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": "Silvia L.",
+        "rol": "CEO / Directora Financiera",
+        "email": null,
+        "linkedin": "https://linkedin.com/in/silvialealasin"
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "connection_enviada",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13",
+          "hora": "22:35"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-16",
+        "tipo": "verificar_conexion_linkedin",
+        "generada": false
+      },
+      "notas": "CEO con perfil financiero. Sin email directo, priorizar LinkedIn."
+    },
+    "grupo-aserpaz": {
+      "empresa": "Grupo Aserpaz",
+      "web": "grupoaserpaz.com",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Zaragoza",
+      "num_empleados": 15,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "200+ comunidades gestionadas con 15 personas. ROI de automatizacion inmediato.",
+      "score": 70,
+      "capacidad_economica": "PYME_PEQUENA",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": "info@aserpaz.com",
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-13",
+          "hora": "22:35"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-20",
+        "tipo": "email_t2",
+        "generada": false
+      },
+      "notas": "15 empleados pero 200+ comunidades. El dolor es real. Contactar por telefono."
+    },
+    "grupo-usieto": {
+      "empresa": "Grupo Usieto",
+      "web": "grupousieto.com",
+      "sector": "logistica_transporte",
+      "zona": "Zaragoza",
+      "num_empleados": 115,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Logistica de frio, 115 empleados, 40 vehiculos, corresponsal STEF, crecimiento +10%",
+      "score": 75,
+      "capacidad_economica": "PYME_GRANDE",
+      "fecha_descubrimiento": "2026-04-13",
+      "contacto": {
+        "nombre": "David Usieto Pallas",
+        "rol": "Direccion (familia fundadora)",
+        "email": null,
+        "linkedin": "https://linkedin.com/in/davidusietopallas"
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "connection_enviada",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-13T14:54:05.663520"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-13",
+          "hora": "22:35"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-16",
+        "tipo": "verificar_conexion_linkedin",
+        "generada": false
+      },
+      "notas": "Familia fundadora en LinkedIn. Red STEF indica seriedad operativa."
+    },
+    "grupo-elsamex": {
+      "empresa": "Grupo Elsamex",
+      "web": "grupoelsamex.com",
+      "sector": "industria_fabricacion",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Infraestructuras / conservacion carreteras, delegacion Levante",
+      "score": 70,
+      "capacidad_economica": "MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "rechazado",
+      "estado_linkedin": "rechazado",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.656366"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "rechazado",
+          "motivo": "scope_geografico",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": null,
+      "notas": "Fuera de scope: decisor/operación identificada en LATAM o mercado no objetivo. Solo España y países avanzados. No volver a prospectar.",
+      "motivo_rechazo": "scope_geografico"
+    },
+    "grupo-auditae": {
+      "empresa": "Grupo Auditae",
+      "web": "grupoauditae.com",
+      "sector": "servicios_profesionales",
+      "zona": "Palma de Mallorca",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Consultora/auditoria mallorquina con equipo profesional amplio",
+      "score": 70,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.677340"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-17",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "notas": ""
+    },
+    "proyecto-grupo-inmobiliario": {
+      "empresa": "Proyecto Grupo Inmobiliario",
+      "web": "proyectogrupoinmobiliario.com",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Inmobiliaria en centro de Murcia, decisora Selenia Gomez identificada",
+      "score": 65,
+      "capacidad_economica": "PYME_PEQUENA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "rechazado",
+      "estado_linkedin": "rechazado",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.690134"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "rechazado",
+          "motivo": "scope_geografico",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": null,
+      "notas": "Fuera de scope: decisor/operación identificada en LATAM o mercado no objetivo. Solo España y países avanzados. No volver a prospectar.",
+      "motivo_rechazo": "scope_geografico"
+    },
+    "abad-grupo-inmobiliario": {
+      "empresa": "Abad Grupo Inmobiliario",
+      "web": "abadgrupoinmobiliario.es",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "40+ anios en el sector, CEO Mar Abad, premio OMEP reciente",
+      "score": 75,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "rechazado",
+      "estado_linkedin": "rechazado",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.717381"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "rechazado",
+          "motivo": "scope_geografico",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": null,
+      "notas": "Fuera de scope: decisor/operación identificada en LATAM o mercado no objetivo. Solo España y países avanzados. No volver a prospectar.",
+      "motivo_rechazo": "scope_geografico"
+    },
+    "grupo-foro": {
+      "empresa": "Grupo Foro",
+      "web": "grupoforo.com",
+      "sector": "inmobiliaria_gestion",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Promotora murciana integrada (construccion + venta/alquiler)",
+      "score": 60,
+      "capacidad_economica": "PYME_PEQUENA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.737756"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-25",
+        "tipo": "enviar_t2_si_no_responde",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "grupo-ccommo": {
+      "empresa": "Grupo CCOMMO",
+      "web": "grupoccommo.com",
+      "sector": "hosteleria_grupos",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Apartamentos turisticos lujo centro Murcia (marca Los 36), entrada Oficina Congresos en 2026",
+      "score": 78,
+      "capacidad_economica": "PYME_PEQUENA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": "administracion@grupoccommo.com",
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.757531"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-25",
+        "tipo": "enviar_t2_si_no_responde",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "grupotel": {
+      "empresa": "Grupotel",
+      "web": "grupotel.com",
+      "sector": "hosteleria_grupos",
+      "zona": "Palma de Mallorca",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Cadena hotelera grande en Baleares y Cataluna - encaje muy fuerte caso cadena >100 establecimientos",
+      "score": 86,
+      "capacidad_economica": "GRANDE",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.777254"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-25",
+        "tipo": "enviar_t2_si_no_responde",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "capel-vinos": {
+      "empresa": "Capel Vinos",
+      "web": "capel-vinos.es",
+      "sector": "agroalimentario",
+      "zona": "Murcia",
+      "num_empleados": 48,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "Bodega exportadora 85% produccion a +48 paises; caida 18,8% facturacion ultimo anio",
+      "score": 79,
+      "capacidad_economica": "MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "enviado_t1",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.799473"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_enviado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-18",
+          "hora": "10:57"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-25",
+        "tipo": "enviar_t2_si_no_responde",
+        "generada": false
+      },
+      "notas": ""
+    },
+    "ticotem-ett": {
+      "empresa": "Ticotem ETT",
+      "web": "ticotem.com",
+      "sector": "consultoras_rrhh",
+      "zona": "Murcia",
+      "num_empleados": null,
+      "fuente_descubrimiento": "google_places",
+      "senal_inicial": "ETT regional - encaje 1:1 con caso de consultora RRHH (360h/anio liberadas)",
+      "score": 82,
+      "capacidad_economica": "PYME_MEDIANA",
+      "fecha_descubrimiento": "2026-04-17",
+      "contacto": {
+        "nombre": null,
+        "rol": null,
+        "email": null,
+        "linkedin": null
+      },
+      "estado_email": "nuevo",
+      "estado_linkedin": "nuevo",
+      "temperatura": null,
+      "historial": [
+        {
+          "tipo": "dossier_generado",
+          "fecha": "2026-04-17T11:23:02.820636"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "email",
+          "toque": "t1",
+          "fecha": "2026-04-17T11:32:20"
+        },
+        {
+          "tipo": "mensaje_generado",
+          "canal": "linkedin",
+          "toque": "paso1",
+          "fecha": "2026-04-17T11:32:20"
+        }
+      ],
+      "proxima_accion": {
+        "fecha": "2026-04-17",
+        "tipo": "enviar_t1",
+        "generada": true
+      },
+      "notas": ""
+    }
+  }
+}

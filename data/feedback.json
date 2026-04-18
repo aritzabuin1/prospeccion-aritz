@@ -1,0 +1,134 @@
+{
+  "rechazos": [
+    {
+      "dominio": "zhihu.com",
+      "motivo": "no_empresa",
+      "fecha": "2026-04-13",
+      "sector": "retail_cadenas",
+      "zona": "España",
+      "nombre": "加入和开通XGP会员教程"
+    },
+    {
+      "dominio": "es.ccm.net",
+      "motivo": "no_empresa",
+      "fecha": "2026-04-13",
+      "sector": "energia_utilities",
+      "zona": "España",
+      "nombre": "Descargar Microsoft 365 gratis para PC, Mac, Android (APK)"
+    },
+    {
+      "dominio": "jingyan.baidu.com",
+      "motivo": "no_empresa",
+      "fecha": "2026-04-13",
+      "sector": "energia_utilities",
+      "zona": "España",
+      "nombre": "如何在 Office 365 取得 POP，IMAP 及 SMTP 存取设定"
+    },
+    {
+      "dominio": "cochesyconcesionarios.com",
+      "motivo": "no_empresa",
+      "fecha": "2026-04-13",
+      "sector": "automocion_concesionarios",
+      "zona": "España",
+      "nombre": "Buscador de concesionarios"
+    },
+    {
+      "dominio": "alimentaria.com",
+      "motivo": "no_empresa",
+      "fecha": "2026-04-13",
+      "sector": "agroalimentario",
+      "zona": "España",
+      "nombre": "Alimentaria"
+    },
+    {
+      "dominio": "ford.es",
+      "motivo": "no_empresa",
+      "fecha": "2026-04-13",
+      "sector": "automocion_concesionarios",
+      "zona": "España",
+      "nombre": "Busca tu concesionario oficial de Ford más cercano"
+    },
+    {
+      "dominio": "renault.es",
+      "motivo": "no_empresa",
+      "fecha": "2026-04-13",
+      "sector": "automocion_concesionarios",
+      "zona": "España",
+      "nombre": "Encuentra tu concesionario"
+    },
+    {
+      "dominio": "grupoautopro.com",
+      "motivo": "web_muerta",
+      "fecha": "2026-04-13",
+      "sector": "automocion_concesionarios",
+      "zona": "Málaga",
+      "nombre": "Grupo AutoPro"
+    },
+    {
+      "dominio": "dahsazaragoza.com",
+      "motivo": "pequena",
+      "fecha": "2026-04-13",
+      "sector": "logistica_transporte",
+      "zona": "Zaragoza",
+      "nombre": "DAHSA"
+    }
+  ],
+  "patrones_aprendidos": {
+    "dominios_rechazados": [
+      "zhihu.com",
+      "es.ccm.net",
+      "jingyan.baidu.com",
+      "cochesyconcesionarios.com",
+      "alimentaria.com",
+      "ford.es",
+      "renault.es",
+      "grupoautopro.com",
+      "dahsazaragoza.com"
+    ],
+    "sectores_baja_conversion": {
+      "retail_cadenas": {
+        "rechazados": 1,
+        "aprobados": 1
+      },
+      "energia_utilities": {
+        "rechazados": 2,
+        "aprobados": 0
+      },
+      "automocion_concesionarios": {
+        "rechazados": 4,
+        "aprobados": 0
+      },
+      "agroalimentario": {
+        "rechazados": 1,
+        "aprobados": 0
+      },
+      "industria_fabricacion": {
+        "rechazados": 0,
+        "aprobados": 1
+      },
+      "logistica_transporte": {
+        "rechazados": 1,
+        "aprobados": 1
+      },
+      "construccion_ingenieria": {
+        "rechazados": 0,
+        "aprobados": 2
+      },
+      "inmobiliaria_gestion": {
+        "rechazados": 0,
+        "aprobados": 1
+      }
+    },
+    "motivos_frecuentes": {
+      "no_empresa": 7,
+      "web_muerta": 1,
+      "pequena": 1
+    },
+    "zonas_baja_conversion": {}
+  },
+  "estadisticas": {
+    "total_presentados": 20,
+    "total_aprobados": 6,
+    "total_rechazados": 9
+  }
+}

@@ -1,0 +1,4282 @@
+[
+  {
+    "empresa_nombre_guess": "CANDEA Plastics - Oficinas Centrales",
+    "web": "candea-plastics.es",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de la Explanada, 8, 2B, Moncloa - Aravaca, 28040 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJp3OaqHwoQg0R3hhyDouNPzU",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "SCHOLPP Madrid - Desmontaje, Montaje, Movimiento de Maquinaria, Desmantelamiento y Transporte Industrial Internacional.",
+    "web": "scholpp.es",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Calle del Cidro, 2, Planta 3ª, Oficina 6, Carabanchel, 28044 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ1zhVfdwnQg0RZRVhLe25FPs",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "ISC Plastic Parts, S.L.",
+    "web": "iscsl.es",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Calle Velázquez, 27, Planta 1 Izq, Salamanca, 28001 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJN8takJcoQg0R2x0ixvw1ZQA",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "CIR62 Oficinas Centrales (Madrid)",
+    "web": "cir62.com",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de la Antracita, 7, 1ª planta, nave 6, Arganzuela, 28045 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJIZJfkV8nQg0REICDcfp_SFU",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "INDUSTRIAS L.B.M., S.L.U",
+    "web": "industriaslbm.com",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de San Romualdo, 26, 6º planta, San Blas-Canillejas, 28037 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJpdwkgQovQg0RGPAdpgYrUF8",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "Industrias Duero",
+    "web": "industriasduero.com",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "P.I. Vallecas, C. González Dávila, 1, Villa de Vallecas, 28031 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJMyrfWbQlQg0RGHdtMaxnQ_8",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "Comercio Industria y Distribución S.L. - CID, SL",
+    "web": "cid.es",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. Casas de Miravete, 24B, 4o 2, Villa de Vallecas, 28031 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJWzlnrjokQg0R7nzkq6DecnY",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "Trem Diseño Industrial",
+    "web": "trem-din.com",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de Valle de Oro, 50, posterior, Carabanchel, 28019 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJsTugo02IQQ0Rsf6gkl7YRH4",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "Ferlasa Madrid, S.L.U.",
+    "web": "ferlasa.net",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de Loeches, 1, Moncloa - Aravaca, 28008 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJhSpa4xcoQg0Rbh8A0vO1qnA",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "Gonvarri Industries",
+    "web": "gonvarri.com",
+    "sector": "industria_fabricacion",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Prolongación de, C. de Embajadores, S/N, Puente de Vallecas, 28053 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ__8_cBMmQg0RJmQv308DlwI",
+    "fecha_deteccion": "2026-04-13T13:34:12.484402"
+  },
+  {
+    "empresa_nombre_guess": "Lork Industrias SL",
+    "web": "lorkindustrias.com",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Caracas, 11 Bis, Sant Andreu, 08030 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJtVfTvuq8pBIRIN73bKSXess",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "Produck Development SL",
+    "web": "produck.eu",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Còrsega, 108, 6-3, Eixample, 08029 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJI8Zh4RqjpBIREfuvgee_npc",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "Induplast Plasticos de Ingenieria",
+    "web": "induplast.es",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de la Corunya, 14, Sant Martí, 08026 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJFyJbniejpBIR5U9jINQGzx8",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "ISC",
+    "web": "iscsl.es",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "P.º de Gracia, 12, 1º, Eixample, 08007 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJCxvx-dybpBIRuWdj9uuZ3-g",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "fabricación de complementos alimenticios y dietética | fabricación de plástico termoformado",
+    "web": "servinatur.es",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de la Feixa Llarga, 75, 08907 L'Hospitalet de Llobregat, Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJGx8aP92YpBIRnmRBcLb7B2U",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "Luciano Aguilar S.A. - Maquinaria Industrial",
+    "web": "laguilar.es",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Mallorca, 279, Eixample, 08037 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJn40FUpOipBIRW9ZvBUjiG9g",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "Farguell Barcelona",
+    "web": "farguell.com",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Santander, 11, Sant Martí, 08020 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ2Ry4Vsy8pBIRn2cC9ynK1fk",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "INDUSTRIAS ENRIQUE GALAN S.A.",
+    "web": "iegalan.es",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Fluvià, 79, Sant Martí, 08019 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJV9Oo_EajpBIRC6SFOKibAIE",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "Industrial Texcans",
+    "web": "canellas.com",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Pg. Sant Antoni, 29-31, Sants-Montjuïc, 08014 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJnSxiYIaYpBIRyIT1l0rwZt4",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "Urban Gravity, S.L.",
+    "web": "urban-gravity.com",
+    "sector": "industria_fabricacion",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Ronda del General Mitre, 126, Sarrià-Sant Gervasi, 08021 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJvYqXfXiZpBIRLIx0qmUyQdc",
+    "fecha_deteccion": "2026-04-13T13:34:13.781115"
+  },
+  {
+    "empresa_nombre_guess": "Rafia Industrial",
+    "web": "rafiaindustrial.com",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer Foios, 1, 46114 Vinalesa, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ6Y1nXZtGYA0RC-HQSngi0Wo",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "MapsaValencia S L",
+    "web": "mapsavalencia.com",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer dels Botiguers, 2, 46120 Alboraia, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJOaNbtDNGYA0R7Fu_zIYpNXQ",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "INDUSTRIAS TAYG",
+    "web": "tayg.com",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Ctra. Real de Madrid Norte, 70, 46469 Beniparrell, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJTySLx8pNYA0RvnhcIXBrV7A",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "Industria Metalgráfica Valenciana S.A.",
+    "web": "imvsa.com",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Camí de la Pedrera, S/N Nave, 46210 Picanya, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJkVauTDpOYA0RMKh5FWaLYN8",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "Industrias Alegre S.A.",
+    "web": "ialegre.com",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer Riu Verd, 14, 46470 Albal, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJJRHvKixMYA0RZe5V82krIe0",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "Maquinaria para la industria del plástico - Fabrilec ️",
+    "web": "fabrilec.com",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer de Riu Tinto, 20, Quatre Carreres, 46013 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJJQG0n5RJYA0R6wA4uHVM-O4",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "ITM - Industrias Tomás Morcillo, S.L.",
+    "web": "tomasmorcillo.net",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "C. Fila, 5, 46550 Albuixech, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJC-eEN2RHYA0RKaGvPr3beHM",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "Masanés Servindustria | Valencia",
+    "web": "masanes.com",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer Camí l'Alquerieta, 46, Pol. Ind, 46470 Masanasa, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ4cONxKBOYA0RpfWqFuEK6hE",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "MOLDBLADE España",
+    "web": "moldblade.com",
+    "sector": "industria_fabricacion",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer del Comte d'Altea, 22, L'Eixample, 46005 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJraetj8xIYA0RV4wxqQXDjqc",
+    "fecha_deteccion": "2026-04-13T13:34:15.361081"
+  },
+  {
+    "empresa_nombre_guess": "Industrias Lekue",
+    "web": "industriaslekue.com",
+    "sector": "industria_fabricacion",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Poligono Industrial \"El Refugio, Ctra. Su Eminencia, sn, 41006 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ0UZshh5vEg0ROPDrpY-08v4",
+    "fecha_deteccion": "2026-04-13T13:34:16.938249"
+  },
+  {
+    "empresa_nombre_guess": "Reyenvas",
+    "web": "reyenvas.com",
+    "sector": "industria_fabricacion",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Autovía Sevilla-Málaga, Km. 5, Polígono Industrial \"La Red\", 41500 Alcalá de Guadaíra, Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJI8VO65BlEg0R0FObQZXB1Dk",
+    "fecha_deteccion": "2026-04-13T13:34:16.938249"
+  },
+  {
+    "empresa_nombre_guess": "Irpen",
+    "web": "irpen.es",
+    "sector": "industria_fabricacion",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Pol. Ind. Store, C. Alicates, 2, Norte, 41008 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJM0HyVzZpEg0RJbOCjEEf2X4",
+    "fecha_deteccion": "2026-04-13T13:34:16.938249"
+  },
+  {
+    "empresa_nombre_guess": "CONDAPLAST, S.A.",
+    "web": "condaplast.es",
+    "sector": "industria_fabricacion",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Polígono Parsi, C. Parsi 6, 1, 41016 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJnWTQam1vEg0RIrDbwRDM00Q",
+    "fecha_deteccion": "2026-04-13T13:34:16.938249"
+  },
+  {
+    "empresa_nombre_guess": "Suministros Jugar SL",
+    "web": "jugar.es",
+    "sector": "industria_fabricacion",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. Pino Central, 50, 41016 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJn5ipSmBvEg0RM3DcLVPk_CY",
+    "fecha_deteccion": "2026-04-13T13:34:16.938249"
+  },
+  {
+    "empresa_nombre_guess": "Coverpan S.L.",
+    "web": "coverpan.es",
+    "sector": "industria_fabricacion",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Polígono Industrial Carretera Amarilla, C. Economía, 17, 41007 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJNbilk8VuEg0R6vpCD7GKN04",
+    "fecha_deteccion": "2026-04-13T13:34:16.938249"
+  },
+  {
+    "empresa_nombre_guess": "GECOL Sevilla",
+    "web": "gecol.com",
+    "sector": "industria_fabricacion",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Polígono Industrial La Isla, C. Río Viejo, 42, 41703 Dos Hermanas, Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJZQPrg_5zEg0R0_2CCL6WfRg",
+    "fecha_deteccion": "2026-04-13T13:34:16.938249"
+  },
+  {
+    "empresa_nombre_guess": "ISOTERMICA, S.L.",
+    "web": "isotermica.net",
+    "sector": "industria_fabricacion",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Poligono Ind. Calonge, C. Metalurgia, 39, Norte, 41007 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ5xdovjtpEg0RCoSjWr_NkNM",
+    "fecha_deteccion": "2026-04-13T13:34:16.938249"
+  },
+  {
+    "empresa_nombre_guess": "POLIFLUOR, S.L.",
+    "web": "polifluor.com",
+    "sector": "industria_fabricacion",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Eretza Mendiaren Kalea, 15, Ibaiondo, 48003 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ1Tx31C1OTg0RJ3h_z1nQ3A0",
+    "fecha_deteccion": "2026-04-13T13:34:18.460051"
+  },
+  {
+    "empresa_nombre_guess": "BJ Industrial",
+    "web": "bjindustrial.es",
+    "sector": "industria_fabricacion",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Zumadi Kalea, 10, Ibaiondo, 48003 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJFd2TiydPTg0RCsmOCYH4cpc",
+    "fecha_deteccion": "2026-04-13T13:34:18.460051"
+  },
+  {
+    "empresa_nombre_guess": "SACINE Oficinas Centrales",
+    "web": "sacine.com",
+    "sector": "industria_fabricacion",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Ugalde K., 23, Errekalde, 48012 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJpQsKoypQTg0RtcDkyaqzCTI",
+    "fecha_deteccion": "2026-04-13T13:34:18.460051"
+  },
+  {
+    "empresa_nombre_guess": "ECOMAT Equipos de limpieza industrial",
+    "web": "ecomatsl.com",
+    "sector": "industria_fabricacion",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Pabellon 4 y 5, Pol. Ind. Ugarte, Calle A, s/n, 48480 Bilbao, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJybl7SSdMTg0RXKSm2FGUbvw",
+    "fecha_deteccion": "2026-04-13T13:34:18.460051"
+  },
+  {
+    "empresa_nombre_guess": "MIMSA - Fabricación de troqueles, utillajes especiales y mecanizado de piezas",
+    "web": "mim-sa.com",
+    "sector": "industria_fabricacion",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Bilbao-Galdakao Errepidea, 30, 48004 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJvY3jqlZOTg0RS469xA-inn8",
+    "fecha_deteccion": "2026-04-13T13:34:18.460051"
+  },
+  {
+    "empresa_nombre_guess": "SCHOLPP Bilbao - Desmontaje, Montaje, Movimiento de Maquinaria, Desmantelamiento y Transporte Industrial Internacional.",
+    "web": "scholpp.es",
+    "sector": "industria_fabricacion",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Alameda de Recalde, 27, 2º, Abando, 48009 Bilbao, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ_SD9AvhPTg0Re7qmzFGM_OI",
+    "fecha_deteccion": "2026-04-13T13:34:18.460051"
+  },
+  {
+    "empresa_nombre_guess": "Bezabala - Suministros de equipos industriales de elevación",
+    "web": "bezabala.com",
+    "sector": "industria_fabricacion",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "PARQUE EMPRESARIAL BOROA, PARCELA 2A 1ª, Astepe, 48340 Amorebieta, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJkxrIDIhaTg0RPa1CWY32usc",
+    "fecha_deteccion": "2026-04-13T13:34:18.460051"
+  },
+  {
+    "empresa_nombre_guess": "JUNTAS MIKELDI, S.L.",
+    "web": "juntasmikeldi.com",
+    "sector": "industria_fabricacion",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Polígono Industrial Ugaldeguren II, Parcela 15 (Pabellón 23- 24) 48170, Ugaldeguren II Pol. Ind., 48170, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJX3kHmk5PTg0RgHtiwBBuHwA",
+    "fecha_deteccion": "2026-04-13T13:34:18.460051"
+  },
+  {
+    "empresa_nombre_guess": "Cargonam Madrid | Logística y Transporte internacional",
+    "web": "cargonam.es",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de Sancho Dávila, 24, Salamanca, 28028 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ2RJDtTcvQg0RLLam9TCrG9A",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "Empresa de transportes Transvolando",
+    "web": "transvolando.com",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. Empleo, 28, Nave 10, Poligono Industrial los Olivos, 28906 Getafe, Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJz8d7DCskQg0RpqP-i2pudOE",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "Transemer",
+    "web": "transemer.es",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Av. Central, 34, Barajas, 28042 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJvwxC6y0uQg0RdKujUyemPkM",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "LOGISTICA DTS, S.L",
+    "web": "dts.es",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Av. de Fuentemar, 19, 28823 Coslada, Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJdbdlzl8wQg0R6_donlgM3Ig",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "Narval Logística Frigorífica",
+    "web": "narval.es",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Centro de Transportes de Madrid, Ctra. Villaverde a Vallecas, Km. 3.5, Villa de Vallecas, 28053 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJjU498UokQg0Rlx761kaUZRg",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "GSB Logistica. Empresa transporte URGENTE",
+    "web": "gsblogistica.es",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "por aparcamiento, C. del Discóbolo, 67, local Entrada, San Blas-Canillejas, 28022 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJC1E6ZZ0vQg0R9nR4Y214zds",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "ARG•LOG Transport Solutions",
+    "web": "arglog.es",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de la Santísima Trinidad, 21, Chamberí, 28010 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJP6WmUr0pQg0RBOQZ4BNQeAQ",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "Logística Nogueras, S.L.",
+    "web": "grupo-nogueras.com",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. Eje 8, 12, 14, Villa de Vallecas, 28053 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ9TJ6CTAkQg0RbdQR7oj0hz8",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "TRANSPORTES S.P.",
+    "web": "transportessp.com",
+    "sector": "logistica_transporte",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Diego de León, Salamanca, 28006 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJITZ5Nkm5Mw0RMUPOfyUsYWo",
+    "fecha_deteccion": "2026-04-13T13:34:20.193228"
+  },
+  {
+    "empresa_nombre_guess": "Cargonam Barcelona | Logística y Transporte internacional",
+    "web": "cargonam.es",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer dels Enamorats, 76, Eixample, 08013 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ_5AjDbCjpBIR4TKA_CffFxs",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "Salve Logística, S.L.",
+    "web": "salvelogistica.com",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer 22, Av. Parc Logístic, 22, Sants-Montjuïc, 08040 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJHeq8Iuq_pBIRvohRhUb_luM",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "Logística Bellido",
+    "web": "logistica-bellido.com",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer del Segle XX, 62, bajo, Horta-Guinardó, 08032 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJZ_-7djK9pBIRX8lfJsfg_ms",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "DRG SOLUTIONS, SL - Logística Internacional y Mensajería Barcelona",
+    "web": "barcelona-logistica.es",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer del Montnegre, 18, Les Corts, 08029 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJhRfA63mYpBIRTyXYATuu3Vo",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "Combiberia Barcelona | Empresa de Logística y Transporte Intermodal",
+    "web": "combiberia.com",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "P.º de Gracia, 12, 1º, Eixample, 08007 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJOwzpbnGjpBIRHRx6EYt3Uwk",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "Rodríguez Sagrera Transportes",
+    "web": "rodriguez-sagrera.com",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Rda. del Port, Sants-Montjuïc, 08038 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJmcwWbUWipBIRWZM7-jNEwjY",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "NARVAL Logística Frigorífica BARCELONA",
+    "web": "narval.es",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Av. Ports d'Europa, 8-10, Nave A, Sants-Montjuïc, 08040 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJaWHSfVOhpBIRCW0cXTKpElw",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "Empresa de transporte Garvi",
+    "web": "transportesgarvi.com",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Sardenya, 533, Planta Baja, Gràcia, 08024 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJF2VA8AGjpBIR_0QbuhndAEc",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "Maresa Logística",
+    "web": "maresalogistica.com",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Parque logístico de la, Calle 3, c/22, Nave 4, Sants-Montjuïc, 08040 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJX1CNTNWZpBIRFvVZyMs9fTE",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "DIR Mensajería - Logística - Transporte Urgente",
+    "web": "dirmensajeria.com",
+    "sector": "logistica_transporte",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer dels Rajolers, 3, Sants-Montjuïc, 08028 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJpyQnQYOYpBIR7vB_-gUo8S0",
+    "fecha_deteccion": "2026-04-13T13:34:21.774057"
+  },
+  {
+    "empresa_nombre_guess": "Almansa Logistic",
+    "web": "almansalogistic.com",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "C. Bernat Descoll, 66, Quatre Carreres, 46026 Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJO_79sJlIYA0Rfx21YniDxRM",
+    "fecha_deteccion": "2026-04-13T13:34:23.397286"
+  },
+  {
+    "empresa_nombre_guess": "VALENCIA P.T. Transporte Express",
+    "web": "valenciapt.es",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "C/ de Tirant lo Blanch, 25, Quatre Carreres, 46013 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJTxSaJ85IYA0RNBzfnNccbYQ",
+    "fecha_deteccion": "2026-04-13T13:34:23.397286"
+  },
+  {
+    "empresa_nombre_guess": "GrupaMar Valencia",
+    "web": "grupamar.es",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Poligono Industrial La Pascualeta, C. Sèquia de Mislata, 7, 46200 Paiporta, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJp0kRhvFOYA0R9wcYlBEgQug",
+    "fecha_deteccion": "2026-04-13T13:34:23.397286"
+  },
+  {
+    "empresa_nombre_guess": "Mar.trans Logística y Transporte SL",
+    "web": "martrans.com",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Avda. del Ing. Manuel Soto, 15, planta 4, Poblados Marítimos, 46024 Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJAY1nN_RIYA0RtkcIjrODjfg",
+    "fecha_deteccion": "2026-04-13T13:34:23.397286"
+  },
+  {
+    "empresa_nombre_guess": "AM CARGO VALENCIA",
+    "web": "amcargo.es",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "C/ Vicente Beltrán Grimal, 23, Entresuelo, Camins al Grau, 46023 Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJn1qgTfRIYA0R-QgvSTksrWY",
+    "fecha_deteccion": "2026-04-13T13:34:23.397286"
+  },
+  {
+    "empresa_nombre_guess": "Reginatrans, S.L.",
+    "web": "reginatrans.com",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "POL. IND EL OLIVERAL, FASE II PARC.14D, 46190, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ3wmp5mdXYA0RCGl3IrfO1DA",
+    "fecha_deteccion": "2026-04-13T13:34:23.398328"
+  },
+  {
+    "empresa_nombre_guess": "Transportes Valencia",
+    "web": "transportesvalencia.es",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer de Bernat Descoll, 39, Quatre Carreres, 46026 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJMZwzjyxPYA0RumDrKPKN2ow",
+    "fecha_deteccion": "2026-04-13T13:34:23.398328"
+  },
+  {
+    "empresa_nombre_guess": "Transportes Hermes Cugat, S.L.",
+    "web": "transporteshermescugat.com",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer de la Font d'en Corts, 231, Mercavalencia, nave 41, Quatre Carreres, 46013 Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJVxZkpW5JYA0RExWs_DDSmVU",
+    "fecha_deteccion": "2026-04-13T13:34:23.398328"
+  },
+  {
+    "empresa_nombre_guess": "Transimbioze Logistic S.L",
+    "web": "transimbioze.com",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer de Vicent Sancho Tello, 19, El Pla del Real, 46021 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJz3JKA75IYA0R2MJs-4zt7Do",
+    "fecha_deteccion": "2026-04-13T13:34:23.398328"
+  },
+  {
+    "empresa_nombre_guess": "Grupo Monllor | Transporte camión y almacén de mercancías Valencia",
+    "web": "grupomonllor.com",
+    "sector": "logistica_transporte",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrer Ciutat de Gibraltar, 20, 46988 Paterna, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ35uTUe5aYA0R3St5Om4TCvM",
+    "fecha_deteccion": "2026-04-13T13:34:23.398328"
+  },
+  {
+    "empresa_nombre_guess": "Moldtrans Sevilla - Empresa de Transporte y logística",
+    "web": "moldtrans.com",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Zona de Actividades Logísticas Z.A.L, C. Esclusa, Parcela 1.10 - Módulos 3 y 4, 41011 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJHRsh7v1tEg0Rt-ZTsaQ6S20",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "Transiv Grupo Logístico",
+    "web": "grupotransiv.es",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. Pino Doncel, 12, 41016 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJhy9OERZvEg0RiQ6tEqQfsxg",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "ENVOS - Almacén Logístico",
+    "web": "envos.com",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Carretera nacional Sevilla-malaga, C. Chaparrilla, 3, 5Km Nave 46, 41016 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJO4q84RNvEg0RoOaS0NJcphk",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "Grupo Trimodos · Stinsa (Centro logístico Sevilla)",
+    "web": "grupotrimodos.com",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Estación RENFE \"La Negrilla, 41006 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJRUr9LWtvEg0RutF40ODqhN0",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "Transportes Moya Sevilla",
+    "web": "transportesmoyasevilla.com",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. Palmito, 23, 41703 Dos Hermanas, Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJUyMXwJNlEg0RpnM0PcvkvQY",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "Redur",
+    "web": "redur.es",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. el Barbero de Sevilla, 92, 41006 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJbZNcEB9vEg0RB4rMDX_mgFg",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "Zv Logística Gestservi S.L.",
+    "web": "gestservi.com",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. Rodillo, 17, Norte, 41007 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJU7_ufzppEg0RlKjNplgToes",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "GrupaMar Sevilla",
+    "web": "grupamar.es",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Carretera de la Esclusa, 15, Poligono Industrial ZAL, nave, 2, 4, módulo 6, 41011 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJI46odzZsEg0RVa3BJjRz7GM",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "Logística Diánez",
+    "web": "transportesdianez.com",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. Chaparrilla, 7, 9,11, 41016 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJs2_naWxvEg0R1ASayG_51J0",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "Boreal Logística y Transportes.L.",
+    "web": "gboreal.es",
+    "sector": "logistica_transporte",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "A-4, KM 530, A-4, 41300, Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJS87eCCxpEg0R5KgO3yCBACU",
+    "fecha_deteccion": "2026-04-13T13:34:24.700442"
+  },
+  {
+    "empresa_nombre_guess": "LOGNA LOGISTICA S.L.",
+    "web": "logna.es",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Edificio Navarra, C. de Navarra, 6, 2do piso, dep 1, Abando, 48001 Bilbao, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJQQ5gKhFPTg0RBoeqxR1xkwY",
+    "fecha_deteccion": "2026-04-13T13:34:26.256755"
+  },
+  {
+    "empresa_nombre_guess": "Acpsi. Empresa de transporte y mensajería urgente nacional e internacional",
+    "web": "acpsi.net",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Av. Larrondo Beheko, 5, Nave 1B, 48180 Loiu, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJs5gUhtBPTg0RbZUcUA5ZZyc",
+    "fecha_deteccion": "2026-04-13T13:34:26.256755"
+  },
+  {
+    "empresa_nombre_guess": "Trans European Transport Suardíaz SL - Oficina Bilbao",
+    "web": "suardiaz.com",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Colón de Larreátegui K., 30, Abando, 48009 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJOaQp6tlPTg0R6f2n0vUEsiw",
+    "fecha_deteccion": "2026-04-13T13:34:26.256755"
+  },
+  {
+    "empresa_nombre_guess": "Sea Air and Land Logistics Solutions Bilbao",
+    "web": "sealls.es",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Done Bikendi Kalea, 8, Abando, 48001 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJbWYivthSESMRG9b__jXpuY8",
+    "fecha_deteccion": "2026-04-13T13:34:26.256755"
+  },
+  {
+    "empresa_nombre_guess": "SUARDIAZ LOGISTICS IBERICA SL - Oficina Bilbao",
+    "web": "suardiaz.com",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Colón de Larreátegui K., 30, Abando, 48009 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJSd3X69lPTg0RZjsdIehpMKQ",
+    "fecha_deteccion": "2026-04-13T13:34:26.256755"
+  },
+  {
+    "empresa_nombre_guess": "Sparber Group",
+    "web": "sparbergroup.com",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Done Bikendi Kalea, 8, EDIFICIO ALBIA I, PLANTA 10, Abando, 48001 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJCeYDytpPTg0RZtWICaQ7d6g",
+    "fecha_deteccion": "2026-04-13T13:34:26.256755"
+  },
+  {
+    "empresa_nombre_guess": "ALCONOR | Logística integral para tu empresa",
+    "web": "alconor.net",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Polígono, C. Lapurdi, 1, pab. 4, Leguizamón, 48450 Legizamon, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJRaR9PfxOTg0RKpGPP7DNOaM",
+    "fecha_deteccion": "2026-04-13T13:34:26.256755"
+  },
+  {
+    "empresa_nombre_guess": "Lizutrans, S.Coop.",
+    "web": "lizutrans.com",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Acceso por rampa McDonald´s, Carr. Bilbao-Galdakao, 26, 48004 Bilbao, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJyR-AlrxAg6ERGgsdw_OI-cc",
+    "fecha_deteccion": "2026-04-13T13:34:26.257763"
+  },
+  {
+    "empresa_nombre_guess": "TRANSPORTES LIGEROS BILBOKO S.L",
+    "web": "transportesbilboko.com",
+    "sector": "logistica_transporte",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Avenida CERVANTES, 51 OFICINA, 48970 Elexalde, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJwYpBG-pOTg0Rv-DQratk_C4",
+    "fecha_deteccion": "2026-04-13T13:34:26.257763"
+  },
+  {
+    "empresa_nombre_guess": "Desarrolla Madrid",
+    "web": "desarrolla.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Calle Velázquez, 46, 3º izda, Salamanca, 28001 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ__8PptYoQg0R11kr9gvw9fw",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Empresa constructora obra nueva en Madrid -Geneo Poland S.L",
+    "web": "geneop.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Calle de Castelló, 24, Esc.1, 1º D, Salamanca, 28001 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJN0ppYr0oQg0RTBXArcEV3tY",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Empresa constructora en Madrid ▪️ OYPA▪️ Obras integrales para clientes profesionales.",
+    "web": "oypa.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de Juan de Mariana, 18, Local 1, Arganzuela, 28045 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJjazV7NEnQg0R_VGMtW4rOJ8",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Mara Obras y construcciones",
+    "web": "maraobras.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Pl. de los Reyes Magos, 12, Retiro, 28007 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJfTjHQ6MpQg0R5RXYr_Gov0E",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Oyrsa Constructora, Promotora e Innovación",
+    "web": "oyrsa.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Calle de Sta Engracia, número 59, Chamberí, 28010 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJH4bdxxYpQg0RnkS8qcI_Pek",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Construcciones Y Obras Ankarsa S A",
+    "web": "ankarsa.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Calle de Alcántara, 33, Salamanca, 28006 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJR2N6irkoQg0R4DPLpvJiq7c",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Luxor Espacios - Rehabilitación de Fachadas y Edificios Madrid",
+    "web": "luxorespacios.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de Segovia, 17, LOCAL, Centro, 28005 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJDad1oX0oQg0RZLBCqsGzWfI",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Allreforms Construcciones Y Obras Sl.",
+    "web": "allreforms.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "Calle del General Díaz Porlier, n.8, local 21, Salamanca, 28001 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJDZDiZLsoQg0RjLLp0s79RpM",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "EMPRESA PRINCIPAL - RIGGERSA CONSTRUCCIONES S.L.",
+    "web": "riggersa.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de Puerto Serrano, 24, Arganzuela, 28045 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJwy56sDYmQg0R5_yT1wMPQwQ",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Alma Construcciones",
+    "web": "almaconstrucciones.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Madrid",
+    "fuente": "google_places",
+    "senal": "C. de Menorca, 28, Retiro, 28009 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJQ9bkCfKdQQ0Rf-LjXcDflK8",
+    "fecha_deteccion": "2026-04-13T13:34:27.625649"
+  },
+  {
+    "empresa_nombre_guess": "Desarrolla Barcelona",
+    "web": "desarrolla.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "C. de Pau Claris, 139, piso 4º, oficina 6, Eixample, 08009 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJoVWonPqjpBIRjreZEWENcgw",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "RIAC CONSTRUCCIONES",
+    "web": "riacconstrucciones.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Sardenya, 483, Gràcia, 08025 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJEZo1cWCapBIRYWtRBvG90MQ",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "Contratas y Obras Empresa Constructora S.L.",
+    "web": "contratasyobras.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer d'Evarist Arnús, 29, bajos, Les Corts, 08014 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJId8IeW2YpBIRmI_czfZgjTk",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "CONSTRUCCIONES RUBAU",
+    "web": "rubau.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Provença, 392, 2ª planta, Eixample, 08025 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJKwd1WOyipBIRscwFwy3buWk",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "Trabal Construccions",
+    "web": "umatrabal.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Provença, 238, 2º3ª, Eixample, 08008 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJp6jtxJGipBIRjeimg5jUW9M",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "Infrisa Construcciones y Obras",
+    "web": "infrisa.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer de Mejía Lequerica, 18, Les Corts, 08028 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ25nWbGCYpBIR1kV4kfWwwzc",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "Build BCN Constructora / Renovation Company",
+    "web": "buildbcn.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Av. de la Mare de Déu de Montserrat, 106, Horta-Guinardó, 08024 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJy-lEBvejpBIRDIpYBnDhfms",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "Grupo 2 SA",
+    "web": "grupo2sa.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Brusi 39, Desp.64, Sarrià-Sant Gervasi, 08006 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJLYNEdZejpBIRBD5EVWpNjGw",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "Biloba Projectum Construcción",
+    "web": "bilobaprojectum.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Via Augusta, 42, 1, Gràcia, 08006 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJg5tDLe2ipBIRI3YPIH0kdIs",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "Reformas y Construcciones DEKA",
+    "web": "reformasbarcelonadeka.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Barcelona",
+    "fuente": "google_places",
+    "senal": "Carrer d'Aribau, 272, Sarrià-Sant Gervasi, 08006 Barcelona, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJjbyoj7-YpBIRNWP7pmMN9MM",
+    "fecha_deteccion": "2026-04-13T13:34:28.928339"
+  },
+  {
+    "empresa_nombre_guess": "ELO Construcciones | Reformas Integrales",
+    "web": "eloconstrucciones.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Av. País Valencià, 20, 46139 La Pobla de Farnals, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJmd3P591AYA0RrjGJ5AHmhzU",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Marina d'Or Construcciones Valencia",
+    "web": "marinadorconstrucciones.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Avinguda de Pérez Galdós, 139, L'Olivereta, 46018 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJB7y3X85PYA0RL3ixu9i8Wv0",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "grupo VEDRÍ SL",
+    "web": "grupovedri.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Calle de Juan Llorens, 5, Bajo primero, Extramurs, 46008 Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJFdZTQEtPYA0RV308k9tyiVc",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Origen Construcciones",
+    "web": "origenconstrucciones.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Pasaje Del, Passatge Dr. Bartual Moret, 6, Ent E, El Pla del Real, 46010 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJpe4aSp9IYA0RXz4afS77H7o",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Grupo Tesela",
+    "web": "grupotesela.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "C/ de Roger de Llòria, 6, Ciutat Vella, 46002 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ349oMaBJYA0RLmd05I0xhAg",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Rubival Construcciones S.L.",
+    "web": "rubival.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Av. del Mestre Rodrigo, 42, Campanar, 46015 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJBZae9WVPYA0RG6AwvN9I2Iw",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Torrescamara y Cía. de Obras, S.A.",
+    "web": "torrescamara.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Av. del Port, 332, Poblados Marítimos, 46024 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJtX30y15IYA0Rc8B7zV59BSo",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Pavasal Empresa Constructora",
+    "web": "pavasal.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "C/ de les Tres Forques, 149, Patraix, 46014 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJw-VtZQtPYA0RLCiSwqhD5Ys",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Construcciones y Reformas Valencia",
+    "web": "construccionesyreformas-valencia.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Pg. de l'Albereda, 12, El Pla del Real, 46010 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJEQd5EQBJYA0RjyWhUNCO-Fo",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Metro Lineal",
+    "web": "metrolineal.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Valencia",
+    "fuente": "google_places",
+    "senal": "Carrera de la Font d'en Corts, 86, Quatre Carreres, 46013 València, Valencia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ_2A6DN9IYA0Rds2nXwIfthw",
+    "fecha_deteccion": "2026-04-13T13:34:30.317168"
+  },
+  {
+    "empresa_nombre_guess": "Esteban Portillo Construcciones SL",
+    "web": "estebanportillo.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. Pino Central, 65, 41016 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJF1uCphZvEg0Ro_ztKIMMGt4",
+    "fecha_deteccion": "2026-04-13T13:34:31.882975"
+  },
+  {
+    "empresa_nombre_guess": "OBRAS Y REFORMAS SEVILLA - GRUPO CERES",
+    "web": "grupoceres.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Avda. San Francisco Javier, 9, Edificio Sevilla, 2, planta 6, módulo 10, 41018 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJGxRVFJhuEg0R_GhZCHA2jb0",
+    "fecha_deteccion": "2026-04-13T13:34:31.882975"
+  },
+  {
+    "empresa_nombre_guess": "Quales",
+    "web": "qualesconstrucciones.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Av. de la República Argentina, 35A, planta 2 Izquierda, 41011 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJzW_eZD9sEg0RoVhhP-a5dco",
+    "fecha_deteccion": "2026-04-13T13:34:31.882975"
+  },
+  {
+    "empresa_nombre_guess": "Techno Faro",
+    "web": "technofaro.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Av. Eduardo Dato, 43, 41018 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJO3SVNaJuEg0RJJUKovk4ZDo",
+    "fecha_deteccion": "2026-04-13T13:34:31.882975"
+  },
+  {
+    "empresa_nombre_guess": "Lozano Construcciones S.L",
+    "web": "lozanoconstrucciones.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Génova, 4, 41011 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJYRhEzFxxEg0R_qH6tmoTSOg",
+    "fecha_deteccion": "2026-04-13T13:34:31.882975"
+  },
+  {
+    "empresa_nombre_guess": "Obra Sevilla",
+    "web": "constructorasanjose.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. Don Remondo, Casco Antiguo, 41004 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJBdrxVABtEg0R3CkySAjl5TM",
+    "fecha_deteccion": "2026-04-13T13:34:31.882975"
+  },
+  {
+    "empresa_nombre_guess": "Reformas en Sevilla",
+    "web": "reformasensevilla.net",
+    "sector": "construccion_ingenieria",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "C. Fernando Zóbel, 1 B, 1ª Planta, Despacho 34, 41020 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJv20XdpJpEg0Rslo33MkDIRY",
+    "fecha_deteccion": "2026-04-13T13:34:31.882975"
+  },
+  {
+    "empresa_nombre_guess": "Proube Constructora",
+    "web": "proube.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Sevilla",
+    "fuente": "google_places",
+    "senal": "Pl. Nueva, 11, 3º, Casco Antiguo, 41001 Sevilla, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ92xCoBBsEg0RWMnuP_OkfRU",
+    "fecha_deteccion": "2026-04-13T13:34:31.882975"
+  },
+  {
+    "empresa_nombre_guess": "Arra Construcción y Proyectos S.L",
+    "web": "arraconstruccion.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Rodríguez Arias K., 23, Planta 2 departamento 10, Abando, 48009 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJizEqN9dPTg0Rth6u2rJmOek",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "Desarrolla Bilbao",
+    "web": "desarrolla.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "C. Hurtado de Amézaga, 20, 3º Derecha/Izquierda, Abando, 48008 Bilbao, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJY69Be15PTg0RI9R1cgQQ8K0",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "Obria obras y servicios",
+    "web": "obriasl.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Uribitarte Pasealekua, 11, bajó, Abando, 48001 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJqTrO1oxPTg0RH97FNMTXtLo",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "FHIMASA",
+    "web": "fhimasa.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Ribera de Axpe Etorbidea, 34, Astrabudua, 48950 Erandio, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJGyz9DsZPTg0Rpf_Q6NYogxA",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "Construcciones Bilbao",
+    "web": "construccionesbilbao-norte.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Pablo de Alzola Kalea, 2, Basurtu-Zorrotza, 48012 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJjc9mbglRTg0R7cHAYDZmgZM",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "Kaizen Construcciones",
+    "web": "kaizenconstrucciones.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "C. Universidad de Oñate, 18, Loc Iz, Deusto, 48015 Bilbao, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ9050WzJRTg0RoYKdubr1bmg",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "Construcciones Castellano Sociedad Anonima",
+    "web": "construccionescastellano.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Plaza de Amézola, 2 Entreplanta Izq, Errekalde, 48012 Bilbao, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJfVvm6vlOTg0ROFRRRgr-gzk",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "Viconsa",
+    "web": "viconsa.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Calle Concha Jeneralaren, 12 4 Dha Dha, Abando, 48008 Bilbao, Vizcaya, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJfxVTAtdPTg0RtD8tYcRr60Q",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "GT Reformas Integrales",
+    "web": "gtreformas.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Lidon Jose Maria Kalea, 8, 48004 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJY8ZHE22kuCIR6SrYP9DiAXk",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "CONSTRUCCIONES EGINETXE SL",
+    "web": "obras-reformas-construccion-bilbao.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Bilbao",
+    "fuente": "google_places",
+    "senal": "Henao Kalea, 7, Abando, 48009 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJUTiUi9pPTg0RhzWoeF7kirM",
+    "fecha_deteccion": "2026-04-13T13:34:33.219039"
+  },
+  {
+    "empresa_nombre_guess": "Novak Djokovic VS Alexander Zverev",
+    "web": "atptour.com",
+    "sector": "industria_fabricacion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "View rivalry results and stats for matches on the ATP Tour.",
+    "url_origen": "https://www.atptour.com/en/players/atp-head-2-head/novak-djokovic-vs-alexander-zverev/D643/Z355",
+    "fecha_deteccion": "2026-04-13T13:34:50.904503"
+  },
+  {
+    "empresa_nombre_guess": "Alexander Zverev Novak Djokovic live score and H2H results",
+    "web": "sofascore.com",
+    "sector": "industria_fabricacion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "4 de jun. de 2025 · Alexander Zverev v Novak Djokovic is part of French Open, Paris, France. Results of the previous head to head matches between Alexander Zverev and Novak Djokovic are also …",
+    "url_origen": "https://www.sofascore.com/tennis/match/alexander-zverev-novak-djokovic/HXfsnTx",
+    "fecha_deteccion": "2026-04-13T13:34:50.904503"
+  },
+  {
+    "empresa_nombre_guess": "Novak Djokovic vs Alexander Zverev H2H & Live Scores",
+    "web": "tennisstats.com",
+    "sector": "industria_fabricacion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "H2H data, Results, Live scores, and performance comparison on all matches between Novak Djokovic and Alexander Zverev",
+    "url_origen": "https://tennisstats.com/h2h/novak-djokovic-vs-alexander-zverev-140956",
+    "fecha_deteccion": "2026-04-13T13:34:50.904503"
+  },
+  {
+    "empresa_nombre_guess": "H2H Novak Djokovic Vs Alexander Zverev stats, prediction, head to head ...",
+    "web": "tennistonic.com",
+    "sector": "industria_fabricacion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Preview, head to head and prediction for the upcoming match of Novak Djokovic vs Alexander Zverev . Draw, odds and H2H rankings progression with comparison between the 2 players about their …",
+    "url_origen": "https://tennistonic.com/head-to-head-compare/Novak-Djokovic-Vs-Alexander-Zverev/",
+    "fecha_deteccion": "2026-04-13T13:34:50.904503"
+  },
+  {
+    "empresa_nombre_guess": "Novak Djokovic vs Alexander Zverev head-to-head record, last 5 …",
+    "web": "khelnow.com",
+    "sector": "industria_fabricacion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "5 de jun. de 2025 · After three hours of intense tennis action, Djokovic triumphed 4-6, 6-3, 6-2, 6-4 to book his place in the semi-finals and take one more step closer to an unprecedented 25th Major. His …",
+    "url_origen": "https://khelnow.com/tennis/novak-djokovic-vs-alexander-zverev-head-to-head-record-202501",
+    "fecha_deteccion": "2026-04-13T13:34:50.904503"
+  },
+  {
+    "empresa_nombre_guess": "Novak Djokovic outlasts Alexander Zverev to reach French Open semis",
+    "web": "espn.com",
+    "sector": "industria_fabricacion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "4 de jun. de 2025 · Novak Djokovic, the No. 6 seed, proved too much for No. 3 Alexander Zverev, winning 4-6, 6-3, 6-2, 6-4 to set up a French Open semifinal showdown vs. No. 1 Jannik Sinner.",
+    "url_origen": "https://www.espn.com/tennis/story/_/id/45452455/novak-djokovic-outlasts-alexander-zverev-reach-french-open-semis",
+    "fecha_deteccion": "2026-04-13T13:34:50.904503"
+  },
+  {
+    "empresa_nombre_guess": "Djokovic defeats Zverev at French open, inches closer to 25th Grand ...",
+    "web": "france24.com",
+    "sector": "industria_fabricacion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "5 de jun. de 2025 · Novak Djokovic said beating Alexander Zverev on Wednesday was a \"testament\" to his ability to compete at the highest level as the 38-year-old reached the semi-finals at Roland …",
+    "url_origen": "https://www.france24.com/en/sport/20250605-djokovic-zverev-french-open-grand-slam",
+    "fecha_deteccion": "2026-04-13T13:34:50.904503"
+  },
+  {
+    "empresa_nombre_guess": "Alexander Zverev vs Novak Djokovic Tennis H2H Record",
+    "web": "aiscore.com",
+    "sector": "industria_fabricacion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "4 de jun. de 2025 · This page lists the head-to-head record of Alexander Zverev vs Novak Djokovic including biggest victories and defeats between the two sides, and H2H stats in all competitions.",
+    "url_origen": "https://www.aiscore.com/head-to-head/tennis/alexander-zverev-vs-novak-djokovic",
+    "fecha_deteccion": "2026-04-13T13:34:50.904503"
+  },
+  {
+    "empresa_nombre_guess": "¿Qué es la logística? Significado, Procesos y Ejemplos",
+    "web": "dhl.com",
+    "sector": "logistica_transporte",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "12 de mar. de 2023 · La logística se refiere al marco de planificación que permite a las empresas almacenar y transportar sus mercancías a sus clientes. Abarca la adquisición, la gestión de …",
+    "url_origen": "https://www.dhl.com/discover/es-es/asesoramiento-logistico/asesoramiento-exportacion-importacion/que-es-logistica",
+    "fecha_deteccion": "2026-04-13T13:34:54.816579"
+  },
+  {
+    "empresa_nombre_guess": "Informe CESA 2023. Logística y transporte",
+    "web": "aragon.es",
+    "sector": "logistica_transporte",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "La logística desempeña un papel estratégico y transversal dentro de la economía aragonesa, además de considerarse un factor clave para el sector industrial, tan relevante en Aragón.",
+    "url_origen": "https://www.aragon.es/documents/d/guest/8-logistica-y-transporte",
+    "fecha_deteccion": "2026-04-13T13:34:54.816579"
+  },
+  {
+    "empresa_nombre_guess": "Gestión logística. ¿Qué es y para qué sirve?",
+    "web": "logistiko.es",
+    "sector": "logistica_transporte",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "12 de abr. de 2024 · La gestión logística se refiere a la planificación, implementación y control eficiente del flujo y almacenamiento de bienes, servicios e información relacionada, desde el punto de origen …",
+    "url_origen": "https://logistiko.es/blog/gestion-logistica-que-es-y-para-que-sirve/",
+    "fecha_deteccion": "2026-04-13T13:34:54.816579"
+  },
+  {
+    "empresa_nombre_guess": "Logística: Guía definitiva (Qué es, tipos y más)",
+    "web": "aprendeindustrial.com",
+    "sector": "logistica_transporte",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "4 de nov. de 2024 · Este artículo explorará en detalle los aspectos clave de la logística de una empresa. Analizaremos desde los conceptos básicos hasta las estrategias más avanzadas, incluyendo …",
+    "url_origen": "https://aprendeindustrial.com/la-logistica/",
+    "fecha_deteccion": "2026-04-13T13:34:54.816579"
+  },
+  {
+    "empresa_nombre_guess": "Inicio",
+    "web": "logicinca.com",
+    "sector": "logistica_transporte",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "4 de feb. de 2019 · Podemos ofrecerte toda la cobertura logistica que tu empresa necesita Contacta con nosotros. Tienes tus productos en unas instalaciones adecuadas, limpias, ordenadas y seguras. …",
+    "url_origen": "https://logicinca.com/",
+    "fecha_deteccion": "2026-04-13T13:34:54.816579"
+  },
+  {
+    "empresa_nombre_guess": "ALZA obras y servicios – Construir es nuestra pasión",
+    "web": "alzaobrasyservicios.com",
+    "sector": "construccion_ingenieria",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Somos transparentes en nuestra manera de trabajar y creamos fuertes vínculos con todos nuestros clientes. Escuchar y saber …",
+    "url_origen": "https://www.alzaobrasyservicios.com/",
+    "fecha_deteccion": "2026-04-13T13:35:06.456900"
+  },
+  {
+    "empresa_nombre_guess": "Construcciones Natybab",
+    "web": "construccionesnatybab.es",
+    "sector": "construccion_ingenieria",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Construcciones Natybab es una empresa líder en el sector de la construcción y reformas, con una trayectoria destacada y un firme compromiso …",
+    "url_origen": "https://construccionesnatybab.es/",
+    "fecha_deteccion": "2026-04-13T13:35:06.456900"
+  },
+  {
+    "empresa_nombre_guess": "SANJOSE Constructora",
+    "web": "constructorasanjose.com",
+    "sector": "construccion_ingenieria",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Algunas de ellas son esenciales, mientras que otras nos ayudan a mejorar este sitio web y su experiencia. Grupo SANJOSE entiende cada …",
+    "url_origen": "https://www.constructorasanjose.com/",
+    "fecha_deteccion": "2026-04-13T13:35:06.456900"
+  },
+  {
+    "empresa_nombre_guess": "Las 10 mejores Empresas de Construcción en Alcalá de Henares",
+    "web": "alcala-de-henares.infoisinfo.es",
+    "sector": "construccion_ingenieria",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Somos una empresa de construcción con muchos años de experiencia que se dedica tanto a la obra nueva como a la rehabilitación. …",
+    "url_origen": "https://alcala-de-henares.infoisinfo.es/busqueda/empresas_construccion",
+    "fecha_deteccion": "2026-04-13T13:35:06.458095"
+  },
+  {
+    "empresa_nombre_guess": "Ingenierías, 24 tipos y ramas de Ingeniería que puedes estudiar",
+    "web": "itcsa.es",
+    "sector": "construccion_ingenieria",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Si estas interesado en estudiar ingeniería y no sabes cuál escoger, te presentamos aquí una lista de todas las opciones de …",
+    "url_origen": "https://www.itcsa.es/ingenierias/",
+    "fecha_deteccion": "2026-04-13T13:35:11.317319"
+  },
+  {
+    "empresa_nombre_guess": "Las 6 mejores empresas de ingeniería en Oviedo",
+    "web": "mejoresdeoviedo.es",
+    "sector": "construccion_ingenieria",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "20 de jun. de 2024 · Las empresas de ingeniería de Oviedo se dedican a ofrecer soluciones técnicas y profesionales en …",
+    "url_origen": "https://mejoresdeoviedo.es/empresa-ingenieria-oviedo/",
+    "fecha_deteccion": "2026-04-13T13:35:11.317319"
+  },
+  {
+    "empresa_nombre_guess": "Instituto de Auditores Internos de España.",
+    "web": "auditoresinternos.es",
+    "sector": "servicios_profesionales",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Esta guía, actualizada a las Normas Globales de Auditoría Interna 2024, describe en qué consiste la Auditoría Continua, cuándo está indicado …",
+    "url_origen": "https://auditoresinternos.es/",
+    "fecha_deteccion": "2026-04-13T13:35:22.874424"
+  },
+  {
+    "empresa_nombre_guess": "Contacto",
+    "web": "remax.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "En REMAX España tenemos la solución que necesitas. Convertirnos en la empresa líder del sector es algo que en REMAX nos propusimos cuando elegimos España para desembarcar, por primera vez en Europa, en 1994.",
+    "url_origen": "https://www.remax.es/contacto/",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "El mayor directorio de inmobiliarias de España",
+    "web": "agenciasinmobiliarias.com.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Encuentra inmobiliarias de cualquier ciudad de España con nuestros listados específicos por ciudades y zonas. Simplemente selecciona la …",
+    "url_origen": "https://agenciasinmobiliarias.com.es/",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "Inmobiliaria: comprar, vender y alquilar",
+    "web": "grupotorres.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Si estás buscando una inmobiliaria que te brinde un servicio personalizado y de calidad, no dudes en contactar con nosotros. Estaremos …",
+    "url_origen": "https://grupotorres.com/",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "Contacto",
+    "web": "solvia.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Contacta con Solvia para obtener un asesoramiento profesional y personalizado para la venta, alquiler o compra de casas, pisos, naves industriales o locales",
+    "url_origen": "https://www.solvia.es/es/contacto",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "InmobiliariaNerja",
+    "web": "inmobiliarianerja.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Espectacular apartamento recién reformado con materiales y acabados de primerísimas calidades, en el Paseo de Cerrado de Calderon, …",
+    "url_origen": "https://www.inmobiliarianerja.com/till-salu/malaga/55856/Lägenhet-med-4-sovrum-på-strandpromenaden-i-Cerrado-de-Calderón-[IN-909]/?price_curr=EUR&id=55856",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "InmobiliariaNerja",
+    "web": "inmobiliarianerja.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Vivienda luminosa y moderna ubicada en una cuarta planta con ascensor, a solo unos pasos de la playa. Consta de 90 m2 construidos, …",
+    "url_origen": "https://www.inmobiliarianerja.com/en-venta/el-morche/59616/-[SCFC-59616]/?lang=spa",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "InmobiliariaNerja",
+    "web": "inmobiliarianerja.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Apartamento situado en el Paseo de San Cristobal, primera línea de playa y frontal al mar.Recientemente reformado, consta de 64 …",
+    "url_origen": "https://www.inmobiliarianerja.com/til-salgs/almunecar/54980/1-roms-leilighet-mot-sjøen-1-linje-til-stranden-[IN-874]/?lang=spa&id=54980",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "InmobiliariaNerja",
+    "web": "inmobiliarianerja.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Finca rústica de 160 arboles de aguacates en producción con una gran casa, piscina, situada en Almayate Alto, a solo 2km de la autovía A7, …",
+    "url_origen": "https://www.inmobiliarianerja.com/till-salu/almayate-alto/54370/Rustik-finca-på-9200-m2-med-hus-med-3-sovrum-pool-160-avokado-[IN-838]/?price_curr=NOK&id=54370&id=54370&id=54370",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "InmobiliariaNerja",
+    "web": "inmobiliarianerja.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Acogedora casa típica de pueblo andaluz ubicada en el pequeño pueblo de Maro a tan solo 5km de Nerja.La casa consiste en entrada al gran …",
+    "url_origen": "https://www.inmobiliarianerja.com/en-venta/nerja/36524/Acogedora-casa-típica-de-pueblo-andaluz-con-patio-en-Maro-[CP7N-41018]/?price_curr=SEK&id=36524&id=36524&id=36524",
+    "fecha_deteccion": "2026-04-13T13:35:42.486461"
+  },
+  {
+    "empresa_nombre_guess": "Mediterránea Group I Especialistas en restauración",
+    "web": "mediterranea-group.com",
+    "sector": "hosteleria_grupos",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Servicios de restauración para Hospitales, Empresas, Educación, Socio Sanitario y Vending. Con presencia en: España, …",
+    "url_origen": "https://www.mediterranea-group.com/",
+    "fecha_deteccion": "2026-04-13T13:48:50.566898"
+  },
+  {
+    "empresa_nombre_guess": "Restalia grupo de restauración líder en España. ¡Únete y sé tu propio j…",
+    "web": "gruporestalia.com",
+    "sector": "hosteleria_grupos",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Grupo Restalia es una empresa multinacional española líder en Neorestauración con presencia en más de 12 países y 300 ciudades a nivel mundial.",
+    "url_origen": "https://www.gruporestalia.com/contacto/",
+    "fecha_deteccion": "2026-04-13T13:48:50.566898"
+  },
+  {
+    "empresa_nombre_guess": "Serunion – La empresa líder de restauración colectiva en España",
+    "web": "serunion.es",
+    "sector": "hosteleria_grupos",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Ponte en contacto con Serunion, la empresa líder del sector que te ofrecerá todo el asesoramiento personalizado que necesites para hacer realidad tu proyecto.",
+    "url_origen": "https://www.serunion.es/es",
+    "fecha_deteccion": "2026-04-13T13:48:50.566898"
+  },
+  {
+    "empresa_nombre_guess": "TASTIA GROUP",
+    "web": "marcasderestauracion.es",
+    "sector": "hosteleria_grupos",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Hoy día, se ha convertido en uno de los grandes grupos de restauración a nivel nacional, integrado por tres divisiones de …",
+    "url_origen": "https://marcasderestauracion.es/asociados/tastia-group/",
+    "fecha_deteccion": "2026-04-13T13:48:50.566898"
+  },
+  {
+    "empresa_nombre_guess": "Ausolan",
+    "web": "ausolan.com",
+    "sector": "hosteleria_grupos",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Ofrecemos servicios de catering y limpieza para colegios, residencias, hospitales y empresas. Somos tu partner perfecto.",
+    "url_origen": "https://www.ausolan.com/",
+    "fecha_deteccion": "2026-04-13T13:48:50.566898"
+  },
+  {
+    "empresa_nombre_guess": "Inicio",
+    "web": "eatout.es",
+    "sector": "hosteleria_grupos",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Eat Out es el Grupo líder de restauración organizada a nivel nacional, que pertenece al grupo de restauración Ibersol. Con más de 25 años de experiencia en el sector, somos expertos en conocimiento y presencia de marca en el mercado, en gestión de fr",
+    "url_origen": "https://eatout.es/",
+    "fecha_deteccion": "2026-04-13T13:48:50.566898"
+  },
+  {
+    "empresa_nombre_guess": "加入和开通XGP会员教程",
+    "web": "zhihu.com",
+    "sector": "retail_cadenas",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "目前微软XGP做活动，新用户开通XGP三个月只用8元，然后就可以玩到steam最新发售和即将发售的售价几百块钱的3A大作。",
+    "url_origen": "https://www.zhihu.com/tardis/bd/art/429293627",
+    "fecha_deteccion": "2026-04-13T13:49:09.743770"
+  },
+  {
+    "empresa_nombre_guess": "office365各版本有何区别？",
+    "web": "zhihu.com",
+    "sector": "retail_cadenas",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Office 365的版本从使用人群上来分很简单，无非就是个人使用和商业使用，另外还有教育、非盈利机构等特殊版本； 如果 …",
+    "url_origen": "https://www.zhihu.com/question/332901315?d=123",
+    "fecha_deteccion": "2026-04-13T13:49:09.743770"
+  },
+  {
+    "empresa_nombre_guess": "retail operation有发展吗？",
+    "web": "zhihu.com",
+    "sector": "retail_cadenas",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "别把这个想的太大，也不要想的太小，operation具体有很多职能，看你在哪个岗位.不同品牌设定略微有差异，你做的是店铺 …",
+    "url_origen": "https://www.zhihu.com/question/277048380",
+    "fecha_deteccion": "2026-04-13T13:49:09.743770"
+  },
+  {
+    "empresa_nombre_guess": "使用KMS激活office2019之后变成了office Mondo 2016，请问如何恢 …",
+    "web": "zhihu.com",
+    "sector": "retail_cadenas",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "电脑小白，今天使用HEU_KMS_Activator_v19.6.3激活了一下我的office2019，结果发现我的版本变成 …",
+    "url_origen": "https://www.zhihu.com/question/424138036",
+    "fecha_deteccion": "2026-04-13T13:49:09.743770"
+  },
+  {
+    "empresa_nombre_guess": "Windows 10 business 和 consumer 中的专业版有什么不同？",
+    "web": "zhihu.com",
+    "sector": "retail_cadenas",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "14 de mar. de 2020 · Windows10 有business editions 和 consumer editions 版。其中每个都有 专业工作站版，可这2个专业工作…",
+    "url_origen": "https://www.zhihu.com/question/379426445",
+    "fecha_deteccion": "2026-04-13T13:49:09.743770"
+  },
+  {
+    "empresa_nombre_guess": "Descargar Microsoft 365 gratis para PC, Mac, Android (APK)",
+    "web": "es.ccm.net",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "13 de mar. de 2024 · Office ahora es Microsoft 365 y se presenta como una nueva plataforma innovadora conectada a la nube para aumentar la productividad con todas sus aplicaciones, como …",
+    "url_origen": "https://es.ccm.net/descargas/profesional/11272-descargar-microsoft-365-gratis-para-pc-mac-android-apk/",
+    "fecha_deteccion": "2026-04-13T13:49:17.322845"
+  },
+  {
+    "empresa_nombre_guess": "Office gratis sin licencia y sin descargar nada: en PC y Mac",
+    "web": "es.ccm.net",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "8 de nov. de 2023 · ¿Necesitas Microsoft Office, pero no quieres pagar la licencia? Ahora es posible tener el paquete Office completo en español, gratis y de manera 100% legal gracias a una opción …",
+    "url_origen": "https://es.ccm.net/aplicaciones-e-internet/ofimatica/1796-como-conseguir-microsoft-office-gratis-sin-descargar-nada/",
+    "fecha_deteccion": "2026-04-13T13:49:17.322845"
+  },
+  {
+    "empresa_nombre_guess": "Cómo conseguir serial o licencia de Office 2016, 2021, 365",
+    "web": "es.ccm.net",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "14 de ago. de 2023 · En Office 2021, 2019 y 2016 Al comprar una licencia de Office en línea, es necesario crear una cuenta de Microsoft (o conectarte si ya tienes una).",
+    "url_origen": "https://es.ccm.net/aplicaciones-e-internet/ofimatica/1854-como-conseguir-el-serial-de-office-2016/",
+    "fecha_deteccion": "2026-04-13T13:49:17.322845"
+  },
+  {
+    "empresa_nombre_guess": "Descargar Microsoft Office 2016 gratis para PC, Mac",
+    "web": "es.ccm.net",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "29 de feb. de 2024 · Microsoft Office 2016 es una de las últimas ediciones de la suite ofimática más completa del mercado. Tiene un renovado aspecto visual, nuevas funciones y herramientas …",
+    "url_origen": "https://es.ccm.net/descargas/profesional/5604-office-2016-profesional-para-pc/",
+    "fecha_deteccion": "2026-04-13T13:49:17.322845"
+  },
+  {
+    "empresa_nombre_guess": "如何在 Office 365 取得 POP，IMAP 及 SMTP 存取设定",
+    "web": "jingyan.baidu.com",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "在微软office 365 官方网站上取得。 1、IMAP 服务器名称outlook.office365.com， 2、IMAP 端口 993，IMAP 加密方法TLS， 3、POP 服务器名称outlook.office365.com， 4、POP 端口 995， 5 …",
+    "url_origen": "https://jingyan.baidu.com/article/aa6a2c1496fd3a4c4c19c4fa.html",
+    "fecha_deteccion": "2026-04-13T13:49:17.322845"
+  },
+  {
+    "empresa_nombre_guess": "如何激活Office 365",
+    "web": "jingyan.baidu.com",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "这篇文章主要介绍激活Office 365的三种方法。（如果你还没下载安装Office 365，请先下载安装。链接见下方）对于大多数人来说，如果你不是财大气粗的、直接购买Microsoft 365的牛人，那么你可以直接 …",
+    "url_origen": "https://jingyan.baidu.com/article/c85b7a642c24f6413aac9548.html",
+    "fecha_deteccion": "2026-04-13T13:49:17.323532"
+  },
+  {
+    "empresa_nombre_guess": "Cómo ver y cambiar márgenes en Word: Office 365, PC, Mac",
+    "web": "es.ccm.net",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "7 de nov. de 2023 · Por defecto, Word establece márgenes que suelen ser de una pulgada. Si lo deseas, puedes activar la función de visualizar márgenes, cambiar manualmente con la regla el …",
+    "url_origen": "https://es.ccm.net/aplicaciones-e-internet/ofimatica/3560-como-ver-y-cambiar-los-margenes-en-word/",
+    "fecha_deteccion": "2026-04-13T13:49:17.323532"
+  },
+  {
+    "empresa_nombre_guess": "Traducir en Word (365, 2019, 2016...): inglés a español...",
+    "web": "es.ccm.net",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "27 de ene. de 2023 · Con Microsoft Word puedes traducir palabras, frases o incluso documentos completos escritos en otro idioma. Para realizar las traducciones, Microsoft Word utiliza el servicio …",
+    "url_origen": "https://es.ccm.net/aplicaciones-e-internet/ofimatica/10368-como-realizar-traducciones-en-word/",
+    "fecha_deteccion": "2026-04-13T13:49:17.323532"
+  },
+  {
+    "empresa_nombre_guess": "Office365官方下载，正确安装教程！-百度经验",
+    "web": "jingyan.baidu.com",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Office 365 官方定义于2020年4月21日正式升级为Microsoft 365。 其为一种订阅式跨平台软件，基于云服务，通过将 Word，PowerPoint，Excel 等应用与 OneDrive 和 Microsoft Teams 等云服务结合，让 …",
+    "url_origen": "https://jingyan.baidu.com/article/636f38bb0a9bbe97b946106f.html",
+    "fecha_deteccion": "2026-04-13T13:49:17.323532"
+  },
+  {
+    "empresa_nombre_guess": "Descargar Microsoft Outlook gratis: PC, Mac, Android (APK)",
+    "web": "es.ccm.net",
+    "sector": "energia_utilities",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "19 de ene. de 2024 · Como aplicación nativa de escritorio, Outlook forma parte de los programas incluidos en los planes de suscripción de Microsoft 365. Puedes probarla gratis durante 30 días junto …",
+    "url_origen": "https://es.ccm.net/descargas/comunicacion/7828-microsoft-outlook-para-pc/",
+    "fecha_deteccion": "2026-04-13T13:49:17.323532"
+  },
+  {
+    "empresa_nombre_guess": "OCASIONPLUS 120 Centros en España. +20.000 Coches",
+    "web": "ocasionplus.com",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Garantía OcasionPlus se convierte en la única empresa de compra-venta de coches de segunda mano que ofrece 15 días o 1.000 kilómetros de …",
+    "url_origen": "https://www.ocasionplus.com/",
+    "fecha_deteccion": "2026-04-13T13:49:25.383020"
+  },
+  {
+    "empresa_nombre_guess": "Busca tu concesionario oficial de Ford más cercano",
+    "web": "ford.es",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Entra aquí y localiza tu concesionario oficial de Ford más cercano en nuestro sitio web. Haz clic aquí y elige el que mejor te convenga. ¡Te …",
+    "url_origen": "https://www.ford.es/buscar-concesionario",
+    "fecha_deteccion": "2026-04-13T13:49:25.383020"
+  },
+  {
+    "empresa_nombre_guess": "Buscador de concesionarios",
+    "web": "cochesyconcesionarios.com",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Abarth Alfa Romeo Audi BMW Chevrolet Citroën CUPRA Dacia DS Fiat Ford Honda Hyundai Infiniti Jaguar Jeep ...",
+    "url_origen": "https://www.cochesyconcesionarios.com/buscar-concesionario",
+    "fecha_deteccion": "2026-04-13T13:49:25.383020"
+  },
+  {
+    "empresa_nombre_guess": "Encuentra tu concesionario",
+    "web": "renault.es",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Utiliza nuestro buscador para encontrar tu concesionario Renault más cercano. Podrás consultar su información, su teléfono, su …",
+    "url_origen": "https://www.renault.es/concesionarios.html",
+    "fecha_deteccion": "2026-04-13T13:49:25.383020"
+  },
+  {
+    "empresa_nombre_guess": "Quadis",
+    "web": "quadis.es",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "¡Elige entre +3.000 vehículos de entrega inmediata y reserva online por 300€ antes de que te lo quiten! Saber más. ¿Tienes dudas? ¿Qué …",
+    "url_origen": "https://www.quadis.es/",
+    "fecha_deteccion": "2026-04-13T13:49:25.383020"
+  },
+  {
+    "empresa_nombre_guess": "有什么在线玩游戏的网站？",
+    "web": "zhihu.com",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "4. CrazyGames 网址链接：crazygames.com/ 有众多的免费在线游戏。 所有的游戏都在浏览器中运行，无需下载或安装即可立即玩耍 …",
+    "url_origen": "https://www.zhihu.com/question/385804728",
+    "fecha_deteccion": "2026-04-13T13:49:31.373426"
+  },
+  {
+    "empresa_nombre_guess": "Últimas imagens e fotos",
+    "web": "rfcrazygames.forumeiros.com",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "24 de nov. de 2011 · Imagens compartilhadas recentemente Encontra imagens e fotos recentemente …",
+    "url_origen": "https://rfcrazygames.forumeiros.com/images",
+    "fecha_deteccion": "2026-04-13T13:49:31.373426"
+  },
+  {
+    "empresa_nombre_guess": "有推荐的摸鱼网站吗？",
+    "web": "zhihu.com",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "2、Crazygames crazygames.com/ 一个国外的在线游戏网站，里面包含了7000多个游戏可以玩，类型也很全面，有行动、冒险、篮 …",
+    "url_origen": "https://www.zhihu.com/question/383719766",
+    "fecha_deteccion": "2026-04-13T13:49:31.373426"
+  },
+  {
+    "empresa_nombre_guess": "有什么好玩的网页小游戏网站推荐么？",
+    "web": "zhihu.com",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "florr.io （马上就要废了） zorr.pro （florr 的二创） kirka.io territorial.io suroi.io mk48.io kiomet.io bloxd.io digdig.io （已经废了， …",
+    "url_origen": "https://www.zhihu.com/question/38987805",
+    "fecha_deteccion": "2026-04-13T13:49:31.373426"
+  },
+  {
+    "empresa_nombre_guess": "史上最好10款肉鸽Roguelike游戏是什么？",
+    "web": "zhihu.com",
+    "sector": "automocion_concesionarios",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "如果以 31 万 Steam 评价 97% 好评如潮，作为神作标准，那估计很多好作品要无缘上榜。但偏偏今天要推荐十款肉鸽游 …",
+    "url_origen": "https://www.zhihu.com/question/1928516576128238116",
+    "fecha_deteccion": "2026-04-13T13:49:31.373426"
+  },
+  {
+    "empresa_nombre_guess": "Alimentaria",
+    "web": "alimentaria.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "El encuentro internacional de referencia para todos los profesionales de la industria de la alimentación, bebidas y food service.",
+    "url_origen": "https://www.alimentaria.com/",
+    "fecha_deteccion": "2026-04-13T13:49:38.916527"
+  },
+  {
+    "empresa_nombre_guess": "¿Dónde se concentra la actividad del sector agroalimentario en Esp…",
+    "web": "caixabankresearch.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "30 de sept. de 2025 · La actividad agroalimentaria en España tiene una relevancia que va más allá de su peso en …",
+    "url_origen": "https://www.caixabankresearch.com/es/analisis-sectorial/agroalimentario/se-concentra-actividad-del-sector-agroalimentario-espana",
+    "fecha_deteccion": "2026-04-13T13:49:38.916527"
+  },
+  {
+    "empresa_nombre_guess": "Liverpool FC — Homepage",
+    "web": "liverpoolfc.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "The official Liverpool FC website. The only place to visit for all your LFC news, videos, history and match information. Full stats …",
+    "url_origen": "https://www.liverpoolfc.com/",
+    "fecha_deteccion": "2026-04-13T13:49:38.916527"
+  },
+  {
+    "empresa_nombre_guess": "Liverpool FC — Homepage",
+    "web": "liverpoolfc.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Le site officiel du Liverpool FC. Le seul endroit à visiter pour toutes vos actualités, vidéos, historiques et informations sur les …",
+    "url_origen": "https://www.liverpoolfc.com/fr",
+    "fecha_deteccion": "2026-04-13T13:49:38.916527"
+  },
+  {
+    "empresa_nombre_guess": "Latest news",
+    "web": "liverpoolfc.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "The only place for all your official Liverpool Football Club news. Find out about the latest injury updates, transfer …",
+    "url_origen": "https://www.liverpoolfc.com/news",
+    "fecha_deteccion": "2026-04-13T13:49:38.916527"
+  },
+  {
+    "empresa_nombre_guess": "Liverpool FC — Mens",
+    "web": "liverpoolfc.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "The official Liverpool FC website. The only place to visit for all your LFC news, videos, history and match information. Full stats …",
+    "url_origen": "https://www.liverpoolfc.com/team/mens",
+    "fecha_deteccion": "2026-04-13T13:49:38.916527"
+  },
+  {
+    "empresa_nombre_guess": "Liverpool FC — Homepage",
+    "web": "liverpoolfc.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "El sitio web oficial del Liverpool FC. El único lugar para visitar para conocer todas las noticias, videos, historial e información …",
+    "url_origen": "https://www.liverpoolfc.com/es",
+    "fecha_deteccion": "2026-04-13T13:49:38.916527"
+  },
+  {
+    "empresa_nombre_guess": "16 bodegas tradicionales de la Barcelona más auténtica",
+    "web": "timeout.es",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Botas de vino, grifos, anchoas y alegría. Patrimonio material y líquido de una ciudad con exceso de culto a la novedad y a los bares recién abiertos. Si sois más de la vieja escuela y os gustan los clásicos que …",
+    "url_origen": "https://www.timeout.es/barcelona/es/bares-y-pubs/las-mejores-bodegas-de-barcelona",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "10 bodegas imprescindibles en Barcelona",
+    "web": "unbuendiaenbarcelona.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "5 de ene. de 2026 · Barcelona sigue conservando auténticas joyas en las que perderse entre vinos, vermut, tapas y barricas. No quedan muchas, pero estas bodegas afloran en casi cada barrio de la …",
+    "url_origen": "https://unbuendiaenbarcelona.com/10-bodegas-barcelona/",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "23 Bodegas para visitar en Cataluña (2026)",
+    "web": "enoturismospain.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "A continuación te mostramos una selección de 23 Bodegas para visitar en Cataluña, cerca de Barcelona donde poder realizar multitud de actividades de enoturismo durante todo el año. Si buscas encontrar …",
+    "url_origen": "https://enoturismospain.com/noticias/listado-bodegas-cataluna",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "Bodega Sepúlveda",
+    "web": "bodegasepulveda.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Restaurante tradicional catalán, ubicado en Barcelona, que ofrece desde 1952 platos con productos frescos de proximidad, junto con una gran selección de vinos.",
+    "url_origen": "https://www.bodegasepulveda.com/",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "BODEGA BORRÀS RESTAURANTE EN EIXAMPLE BARCELONA",
+    "web": "bodegaborras.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Hemos convertido nuestra pasión por la gastronomía en una bodega de barrio en el Eixample de Barcelona, donde cada plato cuenta una historia y cada momento se disfruta con calma en nuestro …",
+    "url_origen": "https://bodegaborras.com/es/",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "Restaurante Bodega Molina Barcelona",
+    "web": "barmolina.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Consigue toda la información, carta y menús del Restaurante Bodega Molina. Horarios y la dirección de Restaurante Bodega Molina. Restaurante en Barcelona.",
+    "url_origen": "https://www.barmolina.com/",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "Mejores Bodegas en Barcelona ️ 【 2026】",
+    "web": "chateemos.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Descubra las mejores bodegas de Barcelona, combinando tradición y vanguardia, donde se elaboran vinos excepcionales que capturan la esencia del terroir catalán, ofreciendo experiencias enoturísticas …",
+    "url_origen": "https://chateemos.com/loc-barcelona/",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "15 Bodegas, tienda de vinos y cavas online ¡Compra directamente de la ...",
+    "web": "15bodegas.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Somos 15 Bodegas, tu tienda online de vinos directos de bodega. Ofrecemos experiencias que parten del terroir, continúan en la bodega y se disfrutan en torno a la copa.",
+    "url_origen": "https://www.15bodegas.com/",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "Bodega Pàdua",
+    "web": "bodegapadua.com",
+    "sector": "agroalimentario",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "La cocina de la bodega Pàdua es una cocina mediterránea, está basada de un menú al mediodía de lunes a sábado en el que según el día están presentes nuestras especialidades como el bacalao, el arroz al …",
+    "url_origen": "https://bodegapadua.com/",
+    "fecha_deteccion": "2026-04-13T13:49:42.793436"
+  },
+  {
+    "empresa_nombre_guess": "有哪位大佬知道spotify怎么用吗？",
+    "web": "zhihu.com",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Spotify，即声田或声破天，是一家享誉全球的正版音乐服务平台，2008年10月在瑞典首都斯德哥尔摩正式上线。作为目前全球最大的 …",
+    "url_origen": "https://www.zhihu.com/question/362557563",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "spotify怎么下载歌曲？",
+    "web": "zhihu.com",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Spotify 是全球知名流媒体音乐服务平台，提供丰富的音乐资源和优质体验，但国内用户访问和支付存在一定困难。",
+    "url_origen": "https://www.zhihu.com/question/435189172",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "我的 spotify 播放不了音乐?",
+    "web": "zhihu.com",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "16 de feb. de 2025 · 首先确认网络是否OK？ 正常情况下， Spotify 每隔14天需要科学上网才能保证正常登录状态，时间登录超时会 …",
+    "url_origen": "https://www.zhihu.com/question/12409218349",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "spotify用了一段时间后，为什么只能听片段或者随机?",
+    "web": "zhihu.com",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "20 de feb. de 2020 · 很简单，被限制了。 Spotify规定，异地只能用14天，逾期，限制使用。 本文会给出具体解决方案，也很简单 …",
+    "url_origen": "https://www.zhihu.com/question/373388863?write",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "spotify怎么购买会员?",
+    "web": "zhihu.com",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "spotify怎么购买会员？有哪些方法 3、TB或者其它电商渠道购买 这里面又是有两种，一种是个人号，这其实就是我说的第一种，只是 …",
+    "url_origen": "https://www.zhihu.com/question/615196616",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "Cuenta Vamos » Cuenta bancaria online sin comisiones",
+    "web": "ibercaja.es",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Cuenta Vamos exclusiva para nuevos clientes ⇨ Abre tu cuenta bancaria sin comisiones y remunerada en la oficina o …",
+    "url_origen": "https://www.ibercaja.es/particulares/cuentas-tarjetas/cuentas/cuenta-vamos/",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "Cuentas Bancarias · Abrir cuenta bancaria online",
+    "web": "ibercaja.es",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Si quieres una cuenta para domiciliar tu nómina, una cuenta de contratación online o para tu negocio entra aquí ⇨ Elige la …",
+    "url_origen": "https://www.ibercaja.es/particulares/cuentas-tarjetas/cuentas/",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "Ibercaja mantiene la remuneración de su Cuenta V",
+    "web": "agroinforma.ibercaja.es",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "3 de jul. de 2025 · Movilidad Ibercaja mantiene la remuneración de su Cuenta Vamos en el 5% durante su primer año y …",
+    "url_origen": "https://agroinforma.ibercaja.es/noticias/prensa/ibercaja-mantiene-la-remuneracion-de-su-cuenta-vamos-en-el-5-durante-su-primer-ano-y-el-2-el-.aspx",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "Cuenta de Seguros Vamos",
+    "web": "ibercaja.es",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Cuenta de Seguros Vamos Con la Cuenta de Seguros Vamos 1 podrás unificar el pago de tus seguros2 contratados en Ibercaja y …",
+    "url_origen": "https://www.ibercaja.es/particulares/seguros/cuenta-seguros-vamos/",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "Ibercaja",
+    "web": "banca.ibercaja.es",
+    "sector": "consultoras_rrhh",
+    "zona": "España",
+    "fuente": "duckduckgo",
+    "senal": "Accede a Ibercaja para gestionar tus finanzas, consultar productos bancarios y descubrir servicios digitales desde …",
+    "url_origen": "https://banca.ibercaja.es/",
+    "fecha_deteccion": "2026-04-13T13:49:47.623435"
+  },
+  {
+    "empresa_nombre_guess": "Química Industrial Mediterránea S.L.",
+    "web": "quimsaitw.com",
+    "sector": "industria_fabricacion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Rosa de los Vientos, 75, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJV8pvgLHwcg0RmMbysMlkgqY",
+    "fecha_deteccion": "2026-04-13T13:54:26.850941"
+  },
+  {
+    "empresa_nombre_guess": "Industrias Continental",
+    "web": "industriascontinental.com",
+    "sector": "industria_fabricacion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. del Alcalde Guillermo Rein, 22, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJOVVaOE73cg0RqCWwvWBit5I",
+    "fecha_deteccion": "2026-04-13T13:54:26.850941"
+  },
+  {
+    "empresa_nombre_guess": "Salas Suministros Industriales, S.L.",
+    "web": "salassl.es",
+    "sector": "industria_fabricacion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Flauta Mágica, 19, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJN6C2Fsa9pBIRpBor8ph2OEw",
+    "fecha_deteccion": "2026-04-13T13:54:26.850941"
+  },
+  {
+    "empresa_nombre_guess": "EVO INDUSTRIA",
+    "web": "evoindustria.com",
+    "sector": "industria_fabricacion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Croacia, 22, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJG236Cfv5cg0R8SJCB96w-Rk",
+    "fecha_deteccion": "2026-04-13T13:54:26.850941"
+  },
+  {
+    "empresa_nombre_guess": "Ingetrial s.l.",
+    "web": "ingetrial.es",
+    "sector": "industria_fabricacion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C/ Escritora Carmen Martín Gaite, 2 Local 7 Polígono Industrial Trévenez, Campanillas, 29196 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ_9VAajPwcg0RaA6RW7ZRUU8",
+    "fecha_deteccion": "2026-04-13T13:54:26.850941"
+  },
+  {
+    "empresa_nombre_guess": "Masanés Servindustria | Málaga",
+    "web": "masanes.com",
+    "sector": "industria_fabricacion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. la Orotava, 116, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJddUyLtn3cg0RHvKcTb_MgQc",
+    "fecha_deteccion": "2026-04-13T13:54:26.850941"
+  },
+  {
+    "empresa_nombre_guess": "Polígono Industrial Guadalhorce",
+    "web": "molca.es",
+    "sector": "industria_fabricacion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Esteban Salazar Chapela, 16, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJkS02vfv5cg0Rd3pcjbqu0Bs",
+    "fecha_deteccion": "2026-04-13T13:54:26.850941"
+  },
+  {
+    "empresa_nombre_guess": "Europastry - Oficina de venta en Málaga",
+    "web": "europastry.com",
+    "sector": "industria_fabricacion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Ideco Centro Logístico de Frío, Av. de José Ortega y Gasset, 553, Planta 1, Campanillas, 29196 Campanilla, Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJWbu8Mn6hLxURuO3uPJnViHg",
+    "fecha_deteccion": "2026-04-13T13:54:26.850941"
+  },
+  {
+    "empresa_nombre_guess": "Grupo Industrial Ferruz",
+    "web": "ferruz.com",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Pol. Ind. PTR, C. del Cobalto, 31, 50720 Cartuja Baja, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJC8YGerAVWQ0RE13DFggHxxc",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "Valle Industrial - Sede Zaragoza",
+    "web": "grupovalle.es",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Monte Perdido, 2D, P.I, 50410 Valdeconsejo, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJp-OEEmBBWQ0RQRMM1jHk8PM",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "Industrias Manrique",
+    "web": "industriasmanrique.com",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Pol.Ind. La Cartuja, Carr. de Castellón, 50720 Cartuja Baja, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJBwDAYPg9WQ0RzrXPuDffGaY",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "Procesos industriales y automatización industrial | AUM Zaragoza",
+    "web": "aum.es",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Malpica, C. G, Nº 32, 50171 La Puebla de Alfindén, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJvf2boHgXWQ0Rn5EWBF06eME",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "DEM Industrial Componentes Eléctricos y Electrónicos",
+    "web": "demindustrial.com",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de David Fahrenheit, 18, 50015 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJU1Vls_QUWQ0Rprj5pZX6Rjs",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "Industrias Royo",
+    "web": "irosa.com",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Cam. de los Molinos, 134, 50015 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJseyfjH8TWQ0RN17b8sD6y8Y",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "SMC zaragoza",
+    "web": "smces.es",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. P-A, 10, Cdad. del Transporte, 50015 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ0xurVEoSWQ0RizfhrXoqzy4",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "Industrias Moreo - IMSA",
+    "web": "imsa.es",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Jaime Ferrán, 16, 50014 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ57_8V3sUWQ0RIdb1RVVX1pU",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "SZ Industrial - Mantenimiento Industrial Zaragoza",
+    "web": "szindustrial.com",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º de la Independencia, 24-26, Planta 9 oficina 3, Casco Antiguo, 50004 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ1-1Zt3oVWQ0RJujz9iMw1-E",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "Gerresheimer Zaragoza S.L.U.",
+    "web": "gerresheimer.com",
+    "sector": "industria_fabricacion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.I. Valdemuel, Cam. del Sabinar, s/n, 50290 Épila, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJl5b5rx_eWw0Rndw_dIvArUg",
+    "fecha_deteccion": "2026-04-13T13:54:28.179119"
+  },
+  {
+    "empresa_nombre_guess": "Liccomark (Solo venta a mayoristas)",
+    "web": "liccomark.com",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Cuernavaca, 5, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJp3JVelP3cg0R5-YwfHyJEaI",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "Distribuciones Hijos de Rivera",
+    "web": "hijosderivera.com",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Cam. Huerta Sta. Cruz, 12, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJNbbA5abwcg0R9PeCE4PtgMY",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "Málaga & Costa de Bebidas",
+    "web": "pedidos.eazle.es",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Poligono Industrial Trevenez, C. Escritora Dolores Gomez de Cádiz, 9, Campanillas, 29196 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ11FoLY_wcg0Ri6Fc58KJvQo",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "Distribuciones Alimentarias Mercasur (CÁRNICAS MERCASUR)",
+    "web": "mercasur.net",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Escritora Gertrudis Gómez de Avellaneda, 16, Campanillas, 29196 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ____D4fwcg0RgOUkDZvwgsA",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "Perymuz XXI",
+    "web": "perymuz.es",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Parque Empresarial Santa Teresa, C. Torre del Mar, 31, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJUdgXVQr6cg0RDAA4aCKSN6I",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "Arlo Distribuciones",
+    "web": "arlodistribuciones.es",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. de Guernica, 38, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJl_FkWaHwcg0R5W3lIQVx4xQ",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "Almacenes Costasol",
+    "web": "grupodian.es",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av. de los Vegas, 65, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ5ZB5nj36cg0RCVlTT65zVt0",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "J10",
+    "web": "j10.6600.org",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av. de los Vegas, 51, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJVRhiRdL3cg0Rrqar3N66Jp8",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "Makro",
+    "web": "makro.es",
+    "sector": "logistica_transporte",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Avenida Velázquez, 288, Carretera N-340, Km 238, 400, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJawXNEIv5cg0R4TGFxFJ0M-w",
+    "fecha_deteccion": "2026-04-13T13:54:29.806598"
+  },
+  {
+    "empresa_nombre_guess": "Zadisa (Zaragozana de distribución S.L.)",
+    "web": "zadisa.es",
+    "sector": "logistica_transporte",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Guglielmo Marconi, 4, 50830 Villanueva de Gállego, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJmeThyBIOWQ0RzoyHbhut3BY",
+    "fecha_deteccion": "2026-04-13T13:54:31.171298"
+  },
+  {
+    "empresa_nombre_guess": "Distribuciones Rodrigo SA",
+    "web": "distribucionesrodrigo.com",
+    "sector": "logistica_transporte",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Poligono Industrial El Portazgo nave 73 Urbanización Carretera de Logroño, 2, 50011 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJxUnxH_xuWQ0R6t40mmEfqRs",
+    "fecha_deteccion": "2026-04-13T13:54:31.171298"
+  },
+  {
+    "empresa_nombre_guess": "SANCHEZ ARAGONESA DE DISTRIBUCIONES",
+    "web": "sanchezaragonesa.com",
+    "sector": "logistica_transporte",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Insider Parcela 15-C, Nave 9, 50720 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJz2EN-wEWWQ0RlQ1bvAAA9vY",
+    "fecha_deteccion": "2026-04-13T13:54:31.171298"
+  },
+  {
+    "empresa_nombre_guess": "DAHSA-Distribuidora de Alimentación y Hostelería, S.A.",
+    "web": "dahsazaragoza.com",
+    "sector": "logistica_transporte",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Pol. Ind. Malpica C/ E, parcelas 59, 60 y 61 - naves 14 y, 15, 50057 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJVelCzd8WWQ0RtDvOkr8M7V0",
+    "fecha_deteccion": "2026-04-13T13:54:31.171298"
+  },
+  {
+    "empresa_nombre_guess": "Makro",
+    "web": "makro.es",
+    "sector": "logistica_transporte",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "N-232, 50011 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ0zHEnHhrWQ0ROrEzjYo79co",
+    "fecha_deteccion": "2026-04-13T13:54:31.171298"
+  },
+  {
+    "empresa_nombre_guess": "Mercazaragoza",
+    "web": "mercazaragoza.com",
+    "sector": "logistica_transporte",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Carr. de Cogullada, 65, 50014 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ1T-PVYkTWQ0Rk6f0qogRHxE",
+    "fecha_deteccion": "2026-04-13T13:54:31.171298"
+  },
+  {
+    "empresa_nombre_guess": "Distribuidora De Aragón S.L.",
+    "web": "distridasa.com",
+    "sector": "logistica_transporte",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Ind Villanueva Polígono Ind Polígono Industrial, Polígono Industrial Sector 4, 0 Parc 1, 50830 Villanueva de Gállego, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ-4TGRw8SWQ0RavlMYTuXiEg",
+    "fecha_deteccion": "2026-04-13T13:54:31.171298"
+  },
+  {
+    "empresa_nombre_guess": "INSTALACIONES ESPECIALES MALAGUEÑAS, S.L.",
+    "web": "grupoinesma.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Torre del Mar, 10, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJX3gGZJP7cg0RUPjaltLwaww",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "Tuinsa Instalaciones",
+    "web": "tuinsa.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Diderot, 24, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ_30FYvv5cg0ROd2s-fWm1_g",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "LSP Instalaciones eléctricas",
+    "web": "lspinstalacioneselectrica.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Albacete, 8, 5º - B2, Bailén-Miraflores, 29010 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJqUsJX273cg0RHfKhW-7FNMg",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "Fb Intec",
+    "web": "fbintec.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Canadá, 42, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJg9UOB1L3cg0RmD9Y2ALsBLA",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "Voltiam, SL",
+    "web": "voltiam.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Calle Alcalde Garret y Souto, 86, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJjSb2GLPwcg0RPzfkRtGkpOw",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "CELEC Ingeniería y Desarrollo, SL.",
+    "web": "celecsl.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "17, C. Flauta Mágica, 15, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJyzVHUEX3cg0RVEWzyAn_ryQ",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "Eléctrica Unión Instalaciones S.L.",
+    "web": "euinstalaciones.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Fidias, 17, Carretera de Cádiz, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJaW73j-b5cg0RXSDDLVyytu4",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "SER-IN-PE - Empresa de Mantenimientos Integrales a Comunidades en Málaga",
+    "web": "ser-in-pe.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Polígono, C. Navia, 25, Bailén-Miraflores, 29010 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJwxXjQRr3cg0RmobUcjLQLuU",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "Milano Ingeniería",
+    "web": "milanoingenieria.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. José Palanca, 2, local 4, Carretera de Cádiz, 29003 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJFQAAQH33cg0R9K-L4V49AFU",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "MANTENIMIENTOS TECNIMALAGA S.L",
+    "web": "tecnimalaga.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Diderot, 9, Nave 46B, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJp1N_inr3cg0RGo1r7L9vEvQ",
+    "fecha_deteccion": "2026-04-13T13:54:32.729117"
+  },
+  {
+    "empresa_nombre_guess": "SZ Industrial - Mantenimiento Industrial Zaragoza",
+    "web": "szindustrial.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º de la Independencia, 24-26, Planta 9 oficina 3, Casco Antiguo, 50004 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ1-1Zt3oVWQ0RJujz9iMw1-E",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "Seguas - Aire Comprimido y Frío Industrial en Zaragoza",
+    "web": "seguas.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. del Tomillo, 18, 50820 San Juan de Mozarrifar, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJq6lycH8XWQ0RrbKPfevOHkY",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "-Tubei S.L.",
+    "web": "tubei.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Enebro, 6, nave 13, 50720 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJA9MDV1M9WQ0RxgRYEpHUe5E",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "Itra Instalaciones",
+    "web": "itrainstalaciones.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Vidal de Canellas, 8, LOCAL IZDA, Delicias, 50005 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ-fZja6oVWQ0RZihy2KUM6TQ",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "TAYMIN, S.A.",
+    "web": "taymin.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Carr. de Castellón, 6, 50720 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJOSp2Jv0VWQ0Rsg3PBbJdO7k",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "Industria y Montajes Eléctricos S.A (IMESA)",
+    "web": "imesazaragoza.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "POLÍGONO INDUSTRIAL MONTEMOLÍN, Carr. de Castellón, A-68, Km 3,400; Nave 3, San José, 50013 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJT2EHae8UWQ0RRew3RfTXu5w",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "INNOTEC GESTIÓN INSTALACIONES SL. (GRUPO INNOTEC)",
+    "web": "innotecgrupo.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Alcalde Caballero, C. del Monasterio de las Descalzas Reales, 21, 50014 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ47PdmmAUWQ0RYESk9fJDfk0",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "Mit instalaciones térmicas",
+    "web": "mitit.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de José Gervasio Artigas, Delicias, 50017 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJhYY0lUhrWQ0Rhx-FBTfYikw",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "Anjul Instalaciones",
+    "web": "anjulinstalaciones.es",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Pol. Molino del Pila, C. de Rudolf Diesel, Nave 27, 50015 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ3____5sTWQ0RDDBGZSvXejc",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "Instalaciones Tusocal",
+    "web": "tusocal.com",
+    "sector": "construccion_ingenieria",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Pol. Ind. Centrovía, C/ Bogotá, 103, 50196 La Muela, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ7QBSSYFnWQ0RPxa1Ly49PbU",
+    "fecha_deteccion": "2026-04-13T13:54:34.108982"
+  },
+  {
+    "empresa_nombre_guess": "Asesoría Muñoz Zurita | Asesoría Málaga",
+    "web": "mzasesoria.com",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Pasillo del Matadero, 11, Distrito Centro, 29002 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJfz-3dxhHcg0Rx3IxWVjrmX0",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Emede ETL GLOBAL",
+    "web": "emede-etlglobal.com",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Monseñor Carrillo Rubio, 4, Distrito Centro, 29007 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJJe3CDZ_3cg0RcfIt8ZM_Jaw",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Jiménez Asesores y Consultores S.L.",
+    "web": "jimenezconsultores.es",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Huéscar, 5, Edificio Galaxia, 2 planta, puerta 12 A, Distrito Centro, 29007 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJG8fGIpn3cg0RR4YqU2hlGzY",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Asesoría fiscal y Contable CRISTINA ÁVILA ORTEGA",
+    "web": "facebook.com",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av. de Andalucía, 25, oficina 4, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJwTUWBKD3cg0RLxBXaA6Ahoo",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Dominguez Asesoria SL",
+    "web": "dominguezasesoria.es",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Huéscar, 2, 3ºa, Distrito Centro, 29007 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ49QsqJn3cg0R7n9lxSZXT34",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "EFC Consultores",
+    "web": "efcconsultores.com",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Virgen Bien Aparecida, 14, Cruz de Humilladero, 29007 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJz2NCocn3cg0R8yiYtbN5RDk",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Athener Consultores",
+    "web": "athener.com",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Bodegueros, 43, Carretera de Cádiz, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJsc04Wvv5cg0Rq5B4nrISftY",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Pascual Asesores Málaga - Asesoría de empresas",
+    "web": "pascualasesores.com",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Alameda de Colón, 26, 8º 5, Distrito Centro, 29001 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJRTiAcpH3cg0RSMYFMOozgMg",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Trujillo & Sanchez-Mateos Asesoría",
+    "web": "tysasesores.es",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Pasaje Compositor Lhemberg Ruiz, 4, 1ºd, Distrito Centro, 29007 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJge8UJJn3cg0R6Fm4TpqpbFM",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Gestoría Europa",
+    "web": "gestoriaeuropa.com",
+    "sector": "servicios_profesionales",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av de Europa, 93, Carretera de Cádiz, 29003 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJOzjAYGL3cg0RhECx7EjWBYk",
+    "fecha_deteccion": "2026-04-13T13:54:35.710085"
+  },
+  {
+    "empresa_nombre_guess": "Afiris | Asesoría en Zaragoza",
+    "web": "afiris.es",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Isaac Peral, 1, Casco Antiguo, 50001 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ7U2-5-4UWQ0R8fC3P4CKx7k",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Asesoría Fiscal Zaragoza Atram Consulting",
+    "web": "atramconsulting.com",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Bilbao, 2, Casco Antiguo, 50004 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ99LlvXVrWQ0Rur5_LzBqPto",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Beta Asesores. Asesoría de empresas y autónomos",
+    "web": "asesoriafiscalzaragozadva.com",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Francisco de Vitoria, 5, 7, 50008 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJU22nk-UUWQ0REoRc489M_0c",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Adade Zaragoza | Asesoría en Zaragoza (Fiscal, laboral, contable y jurídica) para empresas y autónomos",
+    "web": "adadezaragoza.es",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de San Jorge, 7, 1º, Casco Antiguo, 50001 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJo_9EcKhvWQ0Ry91YfgiS8Vw",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Asesoría de empresas y particulares | Cierzo Tax",
+    "web": "cierzotax.es",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Minas, 16-18, Local 3, 50013 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ3aFebrUVWQ0R5r0pznb4lDQ",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Univérsitas Asesoría",
+    "web": "universitasasesoria.es",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Empresarial de Aragón (CEA, Av. de Gómez Laguna, 25, Planta 5, Oficina B-2 - Centro, 50009 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ-_xdWClrWQ0RI9ZG96UWkBc",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "CE Consulting",
+    "web": "ceconsulting.es",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. del Marqués de la Cadena, 41, 50014 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ__yTDGEUWQ0Rf62QNbnxyZQ",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Porras Asesores | Asesores fiscales",
+    "web": "porrasasesores.es",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Paseo Independencia 24-26, Planta 6 Oficina Primera, Casco Antiguo, 50004 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJuxIHJ94UWQ0RFBN5jfC2OaY",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Lorente y Lorente Asesores",
+    "web": "lorenteylorente.com",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º de Sagasta, 2, 50008 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJizaVsdwUWQ0R2QXdCv2-LkM",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Lázaro Despacho Tributario",
+    "web": "lazaro-dt.es",
+    "sector": "servicios_profesionales",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º de la Independencia, 24-26, 2º 3ª, Casco Antiguo, 50004 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJIf7EdVcVWQ0RYwbWXxRiGzA",
+    "fecha_deteccion": "2026-04-13T13:54:37.007627"
+  },
+  {
+    "empresa_nombre_guess": "Eurofins Análisis Clínicos Compositor Lehmberg Ruiz",
+    "web": "eurofinsanalisisclinicos.com",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Compositor Lehmberg Ruiz, 10, Edificio Galaxia, Local 28, Bajo, Distrito Centro, 29007 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJtx-jz6H3cg0R6CGrBZja02w",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "Eurofins Análisis Clínicos Malagueta",
+    "web": "eurofinsanalisisclinicos.com",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Vélez Málaga, 10, Málaga-Este, 29016 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJi4US7NP3cg0Ruj9l2N7taOI",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "Laboratorio Análisis Clínicos Quirónsalud",
+    "web": "quironsalud.com",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av. Imperio Argentina, 29, Carretera de Cádiz, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ7bqdKgD5cg0RZ2A_QWZfolU",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "Análisis Clínicos Rodríguez Vergara S.L",
+    "web": "analisisclinicosrv.es",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Pl. Arriola, 14, Distrito Centro, 29005 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJSxK_vZX3cg0RN-o8m8dzM_0",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "Laboratorio Bioclon",
+    "web": "bioclon.es",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Edf El Carmen, C. Almería, 17, Of I- 3 , I, Málaga-Este, 29017 4, Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJp2E4zs5Zcg0RBQbjBD_bj9c",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "Laboratorio Echevarne",
+    "web": "laboratorioechevarne.com",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Pl. Arriola, 10, Distrito Centro, 29005 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJVRNG85b3cg0RJBsdBApuOW8",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "Eurofins Análisis Clínicos Fuengirola",
+    "web": "eurofinsanalisisclinicos.com",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "P.º Jesús Santos Rein, 8, 29640 Fuengirola, Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJb_EBUEDicg0RgFDtbLYFONA",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "Integralab - Laboratorio Acreditado Análisis Legionella, Alimentos, Aguas.",
+    "web": "integralab.es",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av. Juan López de Peñalver, 8, 1ª Planta Edificio, Campanillas, 29590 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJXxSdGVnxcg0RLig5M2mQgbA",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "Eurofins Análisis Clínicos Habana",
+    "web": "eurofinsanalisisclinicos.com",
+    "sector": "salud_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "P.º de La Habana, 2, Chamartín, 28036 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJSTNxdCEpQg0R-TjAPu8_3D8",
+    "fecha_deteccion": "2026-04-13T13:54:38.614182"
+  },
+  {
+    "empresa_nombre_guess": "CEyDES Laboratorio de Análisis Clínicos y Centro Médico",
+    "web": "ceydes.com",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Miguel de Cervantes, 11, local, 50006 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ50nukt0UWQ0R2tVhpTXdNU4",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "Laboratorios Doctor Grasa Centro Francisco de Vitoria ZARAGOZA",
+    "web": "doctorgrasa.com",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Francisco de Vitoria, 5, 50008 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJDTs26ZwVWQ0R_jQYQq1thUQ",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "Eurofins Análisis Clínicos Zaragoza",
+    "web": "eurofinsanalisisclinicos.com",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de José María Lacarra de Miguel, 11, 50008 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJs5gP-fEVWQ0RMfsYQRorbmE",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "Laboratorios Diama | Análisis de agua | Análisis clínicos",
+    "web": "laboratoriosdiama.com",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Sta. Joaquina de Vedruna, 31, 50008 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJVZVdDDNrWQ0RvBqsNOhY_sA",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "Eurofins Análisis Clínicos Sagasta",
+    "web": "eurofinsanalisisclinicos.com",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Sagasta, 18, Centro, 28004 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJgR560YsoQg0RQkBswiGXxAA",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "IIS Aragón. Laboratorio de Investigación Molecular",
+    "web": "iisaragon.es",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Planta 4, Edificio de Consultas Externas, HU Miguel Servet, Padre Arrupe, s/n, 50009 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJBVb24CsVWQ0RNaMy7Dq7SRo",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "Analiza Centro Pintor Rosales",
+    "web": "analizalab.com",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º del Pintor Rosales, 12, Local, Moncloa - Aravaca, 28008 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJJW3jMHcpQg0Rj8GGvYm5c-M",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "Eurofins Análisis Clínicos Habana",
+    "web": "eurofinsanalisisclinicos.com",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º de La Habana, 2, Chamartín, 28036 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJSTNxdCEpQg0R-TjAPu8_3D8",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "Analiza Centro Príncipe de Vergara",
+    "web": "analizalab.com",
+    "sector": "salud_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Calle del Príncipe de Vergara, 40, D, Salamanca, 28001 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ__8bT7woQg0RW1h0OP1RDdg",
+    "fecha_deteccion": "2026-04-13T13:54:39.931190"
+  },
+  {
+    "empresa_nombre_guess": "Málaga Administraciones",
+    "web": "malagaadministraciones.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av de Europa, 52, local-5, Carretera de Cádiz, 29003 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJP2ZJBQD3cg0R3fiD1AvwF10",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "Administración de Fincas Álvarez y Merino S.L.U",
+    "web": "fincasalvarezymerino.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. de Alfredo Corrochano, 5, Planta 1, oficina B, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJwcheh7_3cg0RonFHOLZpUDs",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "Administración de Fincas SERINCOSOL",
+    "web": "serincosol.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Pje. Pezuela, 1, 1º A Dcha, Bailén-Miraflores, 29010 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJkVwxmAX3cg0RRzCacAak32k",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "AM Fincas. Administrador de Fincas en Málaga.",
+    "web": "amfincas.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Blvr. Louis Pasteur, 18, Teatinos-Universidad, 29010 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJNd3Va_D3cg0RlS250WSaqWA",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "Administración de Fincas Málaga S.L.",
+    "web": "administracionfincasmalaga.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Torre de Sandoval, 2, 3º derecha, Distrito Centro, 29015 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJF7C9ak7r3yoRj5IPOypdP7U",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "Afinca, Administradores de Fincas en Málaga",
+    "web": "afincaaf.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Juan de Jaso, 2, local 3, Teatinos-Universidad, 29010 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJf7juUWr3cg0RgOBp534fuko",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "Administrador de fincas en Málaga | inmho",
+    "web": "inmho.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Cuarteles, 25, Distrito Centro, 29002 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJX-jo4N_3cg0RP5Ef2Mzdbfo",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "Administración de Fincas Moreno Bastida",
+    "web": "morenobastida.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C/ Trinidad Grund, 33, 1ª Oficina 1, Distrito Centro, 29001 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJDyxFsZb3cg0RGM7Yg6noQZc",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "R. Murillo Administración de Fincas",
+    "web": "murillocomunidades.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Bolsa, 1, 3º Dcha, Distrito Centro, 29015 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJAb31b5X3cg0RO6ILzrUAuzs",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "COMMUNAL ADMINISTRACION DE FINCAS",
+    "web": "communal.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av de Sor Teresa Prat, 69, 1 b, Carretera de Cádiz, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJL9QkENT5cg0RCxTKk6Cobow",
+    "fecha_deteccion": "2026-04-13T13:54:41.500675"
+  },
+  {
+    "empresa_nombre_guess": "Administración de Fincas Zaragoza S.L.",
+    "web": "administracionfz.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. del Cinco de Marzo, 14, 3ºD, Casco Antiguo, 50004 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJMQrr5NwUWQ0RxElOC6irny0",
+    "fecha_deteccion": "2026-04-13T13:54:42.856370"
+  },
+  {
+    "empresa_nombre_guess": "AdmiQuality - Administradores de Fincas en Zaragoza",
+    "web": "admiquality.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de la Sagrada Familia, 1, Casablanca, 50012 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJI7JfjNFqWQ0RFfLaqqPF03g",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "ASC COMUNIDADES * Administradores de Fincas Colegiados en Zaragoza",
+    "web": "asc-comunidades.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Sta. Inés, 6, local, Casco Antiguo, 50003 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ-SDluvkUWQ0RgDOjpN77JwY",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "Híberus Administración de Fincas",
+    "web": "hiberus-despacho.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Alfonso I, 13-15, 3ºB, Casco Antiguo, 50003 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJr0UCR5YUWQ0Rzk0Ff5YclUA",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "Alora Fincas. Administrador de Fincas en Zaragoza",
+    "web": "alorafincas.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º de la Independencia, 22, planta 7ª, Casco Antiguo, 50004 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJJcTN5bQVWQ0RICvnrR9Lk3c",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "Administración y Gestión de Fincas Abadias, S.L.",
+    "web": "administracionabadias.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C/ del Parque, 21, Local, 50007 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJyQr_4CIVWQ0RqYG4uIQ8FRY",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "Grupo Aserpaz Administración de Fincas",
+    "web": "grupoaserpaz.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de la Paz, 18, 50008 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJDVbLK-EUWQ0RMMz8ye6r_Wo",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "Marpefin -Administración de Fincas-",
+    "web": "marpefin.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de las Escuelas Pías, 5, local 2, Delicias, 50009 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJDWsAEy9rWQ0RPhzeORTjnpQ",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "Finvisa - Administración De Fincas",
+    "web": "finvisa.es",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Paseo de Sagasta, 60, Pral. A Izda., 50006 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ7R2uQuwUWQ0RkaamSL3ucfg",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "Usón Administración De Fincas",
+    "web": "usonadministraciondefincas.com",
+    "sector": "inmobiliaria_gestion",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Luis Vives, 6, 50006 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJQb8NHdgUWQ0RvSdsCTbNSOo",
+    "fecha_deteccion": "2026-04-13T13:54:42.859213"
+  },
+  {
+    "empresa_nombre_guess": "Smart Catering Málaga",
+    "web": "smartcateringmalaga.com",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Caudal, 59, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJhZn4Z3zlcg0RRcg18tAU0TY",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "Go Rest | Empresa de catering en Málaga",
+    "web": "gorest.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Polígono Industrial Trévenez, C. Escritora Carmen Martin Gaite, 8, Campanillas, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJnW47j9pHcg0R1d2X_OY0YXI",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "La Monarca Catering",
+    "web": "cateringlamonarca.com",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Curtidores, 1, Carretera de Cádiz, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJK7VBXDj3cg0RBkta_CFLhAk",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "Catering El Cántaro",
+    "web": "cateringelcantaro.com",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Ramón Hernández, 15, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJe8U0SYz5cg0R0MNPy8REl1o",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "Alabardero Catering & Experiences - Málaga",
+    "web": "alabarderocatering.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "5º, Palacio de Ferias y Congresos, Av. de José Ortega y Gasset, 201, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJEzeNUET2cg0R2qkvDTkguPA",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "CATERING LUCIA",
+    "web": "cateringlucia.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "P.º Cerrado de Calderón, 11, Málaga-Este, 29018 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJvQC7p0dYcg0RczsNTHyRwvY",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "ESCA Catering Málaga",
+    "web": "escacatering.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Cmo de Casabermeja, 128, Cdad. Jardín, 29014 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ1_9q00j2cg0Rj--tlpQ3sns",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "Dafergam Catering",
+    "web": "dafergam.com",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Diderot, 11, porton 2, 13A, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJBc3SP8telY8RZnsY6gG582o",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "Foodnando Catering",
+    "web": "foodnando.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Albéniz, 24, Distrito Centro, 29014 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJH8xQNof3cg0RHvLLsHiFBGU",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "Azul Pomelo, S.L.",
+    "web": "azulpomelo.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "P.º de Sancha, 45, Málaga-Este, 29016 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJyX08xjn3cg0RrLa4TlFVO6M",
+    "fecha_deteccion": "2026-04-13T13:54:44.560165"
+  },
+  {
+    "empresa_nombre_guess": "Sentido Gourmet - Catering para empresas en Zaragoza",
+    "web": "zaragozacatering.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Mas de las Matas, 20, 50015 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJP_HdSIkUWQ0RloSB4i-ew7I",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Doña Col Catering",
+    "web": "donacol.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Av. de Pablo Gargallo, 118, 50003 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJe41A9KQUWQ0RlT-V6-3iOs4",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Guian Catering",
+    "web": "guian.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Edificio WTC Torre Este, C. de María Zambrano, 31, 13º Planta, 50018 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJPXMIUiQVWQ0RPWln3z5wFOg",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Loran Catering",
+    "web": "picoteoydesayunoadomicilio.com",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. del Pintor Zuloaga, 3, 50002 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJr2inU5YVWQ0RMrgHBEP7Lfs",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Los Coscos Catering",
+    "web": "loscoscos.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Sta. Joaquina de Vedruna, 7, 50008 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJCxqZOIsVWQ0RkJzTCwi21KQ",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Catering El Patio",
+    "web": "cateringelpatio.com",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Luis Antonio Oro Giral, 11, 50005 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ-zG7LX4TWQ0RhUZ4xjc4rdA",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Cheff & Cheff S.l.",
+    "web": "cheff-cheff.com",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Av. de San José, 106, 50008 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJIcNVbf0UWQ0RwlexNgnW_jk",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Alda SL",
+    "web": "aldasl.es",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Arias, 14, Delicias, 50010 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJiRvAZTRrWQ0Rr-VyQvrF6jg",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Innova Eventos Zaragoza | Eventos corporativos a medida | Team Buildings | Azafatas",
+    "web": "innovazgz.com",
+    "sector": "hosteleria_grupos",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Don Jaime I, 34 duplicado, entresuelo, Casco Antiguo, 50001 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ5buJQNIVWQ0RENcQZxutaFA",
+    "fecha_deteccion": "2026-04-13T13:54:46.089633"
+  },
+  {
+    "empresa_nombre_guess": "Geve Distribuciones Comerciales",
+    "web": "geve.es",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Carlo Goldoni, 18, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJxzwPiQf6cg0RMUJmfpX0Apk",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Comercial del Sur de Papelería, S.L. (CSP)",
+    "web": "cspapeleria.com",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Bodegueros, 54, Carretera de Cádiz, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJYzntpWT3cg0R9tVmTbGA2vU",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Logística y Distribución Sayco S.L.",
+    "web": "gruposayco.es",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. César Vallejo, 7, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJh_40UAD7cg0R1gJsSJCa8iU",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Liccomark (Solo venta a mayoristas)",
+    "web": "liccomark.com",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Cuernavaca, 5, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJp3JVelP3cg0R5-YwfHyJEaI",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Málaga & Costa de Bebidas",
+    "web": "pedidos.eazle.es",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Poligono Industrial Trevenez, C. Escritora Dolores Gomez de Cádiz, 9, Campanillas, 29196 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ11FoLY_wcg0Ri6Fc58KJvQo",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Distribuciones Alimentarias Mercasur (CÁRNICAS MERCASUR)",
+    "web": "mercasur.net",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Escritora Gertrudis Gómez de Avellaneda, 16, Campanillas, 29196 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ____D4fwcg0RgOUkDZvwgsA",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Arlo Distribuciones",
+    "web": "arlodistribuciones.es",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. de Guernica, 38, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJl_FkWaHwcg0R5W3lIQVx4xQ",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Comercial CBG - Málaga",
+    "web": "cbg.es",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Pol. Ind. la Huertecilla, C. Generación, 52, Campanillas, 29196 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJo9OaE5vxcg0RwbbwBoRkPPc",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Disbesa Malaga",
+    "web": "disbesa.com",
+    "sector": "retail_cadenas",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Caleta de Vélez, 53, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJA3D55KDwcg0Rea1Bvt9HkSM",
+    "fecha_deteccion": "2026-04-13T13:54:47.650770"
+  },
+  {
+    "empresa_nombre_guess": "Distribuciones Rodrigo SA",
+    "web": "distribucionesrodrigo.com",
+    "sector": "retail_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Poligono Industrial El Portazgo nave 73 Urbanización Carretera de Logroño, 2, 50011 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJxUnxH_xuWQ0R6t40mmEfqRs",
+    "fecha_deteccion": "2026-04-13T13:54:48.945965"
+  },
+  {
+    "empresa_nombre_guess": "Grupo Usieto",
+    "web": "grupousieto.com",
+    "sector": "retail_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Pertusa, 16, 50197 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ_____z8aWQ0Ri7heXcusPw0",
+    "fecha_deteccion": "2026-04-13T13:54:48.945965"
+  },
+  {
+    "empresa_nombre_guess": "Distribuciones Líder",
+    "web": "distribucioneslider.es",
+    "sector": "retail_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Piscis, 17, 50012 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJlww3eeJqWQ0RRxGmpbveo24",
+    "fecha_deteccion": "2026-04-13T13:54:48.945965"
+  },
+  {
+    "empresa_nombre_guess": "DISARAGON, S.L.",
+    "web": "disaragon.es",
+    "sector": "retail_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Industrial La unión I, nave 2,, Poligono Industrial La Union 2, Zona Diseminado, 33, 50013 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ_xPyu7gVWQ0R7pyP5jiadY8",
+    "fecha_deteccion": "2026-04-13T13:54:48.945965"
+  },
+  {
+    "empresa_nombre_guess": "Zadisa (Zaragozana de distribución S.L.)",
+    "web": "zadisa.es",
+    "sector": "retail_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Guglielmo Marconi, 4, 50830 Villanueva de Gállego, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJmeThyBIOWQ0RzoyHbhut3BY",
+    "fecha_deteccion": "2026-04-13T13:54:48.945965"
+  },
+  {
+    "empresa_nombre_guess": "SANCHEZ ARAGONESA DE DISTRIBUCIONES",
+    "web": "sanchezaragonesa.com",
+    "sector": "retail_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Insider Parcela 15-C, Nave 9, 50720 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJz2EN-wEWWQ0RlQ1bvAAA9vY",
+    "fecha_deteccion": "2026-04-13T13:54:48.945965"
+  },
+  {
+    "empresa_nombre_guess": "PPCR Stellantis &You Distrigo Zaragoza",
+    "web": "ppcr.stellantisandyou.es",
+    "sector": "retail_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Isla de Ischia, 2, 50197 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJCcCRyrVdWQ0RoeW3Low2uAI",
+    "fecha_deteccion": "2026-04-13T13:54:48.945965"
+  },
+  {
+    "empresa_nombre_guess": "Distribuidora De Aragón S.L.",
+    "web": "distridasa.com",
+    "sector": "retail_cadenas",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Ind Villanueva Polígono Ind Polígono Industrial, Polígono Industrial Sector 4, 0 Parc 1, 50830 Villanueva de Gállego, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ-4TGRw8SWQ0RavlMYTuXiEg",
+    "fecha_deteccion": "2026-04-13T13:54:48.945965"
+  },
+  {
+    "empresa_nombre_guess": "4TEnergy - Empresa Instaladora de Paneles Solares",
+    "web": "4tenergy.com",
+    "sector": "energia_utilities",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Cerrajeros, 10, Local 4, Carretera de Cádiz, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJjR6hNzHwcg0Rd3SyHVjVGKE",
+    "fecha_deteccion": "2026-04-13T13:54:50.561084"
+  },
+  {
+    "empresa_nombre_guess": "Zortec Fotovoltaica",
+    "web": "zortec.es",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Av. de Navarra, 21, Local, Delicias, 50010 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJRY_KY2kVWQ0RFszr1d-Fm98",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "Energía Solar Aragón",
+    "web": "energiasolararagon.es",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Av. del Alcalde Francisco Caballero, 32, nave 82, 50014 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJM87CzPUUWQ0RmznfeLtvTc0",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "Cambio Energético Zaragoza",
+    "web": "cambioenergetico.com",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Ajedrea, 19, NAVE B17, 50007 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJMzpzKK8XWQ0RJ4buOJEWfug",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "Efitar Ingeniería SL, Instalación de Placas Solares",
+    "web": "efitaringenieria.com",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. del Romero, 10, nave 17B, 50720 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJd0PenGATWQ0RM_IgDc7Gqmo",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "Placas Solares Arcess",
+    "web": "placassolaresarcess.es",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Cogullada, C. de Tomás A. Edison, 9, 50014 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ9bkm2ogVWQ0RRMu0dBvVbwE",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "AMB Green power | Instaladores de Placas Solares",
+    "web": "ambgreenpower.com",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Plataforma Logística PLAZA, C. Bilbilis, 18, Nave C-59, 50197 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJExVHHukUWQ0RPP6gAzIueGQ",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "Solistech Ingenieria - Placas solares Zaragoza",
+    "web": "solistech.es",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Nicaragua, 10, 50196 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJOQspIv9nWQ0R4k-tNATZkBM",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "FULL ENERGÍA",
+    "web": "fullenergia.es",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Riglos, 1, Casablanca, 50012 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJe3spQv9rWQ0RHl8zmTa3UG4",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "A3renovables",
+    "web": "a3renovables.es",
+    "sector": "energia_utilities",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Av. de Sta. Isabel, 201, LOCAL 2, Santa Isabel, 50016 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJKV6XTBoVWQ0R6mUY2PpiOi0",
+    "fecha_deteccion": "2026-04-13T13:54:51.829072"
+  },
+  {
+    "empresa_nombre_guess": "TALLER DE SERVICIOS TECNICOS A LA AUTOMOCION SL",
+    "web": "tallertsa.com",
+    "sector": "automocion_concesionarios",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Pol. Ind. la Huertecilla, C. Generación, 35, Campanillas, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJG6xBNY_wcg0RMDJkECbEnvw",
+    "fecha_deteccion": "2026-04-13T13:54:53.144807"
+  },
+  {
+    "empresa_nombre_guess": "J. Domínguez: Centro Integral de Automoción",
+    "web": "jdominguezautomocion.es",
+    "sector": "automocion_concesionarios",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Fidias, 52, Carretera de Cádiz, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJZ-EuLFL5cg0RRtt4m5bQfjU",
+    "fecha_deteccion": "2026-04-13T13:54:53.145333"
+  },
+  {
+    "empresa_nombre_guess": "Taller Alpha Automoción",
+    "web": "alphaautomocion.com",
+    "sector": "automocion_concesionarios",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Sigfrido, 11, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJS7awGUL3cg0R2bKO6vMbndA",
+    "fecha_deteccion": "2026-04-13T13:54:53.145333"
+  },
+  {
+    "empresa_nombre_guess": "Grupo AutoPro",
+    "web": "grupoautopro.com",
+    "sector": "automocion_concesionarios",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Ciro Alegría, 55, 57, Churriana, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJv7kfedb7cg0R6GhcJ3vnZ4M",
+    "fecha_deteccion": "2026-04-13T13:54:53.145333"
+  },
+  {
+    "empresa_nombre_guess": "Taller Electro Frio Motor - Tacógrafos",
+    "web": "electrofriomotor.com.es",
+    "sector": "automocion_concesionarios",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av. Villa Rosa, 19, Churriana, 29004 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ7RmlOYz5cg0R49lv9d1uvus",
+    "fecha_deteccion": "2026-04-13T13:54:53.145333"
+  },
+  {
+    "empresa_nombre_guess": "LA SOLUCION DEL AUTOMOVIL",
+    "web": "lasoluciondelautomovil.com",
+    "sector": "automocion_concesionarios",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Cuernavaca, 11, Cruz de Humilladero, 29006 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ78-setj5cg0R_HaTYjKJGls",
+    "fecha_deteccion": "2026-04-13T13:54:53.145333"
+  },
+  {
+    "empresa_nombre_guess": "Talleres Autoindustrial",
+    "web": "talleresautoindustrial.com",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Ciudad del Transporte, Calle P/A, Nave 96, Cdad. del Transporte, 50820 San Juan de Mozarrifar, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ431Nv8wTWQ0R3YOX9B352VY",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "Taller C.A. AUTO SPORT",
+    "web": "axa.es",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Industrial MOLINO DEL PILAR, C. de Rudolf Diesel, 15, 50015 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ-yK6en8UWQ0R3Ad_LNRUXkQ",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "Safety Car",
+    "web": "tallerdecochesenzaragoza.es",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Industrial, C. de Argualas, Nave 32, Casablanca, 50012 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJkb0HIgIWWQ0RLktmtfpQMHw",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "Movibus Service",
+    "web": "blogmovibusservice.es",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Jaime Ferrán, N° 11, Nave 9-A, 50014 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJdUVRqXwUWQ0R47oht8G1SA4",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "TALLERES MALPICA",
+    "web": "talleresmalpicazaragoza.es",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Malpica, C. D, 96, 50016 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJpw5gVuAWWQ0RqZr76RILJxA",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "La Ripa Automoción",
+    "web": "tallerlaripa.com",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Francisco de la Ripa, 3, 50006 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJAYd0094UWQ0RafVr6bu8Q-g",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "Samvardhana Motherson Reflectec",
+    "web": "smr-automotive.com",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Polígono Industrial Valdemuel, s/n, 50290 Épila, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJVY8EEgbeWw0RlDxKBQ8xGZQ",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "European Tools - Patner Iberia S.L. | Distribuidor Oficial BOSCH | MAKITA | JBM | EINHELL | STANLEY | DEWALT | EDM | COFAN",
+    "web": "patneriberia.es",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Av. de Manuel Rodríguez Ayuso, 114, Edificio Centro Empresarial Miralbueno, 50012 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ79PsAQVrWQ0R4Jfz26ty5F0",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "Talleres El Portazgo S L",
+    "web": "tallereselportazgo.com",
+    "sector": "automocion_concesionarios",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Calle Limite Sur Nº22 Polígono Industrial, Calle Cdad. del Transporte, Cdad. del Transporte, 50820 San Juan de Mozarrifar, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJLxHgxMwTWQ0RsP6qpy93hFc",
+    "fecha_deteccion": "2026-04-13T13:54:54.437551"
+  },
+  {
+    "empresa_nombre_guess": "Sociedad Cooperativa Andaluza Agrícola de Estepona",
+    "web": "cooperativaestepona.es",
+    "sector": "agroalimentario",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Calle alejo Martín Rodríguez, 8, 29680 Estepona, Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJAyaUMaHWDA0RhmbUxRrNg5Y",
+    "fecha_deteccion": "2026-04-13T13:54:55.654748"
+  },
+  {
+    "empresa_nombre_guess": "Cooperativa Guadalhorce Ecológico",
+    "web": "guadalhorceecologico.com",
+    "sector": "agroalimentario",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Calle Rda. Pte., S/N, 29570 Villafranco del Guadalhorce, Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJGcSRYm7ocg0RzfzNlah0F3I",
+    "fecha_deteccion": "2026-04-13T13:54:55.654748"
+  },
+  {
+    "empresa_nombre_guess": "UNION DE AGRICULTORES Y GANADEROS DE MALAGA",
+    "web": "coagandalucia.com",
+    "sector": "agroalimentario",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Iván Pavlov, 8, Campanillas, 29590 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJx36Akprxcg0RzOQ2Qr0gmt0",
+    "fecha_deteccion": "2026-04-13T13:54:55.654748"
+  },
+  {
+    "empresa_nombre_guess": "Unión de Pequeños Agricultores y Ganaderos de Málaga",
+    "web": "upamalaga.es",
+    "sector": "agroalimentario",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Héroe de Sostoa, 119, 1º 1, Carretera de Cádiz, 29003 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJEUK9GH_3cg0RdI4TqN0Yqjs",
+    "fecha_deteccion": "2026-04-13T13:54:55.654748"
+  },
+  {
+    "empresa_nombre_guess": "Sociedad Cooperativa Agraria San Lamberto",
+    "web": "coop-sanlamberto.com",
+    "sector": "agroalimentario",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Carr. de Cogullada, 65, 50014 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ38uOTXcUWQ0RE2ckbINblSI",
+    "fecha_deteccion": "2026-04-13T13:54:57.208229"
+  },
+  {
+    "empresa_nombre_guess": "Ava Cooperativa - Agricultura Verde Aragonesa",
+    "web": "avacoop.com",
+    "sector": "agroalimentario",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Vía de San Fernando, 33, San José, 50007 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ4c_sKzgVWQ0R2QxzzNUDVxo",
+    "fecha_deteccion": "2026-04-13T13:54:57.208229"
+  },
+  {
+    "empresa_nombre_guess": "Cooperativas Agroalimentarias de Aragón",
+    "web": "aragon.coop",
+    "sector": "agroalimentario",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º Echegaray y Caballero, 32, local, Casco Antiguo, 50003 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJX8vkA7AVWQ0RxpylFc5nwak",
+    "fecha_deteccion": "2026-04-13T13:54:57.208229"
+  },
+  {
+    "empresa_nombre_guess": "Casa de Ganaderos",
+    "web": "casaganaderos.com",
+    "sector": "agroalimentario",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de San Andrés, 8, Casco Antiguo, 50001 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJW04Sde4UWQ0RW-Z1dlF3CPA",
+    "fecha_deteccion": "2026-04-13T13:54:57.208229"
+  },
+  {
+    "empresa_nombre_guess": "Cooperativa Santa Ana",
+    "web": "agroveco.com",
+    "sector": "agroalimentario",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. de Cuenca, 0, 50180 Utebo, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJo8Ss-ItuWQ0RojPrdb5jKys",
+    "fecha_deteccion": "2026-04-13T13:54:57.208229"
+  },
+  {
+    "empresa_nombre_guess": "Comité Aragonés de Agricultura Ecologica",
+    "web": "aragonecologico.com",
+    "sector": "agroalimentario",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "CENTRO EMPRESARIAL MIRALBUENO, Av. de Manuel Rodríguez Ayuso, 114, 1ª planta, Of. P-5, 50012 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJixxhOIwTWQ0RDvtgZUP6kVE",
+    "fecha_deteccion": "2026-04-13T13:54:57.208229"
+  },
+  {
+    "empresa_nombre_guess": "Tauste Cooperativa Agraria San Miguel",
+    "web": "cooperativasanmiguel.net",
+    "sector": "agroalimentario",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Cam. Abarquillo, s/n, 50660 Tauste, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJfRZQei8rWg0RSD2mtPvpEhQ",
+    "fecha_deteccion": "2026-04-13T13:54:57.208229"
+  },
+  {
+    "empresa_nombre_guess": "Cooperativa Agrícola Gallicum San Mateo",
+    "web": "coopgallicum.es",
+    "sector": "agroalimentario",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "A-123, Km. 19, Km. 19, 50840 San Mateo de Gállego, Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJTwip4TgPWQ0RNN_pd0BGCbM",
+    "fecha_deteccion": "2026-04-13T13:54:57.208229"
+  },
+  {
+    "empresa_nombre_guess": "STANDBY Consultores SELECCIÓN DE PERSONAL DIRECTIVO",
+    "web": "standby.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. de Walt Whitman, 1, 1ºA, Distrito Centro, 29002 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ9RS3VZn3cg0RwoeZGjGVrew",
+    "fecha_deteccion": "2026-04-13T13:54:58.463545"
+  },
+  {
+    "empresa_nombre_guess": "W Executive España | Headhunter Málaga",
+    "web": "wexecutive.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Marqués de Larios, 1, planta 3 Izquierda, Distrito Centro, 29015 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJIbNrLS_3cg0RzoH0jQw_Uzg",
+    "fecha_deteccion": "2026-04-13T13:54:58.463545"
+  },
+  {
+    "empresa_nombre_guess": "QUORUM SELECCIÓN, Selección de Directivos",
+    "web": "quorumseleccion.com",
+    "sector": "consultoras_rrhh",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Ordóñez, 2, 1a, Distrito Centro, 29005 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJn2xCeZT3cg0RrEzI99xdBAk",
+    "fecha_deteccion": "2026-04-13T13:54:58.463545"
+  },
+  {
+    "empresa_nombre_guess": "Consultora Work Finder",
+    "web": "consultoraworkfinder.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Av. de Andalucía, 36, Cruz de Humilladero, 29007 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJDTHu18f3cg0RQbAaKg4AluI",
+    "fecha_deteccion": "2026-04-13T13:54:58.463545"
+  },
+  {
+    "empresa_nombre_guess": "Betancourt Executive Search",
+    "web": "betancourt.pro",
+    "sector": "consultoras_rrhh",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "C. Cardo Cuco, 1, Málaga-Este, 29018 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJzVO51yU5OmkRJRgiVBx6iK8",
+    "fecha_deteccion": "2026-04-13T13:54:58.463545"
+  },
+  {
+    "empresa_nombre_guess": "W Executive España | Headhunting & Executive Search",
+    "web": "wexecutive.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "P.º de la Castellana, 216 Torre Realia, The Icon, Planta 7 SUR, Chamartín, 28046 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ6WNOdT4pQg0RaKEw03RXGIc",
+    "fecha_deteccion": "2026-04-13T13:54:58.463545"
+  },
+  {
+    "empresa_nombre_guess": "HRCS GROUP",
+    "web": "hrcs.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Málaga",
+    "fuente": "google_places",
+    "senal": "Alameda Principal, 21, 3º F, Distrito Centro, 29001 Málaga, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJcaAqSdP3cg0ROnp2tmstUw8",
+    "fecha_deteccion": "2026-04-13T13:54:58.463545"
+  },
+  {
+    "empresa_nombre_guess": "AYANET RECURSOS HUMANOS | Consultoría de recursos humanos en Zaragoza",
+    "web": "ayanet.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Bari, 57, 50197 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJNZVuLGJpWQ0RXIMs5V7NLeA",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  },
+  {
+    "empresa_nombre_guess": "Michael Page | Selección de personal",
+    "web": "michaelpage.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "WTC Torre Este, C. de María Zambrano, 31, 50018 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJYRjK4KIUWQ0RnYt2qJe2n0Y",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  },
+  {
+    "empresa_nombre_guess": "Etalentum Zaragoza - Selección de Personal",
+    "web": "etalentum.com",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Ed. World Trade Center, C. de María Zambrano, 31, 50018 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJmb2qdd4VWQ0Rv8YlMdnT8Qk",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  },
+  {
+    "empresa_nombre_guess": "Headhunters - Executive Search - GD Human Capital",
+    "web": "adlanter.com",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Av. de Gómez Laguna, 25, Planta9, Oficina A2, 50009 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJpeMBtugUWQ0RK34-wDu7p5E",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  },
+  {
+    "empresa_nombre_guess": "Dexter Associates, firma de búsqueda y selección de directivos",
+    "web": "dexter.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "C. Alcalá, 87, 7º D, Salamanca, 28001 Madrid, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJTZpOZ5coQg0RojqHmkRLnNs",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  },
+  {
+    "empresa_nombre_guess": "etalentum Zaragoza - Selección de personal",
+    "web": "etalentum.com",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "P.º de la Independencia, 24, Planta 2 Of. 6, Casco Antiguo, 50004 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJCYtw9NUVWQ0RfZ0wdJEnzcI",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  },
+  {
+    "empresa_nombre_guess": "Búsqueda y Selección S.L.",
+    "web": "busqueda-seleccion.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Diego Lopez Haroko Kale Nagusia, 17, Oficina 605, Abando, 48001 Bilbao, Bizkaia, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJkwbwsNBPTg0RXrocKAdWdnE",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  },
+  {
+    "empresa_nombre_guess": "Departamento de Educación, Cultura y Deporte",
+    "web": "educa.aragon.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Av. Ranillas, 5D, 50018 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJYVwlIa0UWQ0RoTXl5qmXDe4",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  },
+  {
+    "empresa_nombre_guess": "ANPE ZARAGOZA",
+    "web": "anpearagon.es",
+    "sector": "consultoras_rrhh",
+    "zona": "Zaragoza",
+    "fuente": "google_places",
+    "senal": "Pl. S. Francisco, 6, 50006 Zaragoza, España",
+    "url_origen": "https://www.google.com/maps/place/?q=place_id:ChIJ2x7ArdkUWQ0RBuDhiJEJdtU",
+    "fecha_deteccion": "2026-04-13T13:55:00.109791"
+  }
+]

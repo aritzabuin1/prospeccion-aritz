@@ -1,22 +1,39 @@
 {
+  "_nota_exclusion": "Todos los templates incluyen operadores negativos para filtrar contenido editorial. Ajustar según feedback del validador.",
+  "_exclusiones_comunes": "-\"tipos de\" -\"qué es\" -\"cómo funciona\" -\"guía\" -\"ranking\" -\"todo sobre\" -\"descubre\" -wikipedia -universidad -blog",
   "google_custom_search": {
     "empresas_directas": [
-      "{sector} España empresa web contacto",
-      "empresa {sector} España servicios",
-      "{sector} España líder sector",
-      "empresas {sector} España directorio"
+      "{sector} España empresa web contacto -\"tipos de\" -\"qué es\" -wikipedia -universidad",
+      "empresa {sector} España servicios -\"guía\" -\"ranking\" -blog",
+      "{sector} España S.A. facturación -\"qué es\" -\"definición\"",
+      "empresas {sector} España directorio -wikipedia -universidad"
     ],
     "noticias_crecimiento": [
-      "{sector} España crecimiento expansión 2026",
-      "{sector} España nueva sede oficinas contratación"
+      "{sector} España crecimiento expansión 2026 -\"tipos de\" -\"qué es\"",
+      "{sector} España nueva sede oficinas contratación -blog -wikipedia"
     ],
     "transformacion": [
-      "{sector} España digitalización procesos automatización",
-      "{sector} España innovación tecnología empresa"
+      "{sector} España digitalización procesos -\"qué es\" -\"tipos de\"",
+      "{sector} España innovación tecnología empresa -universidad -blog"
+    ],
+    "gran_cuenta": [
+      "grupo {sector} España 500 empleados facturación -\"tipos de\" -\"ranking\"",
+      "holding {sector} España filiales divisiones -wikipedia -universidad",
+      "{sector} España corporación multinacional -\"qué es\" -blog"
+    ],
+    "multinacional": [
+      "multinacional {sector} sede España director -\"tipos de\" -\"guía\"",
+      "{sector} global España country manager -universidad -wikipedia",
+      "{sector} Spain headquarters digital -blog -\"what is\""
     ]
   },
   "rotacion": {
-    "queries_por_ejecucion": 12,
-    "dias_antes_de_repetir": 7
+    "queries_por_ejecucion": 18,
+    "dias_antes_de_repetir": 7,
+    "distribucion_tier": {
+      "mid_market": 0.6,
+      "gran_cuenta": 0.25,
+      "multinacional": 0.15
+    }
   }
 }

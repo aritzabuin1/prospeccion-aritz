@@ -20,7 +20,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CREDENTIALS_PATH = os.path.join(PROJECT_ROOT, ".gmail_credentials.json")
 TOKEN_PATH = os.path.join(PROJECT_ROOT, ".gmail_token.json")
 
-SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
+SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
 
 
 def authenticate():

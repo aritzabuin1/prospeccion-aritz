@@ -1,0 +1,137 @@
+{
+  "por_sector": {
+    "hosteleria_cadenas": {
+      "total": 1,
+      "respuestas": 0,
+      "rechazos_scope": 0,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "industria_fabricacion": {
+      "total": 2,
+      "respuestas": 0,
+      "rechazos_scope": 1,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "construccion_ingenieria": {
+      "total": 1,
+      "respuestas": 0,
+      "rechazos_scope": 0,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "energia_utilities": {
+      "total": 1,
+      "respuestas": 0,
+      "rechazos_scope": 0,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "inmobiliaria_gestion": {
+      "total": 4,
+      "respuestas": 0,
+      "rechazos_scope": 2,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "logistica_transporte": {
+      "total": 1,
+      "respuestas": 0,
+      "rechazos_scope": 0,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "servicios_profesionales": {
+      "total": 1,
+      "respuestas": 0,
+      "rechazos_scope": 0,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "hosteleria_grupos": {
+      "total": 2,
+      "respuestas": 0,
+      "rechazos_scope": 0,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "agroalimentario": {
+      "total": 1,
+      "respuestas": 0,
+      "rechazos_scope": 0,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    },
+    "consultoras_rrhh": {
+      "total": 1,
+      "respuestas": 0,
+      "rechazos_scope": 0,
+      "reuniones": 0,
+      "tasa_respuesta": 0.0
+    }
+  },
+  "por_zona": {
+    "Bilbao": {
+      "total": 1,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    },
+    "Zaragoza": {
+      "total": 5,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    },
+    "Murcia": {
+      "total": 7,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    },
+    "Palma de Mallorca": {
+      "total": 2,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    }
+  },
+  "por_tamano": {
+    "xs": {
+      "total": 15,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    }
+  },
+  "por_cargo_decisor": {
+    "Directora de Operaciones": {
+      "total": 1,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    },
+    "Director General": {
+      "total": 1,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    },
+    "desconocido": {
+      "total": 11,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    },
+    "CEO / Directora Financiera": {
+      "total": 1,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    },
+    "Direccion (familia fundadora)": {
+      "total": 1,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    }
+  },
+  "por_asunto_email": {
+    "(sin asunto registrado)": {
+      "enviados": 7,
+      "respuestas": 0,
+      "tasa_respuesta": 0.0
+    }
+  }
+}

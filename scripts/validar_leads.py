@@ -11,6 +11,7 @@ Uso:
     python -m scripts.validar_leads [--fecha YYYY-MM-DD]
 """
 
+import io
 import json
 import os
 import re
@@ -18,6 +19,11 @@ import sys
 import time
 from datetime import datetime
 from urllib.parse import urlparse
+
+# Fix Windows console encoding for Unicode output
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 import requests
 from bs4 import BeautifulSoup
@@ -150,14 +156,90 @@ def buscar_empleados_ddg(nombre_empresa: str, dominio: str) -> dict:
     return resultado
 
 
+DOMINIOS_NO_EMPRESA = {
+    "wikipedia.org", "wikimedia.org", "linkedin.com", "infojobs.net",
+    "indeed.com", "glassdoor.es", "universidadviu.com", "uoc.edu",
+    "universia.net", "protecnium.com", "einforma.com", "europapress.es",
+    "expansion.com", "elpais.com", "elmundo.es", "abc.es", "cincodias.com",
+    "lavanguardia.com", "20minutos.es", "eleconomista.es", "idealista.com",
+    "fotocasa.es", "milanuncios.com", "paginasamarillas.es", "axesor.es",
+    "dnb.com", "crunchbase.com", "bloomberg.com", "forbes.com",
+    "reuters.com", "ft.com", "youtube.com", "vimeo.com",
+    "facebook.com", "twitter.com", "instagram.com", "tiktok.com",
+    "pinterest.com", "medium.com", "wordpress.com", "blogspot.com",
+    # Grandes cuentas con contenido SEO que colan como lead cuando no lo son
+    "repsol.com", "iberdrola.com", "endesa.com", "naturgy.com",
+    "santander.com", "bbva.com", "caixabank.es", "mapfre.es",
+    "telefonica.com", "movistar.es", "vodafone.es", "orange.es",
+}
+
+EDITORIAL_PATTERNS = [
+    r"^(tipos de|¿qu[eé] es|qu[eé] es|c[oó]mo|cu[aá]nto|cu[aá]ndo|d[oó]nde|por qu[eé]|gu[ií]a|todo sobre|descubre|te mostramos|te explicamos|el mejor|los mejores|las mejores|ranking|top \d)",
+    r"(definici[oó]n|significado|diferencias entre|ventajas y desventajas|pasos para)",
+    r"\b(wikipedia|glosario|diccionario)\b",
+    r"^\d+\s+(mejores|tipos|claves|consejos|trucos|ejemplos)",
+    r"^(las?|los)\s+\d+\s+(mejores|m[aá]s|principales|grandes|importantes|hoteleros)",
+    r"^(listado|lista|directorio|base de datos|cadenas)\s+(de|forbes)",
+    r"^whatsapp\b",
+    r"^pinterest\b",
+    r"\bautob[uú]s de l[ií]nea\b",
+    r"(portal de empleo|oferta de empleo|equipo de marketing|equipo ejecutivo)",
+    r"(cadenas hoteleras|hoteleros m[aá]s)",
+    r"^tf1\b",
+]
+
+# Patrones que delatan empresa fuera de scope (LATAM / otros)
+LATAM_PATTERNS = [
+    r"\bs\.?\s*a\.?\s*de\s*c\.?\s*v\.?\b",   # México
+    r"\bs\.?\s*r\.?\s*l\.?\s*de\s*c\.?\s*v\.?\b",  # México
+    r"\bcia\.?\s*ltda\.?\b",                  # Chile/Ecuador
+    r"\bsac\b",                                # Perú
+    r"\beirl\b",                               # Chile/Perú
+]
+
+def es_fuera_scope(nombre: str) -> bool:
+    texto = (nombre or "").lower()
+    for pat in LATAM_PATTERNS:
+        if re.search(pat, texto):
+            return True
+    return False
+
+def es_editorial(nombre: str, titulo: str, dominio: str) -> bool:
+    """Detecta si el 'lead' es en realidad contenido editorial (artículo SEO)."""
+    # Dominio en lista negra
+    host = (dominio or "").lower().replace("www.", "").split("/")[0]
+    for bad in DOMINIOS_NO_EMPRESA:
+        if host == bad or host.endswith("." + bad):
+            return True
+    # Nombre con patrón de artículo
+    texto = (nombre or "").lower().strip()
+    for pat in EDITORIAL_PATTERNS:
+        if re.search(pat, texto):
+            return True
+    # Título muy largo con signos de artículo (¿? o ¡!) o empieza con pregunta
+    t = (titulo or "").lower()
+    if len(texto) > 60 and ("..." in texto or "¿" in texto or "..." in t):
+        return True
+    return False
+
+
 def clasificar_semaforo(web_info: dict, empleados_info: dict, candidato: dict) -> str:
     """
     Clasifica el lead:
     - VERDE: web activa + (empleados >= 30 O señales fuertes de tamaño)
     - AMARILLO: web activa pero sin datos de tamaño
-    - ROJO: web muerta, micro, o claramente irrelevante
+    - ROJO: web muerta, micro, irrelevante, o contenido editorial (no empresa)
     """
     if not web_info["web_activa"]:
+        return "ROJO"
+
+    # Filtro editorial: si el "lead" es un artículo SEO, rojo directo
+    nombre = candidato.get("empresa_nombre_guess", "")
+    titulo = web_info.get("titulo_web", "")
+    dominio = candidato.get("web", "")
+    if es_editorial(nombre, titulo, dominio):
+        return "ROJO"
+    if es_fuera_scope(nombre):
         return "ROJO"
 
     empleados = empleados_info.get("empleados_estimados")

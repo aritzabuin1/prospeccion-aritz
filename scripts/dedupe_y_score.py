@@ -20,6 +20,15 @@ def load_objetivos():
         return json.load(f)
 
 
+def load_pesos_aprendidos():
+    """Pesos generados por scripts/retrospectiva.py. Si no existe, vacío."""
+    path = os.path.join(CONFIG_DIR, "pesos_scoring.json")
+    if not os.path.exists(path):
+        return {"sector_bonus": {}, "zona_bonus": {}, "tamano_bonus": {}, "cargo_bonus": {}}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def load_leads_vistos():
     path = os.path.join(DATA_DIR, "leads_vistos.json")
     with open(path, "r", encoding="utf-8") as f:
@@ -80,8 +89,11 @@ def es_duplicado(candidato, vistos, pipeline_leads):
     return False
 
 
-def calcular_score(candidato, objetivos):
-    """Scoring 0-100. Prioriza tamaño de empresa y capacidad de pago."""
+def calcular_score(candidato, objetivos, pesos_aprendidos=None):
+    """Scoring 0-100. Prioriza tamaño de empresa y capacidad de pago.
+    Si se pasa pesos_aprendidos (de retrospectiva.py), suma sus bonus/penalty."""
+    if pesos_aprendidos is None:
+        pesos_aprendidos = {"sector_bonus": {}, "zona_bonus": {}, "tamano_bonus": {}, "cargo_bonus": {}}
     score = 0
     sectores_ids = [s["id"] for s in objetivos["sectores_prioritarios"]]
     zonas = [z.lower() for z in objetivos["zonas_prioritarias"]]
@@ -153,12 +165,34 @@ def calcular_score(candidato, objetivos):
     # +10 si aparece en más de una fuente (se calcula después en dedup grupal)
     # Este bonus se aplica abajo
 
+    # Bonus/penalty aprendidos por retrospectiva semanal
+    score += pesos_aprendidos.get("sector_bonus", {}).get(sector, 0)
+    score += pesos_aprendidos.get("zona_bonus", {}).get(zona, 0)
+    tamano_bucket = (
+        "xs" if empleados and empleados < 20 else
+        "s" if empleados and empleados < 50 else
+        "m" if empleados and empleados < 200 else
+        "l" if empleados and empleados < 1000 else
+        "xl" if empleados else None
+    )
+    if tamano_bucket:
+        score += pesos_aprendidos.get("tamano_bonus", {}).get(tamano_bucket, 0)
+
+    # Bonus multinacional / gran cuenta (fijo desde objetivos.json)
+    if empleados >= 500:
+        score += objetivos["filtros"].get("bonus_gran_cuenta_500plus", 0)
+    indicadores_multinacional = ["multinacional", "global", "corporation", "corporate", "worldwide"]
+    texto_multi = f"{senal} {candidato.get('empresa_nombre_guess', '')}".lower()
+    if any(ind in texto_multi for ind in indicadores_multinacional):
+        score += objetivos["filtros"].get("bonus_multinacional", 0)
+
     return score
 
 
 def run():
     """Ejecuta dedupe y scoring sobre candidatos del día."""
     objetivos = load_objetivos()
+    pesos_aprendidos = load_pesos_aprendidos()
     vistos = load_leads_vistos()
     pipeline = load_pipeline()
     candidatos = load_candidatos_hoy()
@@ -185,7 +219,7 @@ def run():
         if es_duplicado(candidato, vistos, pipeline.get("leads", {})):
             continue
 
-        score = calcular_score(candidato, objetivos)
+        score = calcular_score(candidato, objetivos, pesos_aprendidos)
 
         # Bonus multi-fuente
         fuentes = set(c.get("fuente", "") for c in grupo)

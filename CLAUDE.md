@@ -38,6 +38,15 @@ sin servicios externos de pago.
 4. Idioma: castellano siempre
 5. No tracking de apertura (solo respuestas)
 6. LinkedIn: envío siempre manual, nunca scripted
+7. **Scope geográfico (del decisor, no de la sede):** solo España y países
+   avanzados (UE, UK, EEUU, Canadá, Suiza, Noruega, Australia, Nueva Zelanda,
+   Japón, Corea del Sur, Singapur). NO Latinoamérica, NO África, NO Asia
+   emergente. Verificar país del DECISOR antes de generar dossier (perfil
+   LinkedIn), no solo la sede. Sede en España + decisor en LATAM = rechazo.
+8. **Sin tope de tamaño:** medianas, grandes cuentas y multinacionales
+   entran todas. No hay techo. Tickets altos son bienvenidos. El único
+   filtro es el geográfico del decisor + que tenga dolor operativo real
+   que encaje con los casos disponibles.
 
 ## Archivos clave
 
