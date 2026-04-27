@@ -86,14 +86,17 @@ SECTOR_QUERIES = {
     ],
 }
 
-# Ciudades grandes para rotación — cubren toda España
+# Ciudades por densidad empresarial (plan v2: alcance nacional).
+# Las 10 primeras son las prioritarias — se cubren SIEMPRE en cada ejecución.
 CIUDADES = [
-    "Madrid", "Barcelona", "Valencia", "Sevilla", "Bilbao",
-    "Málaga", "Zaragoza", "Murcia", "Palma de Mallorca", "Las Palmas",
-    "Alicante", "Córdoba", "Valladolid", "Vigo", "Gijón",
+    "Madrid", "Barcelona", "Valencia", "Zaragoza", "Sevilla",
+    "Málaga", "Bilbao", "Palma de Mallorca", "Las Palmas", "Alicante",
+    "Murcia", "Córdoba", "Valladolid", "Vigo", "Gijón",
     "A Coruña", "Vitoria", "Granada", "Pamplona", "San Sebastián",
     "Santander", "Burgos", "Salamanca", "Logroño", "Cáceres",
 ]
+
+CIUDADES_POR_EJECUCION = 10
 
 # Fichero para rotar ciudades entre ejecuciones
 ROTACION_PATH = os.path.join(DATA_DIR, "places_rotacion.json")
@@ -183,14 +186,11 @@ def run():
         with open(candidatos_path, "r", encoding="utf-8") as f:
             candidatos = json.load(f)
 
-    # Seleccionar 2 ciudades por ejecución (rotación)
-    # Con 12 sectores × 2 ciudades = 24 queries por tanda
-    # Cubre TODOS los sectores cada vez, rota ciudades
+    # Seleccionar N ciudades por ejecución (10 por defecto, cubre las grandes).
+    # Con 12 sectores × 10 ciudades = 120 queries por tanda → pipeline 80/sem.
     idx = rotacion.get("ultimo_indice_ciudad", 0)
-    ciudades_hoy = []
-    for i in range(2):
-        ciudades_hoy.append(CIUDADES[(idx + i) % len(CIUDADES)])
-    nuevo_idx = (idx + 2) % len(CIUDADES)
+    ciudades_hoy = [CIUDADES[(idx + i) % len(CIUDADES)] for i in range(CIUDADES_POR_EJECUCION)]
+    nuevo_idx = (idx + CIUDADES_POR_EJECUCION) % len(CIUDADES)
 
     nuevos = 0
     queries_hechas = 0

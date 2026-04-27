@@ -242,8 +242,8 @@ def run():
     # Ordenar por score desc
     resultados.sort(key=lambda x: x.get("score", 0), reverse=True)
 
-    # Filtrar por score mínimo y tomar top 20
-    resultados = [r for r in resultados if r.get("score", 0) >= min_score][:20]
+    # Filtrar por score mínimo y tomar top 60 (objetivo 40 validados tras filtro editorial)
+    resultados = [r for r in resultados if r.get("score", 0) >= min_score][:60]
 
     # Guardar
     fecha_hoy = datetime.now().strftime("%Y-%m-%d")

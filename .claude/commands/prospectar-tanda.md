@@ -2,7 +2,12 @@
 
 Ejecuta la tanda completa: descubrimiento, scoring, validacion y presentacion.
 
-## Distribución de la tanda (30 leads/semana objetivo)
+**Objetivo de volumen: 40 leads por tanda, 2 tandas/semana = 80 leads/semana.**
+El límite anterior era 15-30; se escaló para aumentar pipeline. Si el
+descubrimiento devuelve menos de 40 validados, seguir adelante y logear
+en `logs/tandas-bajas.log` para revisar queries.
+
+## Distribución de la tanda (40 leads/tanda, 80/semana)
 
 Cada tanda se reparte en tres tiers para asegurar mix de tickets:
 

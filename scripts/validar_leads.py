@@ -167,11 +167,30 @@ DOMINIOS_NO_EMPRESA = {
     "reuters.com", "ft.com", "youtube.com", "vimeo.com",
     "facebook.com", "twitter.com", "instagram.com", "tiktok.com",
     "pinterest.com", "medium.com", "wordpress.com", "blogspot.com",
+    # Medios y blogs sectoriales que colaron en tanda 2026-04-20
+    "diariodetransporte.com", "novologistica.com", "definiciones-de.com",
+    "formarse.es", "accio.com", "es.accio.com", "fetico.es",
+    "cms.tecnalia.com", "tecnalia.com",
+    # Plataformas SaaS que aparecen en lugar de la empresa (subdominios de RRHH, etc.)
+    "factorial.es", "factorialhr.com", "personio.com", "bizneo.com",
+    # TLD educativos (también se filtran por extensión abajo)
+    "uloyola.es", "esingenieria.uca.es", "uca.es", "ucm.es", "ub.edu",
     # Grandes cuentas con contenido SEO que colan como lead cuando no lo son
     "repsol.com", "iberdrola.com", "endesa.com", "naturgy.com",
     "santander.com", "bbva.com", "caixabank.es", "mapfre.es",
     "telefonica.com", "movistar.es", "vodafone.es", "orange.es",
 }
+
+# Sufijos de dominio que descartan automáticamente
+SUFIJOS_NO_EMPRESA = (
+    ".edu", ".edu.es", ".gob.es", ".gov", ".mil.es",
+)
+
+# Prefijos de dominio que indican medio/blog/editorial
+PREFIJOS_NO_EMPRESA = (
+    "diario", "revista", "noticias", "periodico", "prensa",
+    "blog.", "news.", "info.",
+)
 
 EDITORIAL_PATTERNS = [
     r"^(tipos de|¿qu[eé] es|qu[eé] es|c[oó]mo|cu[aá]nto|cu[aá]ndo|d[oó]nde|por qu[eé]|gu[ií]a|todo sobre|descubre|te mostramos|te explicamos|el mejor|los mejores|las mejores|ranking|top \d)",
@@ -186,6 +205,15 @@ EDITORIAL_PATTERNS = [
     r"(portal de empleo|oferta de empleo|equipo de marketing|equipo ejecutivo)",
     r"(cadenas hoteleras|hoteleros m[aá]s)",
     r"^tf1\b",
+    # Añadidos tras tanda 2026-04-20
+    r"^d[ií]a (europeo|internacional|mundial|nacional)\b",
+    r"^creating growth\b",
+    r"^disposici[oó]n \d",
+    r"\b(bolet[ií]n oficial|BOE n[úu]m)\b",
+    r"^(el|la) (auditor[ií]a|contabilidad|log[ií]stica) (cambia|evoluciona)",
+    r"\bsitio web de (la|el) universidad\b",
+    r"\b(escuela superior|facultad de|instituto superior)\b",
+    r"^fabricantes?:",
 ]
 
 # Patrones que delatan empresa fuera de scope (LATAM / otros)
@@ -210,6 +238,14 @@ def es_editorial(nombre: str, titulo: str, dominio: str) -> bool:
     host = (dominio or "").lower().replace("www.", "").split("/")[0]
     for bad in DOMINIOS_NO_EMPRESA:
         if host == bad or host.endswith("." + bad):
+            return True
+    # Sufijos académicos/gubernamentales
+    for suf in SUFIJOS_NO_EMPRESA:
+        if host.endswith(suf):
+            return True
+    # Prefijos de medio/blog
+    for pref in PREFIJOS_NO_EMPRESA:
+        if host.startswith(pref):
             return True
     # Nombre con patrón de artículo
     texto = (nombre or "").lower().strip()

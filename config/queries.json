@@ -1,6 +1,6 @@
 {
   "_nota_exclusion": "Todos los templates incluyen operadores negativos para filtrar contenido editorial. Ajustar según feedback del validador.",
-  "_exclusiones_comunes": "-\"tipos de\" -\"qué es\" -\"cómo funciona\" -\"guía\" -\"ranking\" -\"todo sobre\" -\"descubre\" -wikipedia -universidad -blog",
+  "_exclusiones_comunes": "-\"tipos de\" -\"qué es\" -\"cómo funciona\" -\"guía\" -\"ranking\" -\"todo sobre\" -\"descubre\" -\"significado\" -\"definición\" -\"día europeo\" -\"día internacional\" -wikipedia -universidad -facultad -escuela -blog -BOE -boletín -fundación -ministerio -ayuntamiento -diputación -revista -periódico -diario -noticias -prensa -colegio",
   "google_custom_search": {
     "empresas_directas": [
       "{sector} España empresa web contacto -\"tipos de\" -\"qué es\" -wikipedia -universidad",
@@ -28,7 +28,7 @@
     ]
   },
   "rotacion": {
-    "queries_por_ejecucion": 18,
+    "queries_por_ejecucion": 30,
     "dias_antes_de_repetir": 7,
     "distribucion_tier": {
       "mid_market": 0.6,

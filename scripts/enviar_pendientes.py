@@ -56,6 +56,41 @@ def borrador_existe(service, draft_id: str) -> bool:
         raise
 
 
+def borrador_headers(service, draft_id: str) -> dict:
+    """Devuelve dict {to, subject} del borrador (cadenas vacías si no se encuentra)."""
+    draft = service.users().drafts().get(
+        userId="me", id=draft_id, format="metadata",
+        metadataHeaders=["To", "Subject"],
+    ).execute()
+    headers = draft.get("message", {}).get("payload", {}).get("headers", [])
+    out = {"to": "", "subject": ""}
+    for h in headers:
+        n = h.get("name", "").lower()
+        if n in out:
+            out[n] = h.get("value", "")
+    return out
+
+
+def borrador_destinatario(service, draft_id: str) -> str:
+    return borrador_headers(service, draft_id).get("to", "")
+
+
+def ya_enviado_recientemente(service, destinatario: str, asunto: str) -> bool:
+    """True si en Sent ya hay un mensaje a ese destinatario con ese asunto en
+    los últimos 3 días. Evita duplicados si el script se relanza."""
+    if not destinatario or not asunto:
+        return False
+    asunto_q = asunto.replace('"', '\\"')
+    q = f'in:sent to:{destinatario} subject:"{asunto_q}" newer_than:3d'
+    try:
+        res = service.users().messages().list(
+            userId="me", q=q, maxResults=1,
+        ).execute()
+        return bool(res.get("messages"))
+    except HttpError:
+        return False
+
+
 def enviar_borrador(service, draft_id: str):
     return service.users().drafts().send(userId="me", body={"id": draft_id}).execute()
 
@@ -112,6 +147,42 @@ def main():
             })
             vetados += 1
             print(f"[vetado] {slug}: borrador borrado por usuario")
+            continue
+
+        # Guard: no enviar si el destinatario es el placeholder @pendiente.local
+        headers = borrador_headers(service, draft_id)
+        destinatario = headers.get("to", "")
+        asunto = headers.get("subject", "")
+        if "@pendiente.local" in destinatario.lower() or not destinatario.strip():
+            # Reagendar al siguiente día óptimo para no perder el lead
+            nueva = siguiente_dia_optimo(hoy + dt.timedelta(days=1), toque)
+            lead["fecha_programada_envio"] = nueva.isoformat()
+            print(f"[bloqueado] {slug}: destinatario placeholder ({destinatario}) "
+                  f"— identifica decisor y corrige el To: en Gmail. Reagendado a {nueva}")
+            reagendados += 1
+            continue
+
+        # Doble red: si ya hay un Sent reciente con mismo To+Subject, abortar
+        # envío y marcar como enviado con la fecha de hoy (asumimos que fue
+        # un envío anterior que no se reflejó en pipeline).
+        if ya_enviado_recientemente(service, destinatario, asunto):
+            print(f"[duplicado_evitado] {slug}: ya hay Sent reciente a {destinatario}")
+            lead["estado_email"] = f"enviado_{toque}"
+            lead["draft_id"] = None
+            lead.setdefault("historial", []).append({
+                "tipo": "duplicado_evitado",
+                "canal": "email",
+                "toque": toque,
+                "fecha": hoy.isoformat(),
+                "destinatario": destinatario,
+            })
+            proximo_tipo, dias = PROXIMOS_PASOS.get(toque, (None, 0))
+            if proximo_tipo:
+                lead["proxima_accion"] = {
+                    "fecha": (hoy + dt.timedelta(days=dias)).isoformat(),
+                    "tipo": proximo_tipo,
+                    "generada": False,
+                }
             continue
 
         # Enviar

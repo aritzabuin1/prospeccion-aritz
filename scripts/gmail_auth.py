@@ -43,10 +43,16 @@ def authenticate():
         creds = Credentials.from_authorized_user_file(TOKEN_PATH, SCOPES)
 
     if not creds or not creds.valid:
+        refreshed = False
         if creds and creds.expired and creds.refresh_token:
             print("Token expirado, refrescando...")
-            creds.refresh(Request())
-        else:
+            try:
+                creds.refresh(Request())
+                refreshed = True
+            except Exception as exc:
+                print(f"Refresh falló ({exc}). Lanzando flow OAuth nuevo...")
+                creds = None
+        if not refreshed:
             print("Abriendo navegador para autorizar Gmail API...")
             flow = InstalledAppFlow.from_client_secrets_file(
                 CREDENTIALS_PATH, SCOPES

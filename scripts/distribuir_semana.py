@@ -1,6 +1,6 @@
 """
-Distribuye los leads aprobados de la tanda semanal en martes/miércoles/jueves
-para envío de T1. 10/10/10 por defecto, ajusta si hay menos de 30.
+Distribuye los leads aprobados de la tanda en lunes-viernes para envío de T1.
+Reparto equitativo L-V (ajusta si hay festivos). Objetivo: 80 leads/semana.
 
 Uso:
     python -m scripts.distribuir_semana slug1 slug2 slug3 ...
@@ -20,32 +20,28 @@ ROOT = Path(__file__).resolve().parent.parent
 PIPELINE = ROOT / "data" / "pipeline.json"
 
 
-def siguiente_martes(desde: dt.date) -> dt.date:
-    """Primer martes >= desde (o el mismo día si es martes)."""
-    dias = (1 - desde.weekday()) % 7
+def siguiente_lunes(desde: dt.date) -> dt.date:
+    """Primer lunes >= desde (o el mismo día si es lunes)."""
+    dias = (0 - desde.weekday()) % 7
     return desde + dt.timedelta(days=dias)
 
 
-def tres_dias_envio(desde: dt.date) -> list[dt.date]:
-    """Devuelve [mar, mié, jue] de la semana >= desde, saltando festivos."""
-    martes = siguiente_martes(desde)
-    candidatos = [martes, martes + dt.timedelta(days=1), martes + dt.timedelta(days=2)]
-    # Si alguno es festivo, re-escalar al siguiente día óptimo
-    resultado = []
-    for c in candidatos:
-        resultado.append(siguiente_dia_optimo(c, "t1"))
-    return resultado
+def dias_envio(desde: dt.date) -> list[dt.date]:
+    """Devuelve [lun..vie] de la semana >= desde, saltando festivos."""
+    lunes = siguiente_lunes(desde)
+    candidatos = [lunes + dt.timedelta(days=i) for i in range(5)]
+    return [siguiente_dia_optimo(c, "t1") for c in candidatos]
 
 
 def distribuir(slugs: list[str]) -> dict:
-    """Asigna fechas a los slugs. Devuelve dict {slug: fecha_iso}."""
+    """Asigna fechas a los slugs. Reparte equitativamente en L-V."""
     hoy = dt.date.today()
-    dias = tres_dias_envio(hoy + dt.timedelta(days=1))  # empezar desde mañana
+    dias = dias_envio(hoy + dt.timedelta(days=1))
+    num_dias = len(dias)
 
     n = len(slugs)
-    # Reparto equitativo
-    por_dia = [n // 3] * 3
-    for i in range(n % 3):
+    por_dia = [n // num_dias] * num_dias
+    for i in range(n % num_dias):
         por_dia[i] += 1
 
     asignacion = {}

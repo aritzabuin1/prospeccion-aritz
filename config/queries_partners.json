@@ -1,0 +1,137 @@
+{
+  "_nota": "Queries específicas para descubrir PARTNERS estratégicos (no clientes finales). Alineado con plan-v2-partners-packs.md: 3 niveles, alcance nacional, 5 packs verticales.",
+  "_alcance": "Nacional. Priorizar Madrid, Barcelona, Valencia, Zaragoza, Sevilla, Málaga, Bilbao, Palma, Las Palmas, Alicante.",
+
+  "nivel_1_asociaciones": {
+    "descripcion": "Asociaciones y colegios profesionales. Acceso a cientos/miles de socios. Ángulo: ponencia gratis + webinar + caso anonimizado.",
+    "tier": 1,
+    "pack_cfo_copilot": {
+      "queries": [
+        "AECE asociación contabilidad España junta directiva",
+        "ASSET asociación tesoreros España contacto",
+        "ACCID contabilidad España asociación"
+      ]
+    },
+    "pack_gestoria_ia": {
+      "queries": [
+        "Consejo General Colegios Gestores Administrativos España",
+        "AEDAF asesores fiscales España",
+        "Colegio Gestores Administrativos Madrid Barcelona Valencia"
+      ]
+    },
+    "pack_horeca_cockpit": {
+      "queries": [
+        "FEHR federación hostelería España",
+        "Hostelería de España asociación empresas",
+        "Marcas de Restauración España asociación"
+      ]
+    },
+    "pack_legalflow": {
+      "queries": [
+        "Consejo General Abogacía España innovación",
+        "ENATIC LegalTech España asociación",
+        "ICAM Colegio Abogados Madrid innovación tecnológica"
+      ]
+    },
+    "pack_talentpipe": {
+      "queries": [
+        "AEDRH asociación RRHH España",
+        "AEDIPE dirección personas España",
+        "AGETT empresas trabajo temporal España"
+      ]
+    }
+  },
+
+  "nivel_2_partners_nacionales": {
+    "descripcion": "Implantadores y consultoras con >100 clientes nacionales. Cartera SMB recurrente.",
+    "tier": 2,
+    "pack_cfo_copilot_gestoria": {
+      "queries": [
+        "partner Holded España implantador ecosistema",
+        "partner Sage España implantador contable",
+        "partner A3 Wolters Kluwer España",
+        "partner Contasimple Quipu Anfix España"
+      ]
+    },
+    "pack_horeca_cockpit": {
+      "queries": [
+        "partner Lightspeed España hostelería POS",
+        "partner Revo POS restauración España",
+        "partner Haddock Cofiksa España hostelería",
+        "distribuidor hostelería España multi-provincia"
+      ]
+    },
+    "pack_legalflow": {
+      "queries": [
+        "partner Lefebvre Lex-ON España despachos",
+        "partner Sudespacho España abogados software",
+        "partner Aranzadi Thomson Reuters España"
+      ]
+    },
+    "cross_vertical": {
+      "queries": [
+        "Grant Thornton Digital España transformación",
+        "BDO España digital consultoría",
+        "Auren MGI Audicon España consultoría empresas",
+        "Cuatroochenta Plain Concepts España mid-market"
+      ]
+    }
+  },
+
+  "nivel_3_boutique_regional": {
+    "descripcion": "Consultoras provinciales y boutiques con cartera específica. Selección por fit vertical, no por proximidad.",
+    "tier": 3,
+    "agencia_digital_b2b": {
+      "queries": [
+        "agencia marketing digital B2B España empresas mid-market Madrid",
+        "agencia inbound marketing industrial España Barcelona Valencia",
+        "agencia desarrollo web empresas 10-50 empleados España"
+      ]
+    },
+    "consultora_boutique": {
+      "queries": [
+        "consultoría estratégica boutique España PYMES",
+        "consultora transformación empresarial España 20 empleados",
+        "consultoría negocio mid-market España Madrid Barcelona"
+      ]
+    },
+    "gestoria_mediana": {
+      "queries": [
+        "gestoría empresas cartera 200 clientes España",
+        "asesoría fiscal contable empresas medianas España",
+        "despacho contable fiscal mid-market España provincias"
+      ]
+    },
+    "despacho_abogados_mid": {
+      "queries": [
+        "despacho abogados mercantil España 20-150 abogados",
+        "bufete empresas medianas España Madrid Barcelona Valencia",
+        "despacho legal empresarial España provincias"
+      ]
+    }
+  },
+
+  "exclusiones": "-blog -wikipedia -universidad -\"qué es\" -\"tipos de\" -\"guía\" -\"ranking\"",
+
+  "red_flags_descartar": [
+    "compite en precio en su vertical",
+    "Big4 ya implantadas en sus cuentas top",
+    "partner exclusivo de otro vendor IA",
+    "busca reventa 3x en vez de colaboración real"
+  ],
+
+  "objetivos_120d": {
+    "contactados_total": 70,
+    "primeras_reuniones": 15,
+    "segundas_reuniones_con_propuesta": 6,
+    "acuerdos_activos": "2-3",
+    "conversacion_avanzada_asociacion": 1,
+    "distribucion_por_pack": {
+      "cfo_copilot": 25,
+      "gestoria_ia": 25,
+      "horeca_cockpit": 20
+    }
+  },
+
+  "limite_por_ejecucion": 15
+}

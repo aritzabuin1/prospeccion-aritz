@@ -5,9 +5,9 @@ Reglas:
 - Días laborables: lunes a viernes.
 - Excluye festivos nacionales de España (librería `holidays`).
 - Para prospección, ventanas óptimas por tipo de toque:
-    * T1 / Paso2 LinkedIn → martes, miércoles, jueves
-    * T2 reciprocidad    → martes, miércoles
-    * T3 break-up        → martes
+    * T1 / Paso2 LinkedIn → lunes a viernes (volumen 80/sem, reparto L-V)
+    * T2 reciprocidad    → martes, miércoles, jueves
+    * T3 break-up        → martes, miércoles
 
 Si `holidays` no está instalado, degrada elegantemente a solo lun-vie.
 """
@@ -40,11 +40,11 @@ def es_dia_optimo(fecha: dt.date, tipo_toque: str) -> bool:
         return False
     wd = fecha.weekday()
     if tipo_toque in ("t1", "paso2"):
-        return wd in (1, 2, 3)  # mar, mié, jue
+        return wd in (0, 1, 2, 3, 4)  # lun-vie (reparto volumen 80/sem)
     if tipo_toque == "t2":
-        return wd in (1, 2)  # mar, mié
+        return wd in (1, 2, 3)  # mar, mié, jue
     if tipo_toque == "t3":
-        return wd == 1  # mar
+        return wd in (1, 2)  # mar, mié
     return True
 
 
